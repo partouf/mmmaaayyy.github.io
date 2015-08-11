@@ -4,18 +4,19 @@ background-color:#FFCCCC;
 #intro {
 color:#CC0099;
 font-style: "oblique";
-font-family: myFirstFont;
+font-family: Claphappy;
 }
 
 #context {
-font-family: myFirstFont;
+font-family: Claphappy;
 }
 
 }
 
+@font-face{
+	font-family: Claphappy; 
+	src: url(Claphappy.ttf);
 
-
-@font-face {
-    font-family: myFirstFont;
-    src: url(cartoonist_hand.ttf);
 }
+
+
