@@ -1,13 +1,9 @@
 body{
 background-color:#FFCCCC;
-size (200,200)
+size (800,800);
 }
 .intro {
 color:#CC0099;
 font-style: "oblique";
 font-family: "myFirstFont";
-}
-@font-face {
-    font-family: myFirstFont;
-    src:url(http://www.dafont.com/teen2.font);
 }
