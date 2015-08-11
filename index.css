@@ -1,9 +1,14 @@
+@font-face{
+	font-family: Claphappy; 
+	src: url(claphappy.ttf);
+
+}
+
 body{
 background-color:#FFCCCC;
 }
 #intro {
 color:#CC0099;
-font-style: "oblique";
 font-family: Claphappy;
 }
 
@@ -13,10 +18,6 @@ font-family: Claphappy;
 
 }
 
-@font-face{
-	font-family: Claphappy; 
-	src: url(claphappy.ttf);
 
-}
 
 
