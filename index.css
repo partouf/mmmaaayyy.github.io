@@ -1,16 +1,15 @@
 body{
-background-color:##E2F3FF;
+background-color:#00FF00;
 size (600,600)
 
-#intro {
-color: ##0350FF;
+.intro {
+color:#CC0099;
 font-style: "oblique";
-font-family: "Arial";
+font-family: "Cambria";
 }
 .context {
-color:##6A2CC3;
+color:#0000FF;
 font-family:"Arial";
-font-style: 
 }
 
 }
