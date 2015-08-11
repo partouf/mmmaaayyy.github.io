@@ -1,6 +1,6 @@
 @font-face{
 	font-family: Claphappy; 
-	src: url("claphappy.ttf");
+	src: url(".../fonts/claphappy.ttf")('truetype');
 
 }
 
@@ -9,11 +9,11 @@ background-color:#FFCCCC;
 }
 #intro {
 color:#CC0099;
-font-family: Claphappy;
+font-family: "Claphappy";
 }
 
 #context {
-font-family: Claphappy;
+font-family: "Claphappy";
 }
 
 }
