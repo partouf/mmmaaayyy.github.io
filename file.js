@@ -1,3 +1,3 @@
-.stuff{
-<input type="button" onclick="location.href='http://google.com';" value="Go to Google" />
+void setup{
+	size(1000,1000);
 }
