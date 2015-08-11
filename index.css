@@ -4,11 +4,18 @@ background-color:#FFCCCC;
 #intro {
 color:#CC0099;
 font-style: "oblique";
-font-family: "Arial";
+font-family: myFirstFont;
 }
 
 #context {
-font-family: "Arial";
+font-family: myFirstFont;
 }
 
+}
+
+
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(cartoonist_hand.ttf);
 }
