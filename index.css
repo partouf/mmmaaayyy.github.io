@@ -12,10 +12,21 @@
 
 }
 
-body,p,title{
+p{
 background-color:#FFCCCC;
-font-family: "Claphappy";
+font-family: "Claphappy"; 
 }
+
+title{
+background-color:#FFCCCC;
+font-family: "Claphappy"; 
+}
+
+body{
+	background-color:#FFCCCC;
+font-family: "Claphappy"; 
+}
+
 
 
 
