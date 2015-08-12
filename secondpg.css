@@ -16,6 +16,10 @@ background-position: center;
 }
 
 #button1 {
+  	padding-top: 7px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
    font-family:"claphappy";
    width: 50px;
    height: 10px;
@@ -50,6 +54,10 @@ background-position: center;
    }
 
 #button2 {
+  padding-top: 10px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    padding-left: 50px;
    font-family:"claphappy";
    width: 50px;
    height: 10px;
