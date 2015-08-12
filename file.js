@@ -2,7 +2,7 @@
 //document.getElementById("demo").addEventListener("click", myFunction);
 
 function myFunction(){
-   alert("button was clicked");
+   changeImage();
 }
 
 function changeImage() {
