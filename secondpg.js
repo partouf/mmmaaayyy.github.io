@@ -1,5 +1,4 @@
 
-".some-textbox" {
 var text = "The quick fox jumped over the lazy dog.";
 var charCount = text.length;
 var currentLetterCount = 0;
@@ -15,8 +14,6 @@ function writeLetter() {
         clearInterval(timerId);
 }
 var timerId = setInterval(writeLetter,speed);
-}
-
 
 
 function myFunction(){
