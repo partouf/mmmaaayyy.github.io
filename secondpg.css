@@ -18,6 +18,7 @@ background-image: url("bedroom.png");
    width: 70px;
    height: 25px;
 
+   .button {
    border-top: 1px solid #96d1f8;
    background: #98edf0;
    background: -webkit-gradient(linear, left top, left bottom, from(#be96eb), to(#98edf0));
@@ -25,23 +26,29 @@ background-image: url("bedroom.png");
    background: -moz-linear-gradient(top, #be96eb, #98edf0);
    background: -ms-linear-gradient(top, #be96eb, #98edf0);
    background: -o-linear-gradient(top, #be96eb, #98edf0);
-   padding: 5px 5px;
-   -webkit-border-radius: 36px;
-   -moz-border-radius: 36px;
-   border-radius: 36px;
+   padding: 12px 24px;
+   -webkit-border-radius: 37px;
+   -moz-border-radius: 37px;
+   border-radius: 37px;
    -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
    -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
    box-shadow: rgba(0,0,0,1) 0 1px 0;
    text-shadow: rgba(0,0,0,.4) 0 1px 0;
- .button:hover {
-   border-top-color: #98edf0;
-   background: #98edf0;
-   color: #98edf0;
+   color: #000000;
+   font-size: 12px;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.button:hover {
+   border-top-color: #be96eb;
+   background: #be96eb;
+   color: #000000;
    }
 .button:active {
-   border-top-color: #96d1f8;
-   background: #98edf0;
+   border-top-color: #be96eb;
+   background: #be96eb;
    }
+
    
 #spac {
 color: #E7FEFF;
