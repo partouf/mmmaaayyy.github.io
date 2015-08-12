@@ -35,7 +35,7 @@ function myslides() {
 		document.getElementById("picture1").src = "broom.png";
 	}
 }
-
+myslides();
 
 
 
