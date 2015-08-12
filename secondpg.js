@@ -3,7 +3,7 @@ var text = "The quick fox jumped over the lazy dog.";
 var charCount = text.length;
 var currentLetterCount = 0;
 var speed = 100; 
-var $input = $(".some-textbox");
+var $input = $(".textbox");
 
 function writeLetter() {
     var currentText = $input.val();
