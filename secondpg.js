@@ -1,22 +1,16 @@
-var timer = 0;
+var text = "The quick fox jumped over the lazy dog.";
+var charCount = text.length;
+var currentLetterCount = 0;
+var speed = 100; // How fast should it type?
+var $input = $(".some-textbox");
 
-timer = setInterval ( "updateElement()", 5000 );
-
-function updateElement ( )
-{
-  var stringToType = "this text will be typed you woke up late and you have to either put on makeup or get dressed,girl";
-  var oldValue = getElementById('myelement').Value;
-
-if(stringToType == oldValue)
-{
-  clearInterval(timer);
-}  
-else
-{
-  getElementById('myelement').Value = oldValue + stringToType.subString(oldValue.length, 1);
-}
+function writeLetter() {
+    var currentText = $input.val();
+    var currentLetter = text.charAt(currentLetterCount);
+    currentLetterCount++;
+    $input.val(currentText + currentLetter);
+    if(currentLetterCount == charCount)
+        clearInterval(timerId);
 }
 
-function myFunction() {
-    document.getElementById("demo").innerHTML = stringToType;
-}
+var timerId = setInterval(writeLetter, speed);
