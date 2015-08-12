@@ -1,7 +1,8 @@
 
-function pictureChange()
+function pictureChange(){
+if(document.getElementById('theImage').clicked == true)
 {
-document.getElementById(theImage).src="bedroom.png");
+	<img id="theImage" src="bedroom.png">
 }
-
+}
 pictureChange();
