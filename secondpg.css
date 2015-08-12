@@ -15,7 +15,7 @@ background-attachment: absolute;
 background-position: center;
 }
 
-.button {
+#button1 {
    font-family:"claphappy";
    width: 50px;
    height: 10px;
@@ -39,17 +39,49 @@ background-position: center;
    text-decoration: none;
    vertical-align: middle;
    }
-.button:hover {
+#button1:hover {
    border-top-color: #be96eb;
    background: #be96eb;
    color: #000000;
    }
-.button:active {
+#button1:active {
    border-top-color: #be96eb;
    background: #be96eb;
    }
 
-   
+#button2 {
+   font-family:"claphappy";
+   width: 50px;
+   height: 10px;
+   border-top: 1px solid #96d1f8;
+   background: #98edf0;
+   background: -webkit-gradient(linear, left top, left bottom, from(#be96eb), to(#98edf0));
+   background: -webkit-linear-gradient(top, #be96eb, #98edf0);
+   background: -moz-linear-gradient(top, #be96eb, #98edf0);
+   background: -ms-linear-gradient(top, #be96eb, #98edf0);
+   background: -o-linear-gradient(top, #be96eb, #98edf0);
+   padding: 12px 24px;
+   -webkit-border-radius: 37px;
+   -moz-border-radius: 37px;
+   border-radius: 37px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: #000000;
+   font-size: 14px;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+#button2:hover {
+   border-top-color: #be96eb;
+   background: #be96eb;
+   color: #000000;
+   }
+#button2:active {
+   border-top-color: #be96eb;
+   background: #be96eb;
+   }
 #spac {
 color: #FC949C;
 }
