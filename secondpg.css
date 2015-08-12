@@ -11,6 +11,9 @@ height: 400px;
 border: 1px solid;
 color:#000000;
 background-image: url("broom.png");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
 }
 
 .button {
