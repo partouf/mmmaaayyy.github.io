@@ -16,7 +16,7 @@ background-image: url("bedroom.png");
 .button {
    font-family:"claphappy";
    width: 50px;
-   height: 20px;
+   height: 18px;
    border-top: 1px solid #96d1f8;
    background: #98edf0;
    background: -webkit-gradient(linear, left top, left bottom, from(#be96eb), to(#98edf0));
