@@ -20,15 +20,9 @@ color:#000000;
 
 .button {
    font-family:"claphappy";
-   width: 250px;
-   height: 30px;
-<<<<<<< HEAD
-=======
-   width: 20px;
+   width: 40px;
    height: 10px;
->>>>>>> origin/master
-=======
->>>>>>> origin/master
+
    border-top: 1px solid #96d1f8;
    background: #98edf0;
    background: -webkit-gradient(linear, left top, left bottom, from(#be96eb), to(#98edf0));
