@@ -27,7 +27,14 @@ var max=0;
       }
 
 
-
+function myslides() {
+	if (document.getElementById("picture1").src == "broom.png"){
+		document.getElementById("picture1").src = "bball.png";
+		}
+	else{
+		document.getElementById("picture1").src = "broom.png";
+	}
+}
 
 
 
