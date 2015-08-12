@@ -3,6 +3,22 @@
 
 
 @font-face {
+    font-family: 'teenregular';
+    src: url('teen-webfont.eot');
+    src: url('teen-webfont.eot?#iefix') format('embedded-opentype'),
+         url('teen-webfont.woff2') format('woff2'),
+         url('teen-webfont.woff') format('woff'),
+         url('teen-webfont.ttf') format('truetype'),
+         url('teen-webfont.svg#teenregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
     font-family: 'claphappymedium';
     src: url('claphappy-webfont.eot');
     src: url('claphappy-webfont.eot?#iefix') format('embedded-opentype'),

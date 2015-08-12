@@ -1,20 +1,5 @@
-
 @font-face {
-    font-family: 'Claphappy';
-    src: url('claphappy-webfont.eot');
-    src: url('claphappy-webfont.eot?#iefix') format('embedded-opentype'),
-         url('claphappy-webfont.woff2') format('woff2'),
-         url('claphappy-webfont.woff') format('woff'),
-         url('claphappy-webfont.ttf') format('truetype'),
-         url('claphappy-webfont.svg#claphappymedium') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-@font-face {
-    font-family: 'Teen';
+    font-family: 'teen';
     src: url('teen-webfont.eot');
     src: url('teen-webfont.eot?#iefix') format('embedded-opentype'),
          url('teen-webfont.woff2') format('woff2'),
@@ -27,15 +12,31 @@
 }
 
 
+
+
+@font-face {
+    font-family: 'claphappy';
+    src: url('claphappy-webfont.eot');
+    src: url('claphappy-webfont.eot?#iefix') format('embedded-opentype'),
+         url('claphappy-webfont.woff2') format('woff2'),
+         url('claphappy-webfont.woff') format('woff'),
+         url('claphappy-webfont.ttf') format('truetype'),
+         url('claphappy-webfont.svg#claphappymedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
 head{
 background-color:#FFCCCC;
-font-family: "Teen"; 
+font-family: "teen"; 
 font-weight: bold;
 }
 
 body{
 	background-color:#FFCCCC;
-font-family: "Claphappy"; 
+font-family: "claphappy"; 
 }
 
 p.intro {
