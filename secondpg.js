@@ -18,8 +18,10 @@ var timerId = setInterval(writeLetter,speed);
 
 function myFunction(){
 text="hello";
+<img src="bedroom.png"/>;
 alert("your button was pressed");
 }
 myFunction();
+
 //document.getElementById('button').onclick = function() {
 //text="Makeup";

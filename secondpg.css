@@ -1,7 +1,17 @@
 body{
 	background-color:#E7FEFF;
 }
+<<<<<<< Updated upstream
 .textbox {
 position: absolute;
 font-size: 12;
+=======
+
+.smallscreen{
+width: 400px;
+height: 400px;
+resize: both;
+overflow: auto;
+border: 1px dotted #000;
+>>>>>>> Stashed changes
 }
