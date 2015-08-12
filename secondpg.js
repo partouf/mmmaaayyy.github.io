@@ -1,5 +1,4 @@
-class= textbox 
-{
+
 var max=0;
       function textlist()
       {
@@ -26,7 +25,7 @@ var max=0;
         if(x==max) x=0; l=tl[x].length; } else
         setTimeout("textticker()",50);
       }
-}
+
 
 
 
