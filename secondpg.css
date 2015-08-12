@@ -39,12 +39,12 @@ background-position: center;
    text-decoration: none;
    vertical-align: middle;
    }
-.button:hover {
+#button:hover {
    border-top-color: #be96eb;
    background: #be96eb;
    color: #000000;
    }
-.button:active {
+#button:active {
    border-top-color: #be96eb;
    background: #be96eb;
    }
@@ -73,12 +73,12 @@ background-position: center;
    text-decoration: none;
    vertical-align: middle;
    }
-.button:hover {
+#button:hover {
    border-top-color: #be96eb;
    background: #be96eb;
    color: #000000;
    }
-.button:active {
+#button:active {
    border-top-color: #be96eb;
    background: #be96eb;
    }
