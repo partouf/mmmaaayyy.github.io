@@ -27,13 +27,6 @@ var max=0;
       }
 
 
-function myFunction(){
-text="hello";
-<img src="bedroom.png"/>;
-alert("your button was pressed");
-}
-myFunction();
-
 
 
 
