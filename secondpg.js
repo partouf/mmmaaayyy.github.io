@@ -8,10 +8,11 @@ var max=0;
       }
       tl=new textlist
       ( 
-       "You are a 16-year-old girl who is a junior at North West High School.",
-       "You love singing, playing sports, hanging out with your friends, and learning new things.",
-       "This is an important year for you to focus on your academics, and you’re starting to think you want to be an engineer!",
-       "This is a typical day in your life."
+       "This is a  message",    
+       "Another one",
+       "And this will be the third",
+       "And the fourth is the last !"
+       
       );
       var x=0; pos=0;
       var l=tl[0].length;
