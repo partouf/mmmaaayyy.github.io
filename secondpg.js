@@ -16,3 +16,7 @@ else
   getElementById('myelement').Value = oldValue + stringToType.subString(oldValue.length, 1);
 }
 }
+
+function myFunction() {
+    document.getElementById("demo").innerHTML = stringToType;
+}
