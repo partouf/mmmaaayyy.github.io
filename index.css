@@ -28,7 +28,16 @@
 }
 
 background-color:#FFCCCC;
-font-family: "teen"; 
+
+
+title{
+font-family: 'teen'; 
+font-size: 50px;
+}
+
+body{
+font-family: 'claphappy';
+}
 
 
 
