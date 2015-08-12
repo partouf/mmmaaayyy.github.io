@@ -11,4 +11,6 @@ function changeImage() {
         {
             document.getElementById("imgClickAndChange").src = "play.png";
         }
-}    
+} 
+changeImage();   
+
