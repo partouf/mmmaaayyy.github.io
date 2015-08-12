@@ -13,7 +13,6 @@ width:1000px;
 .smallscreen{
 width: 400px;
 height: 400px;
-resize: both;
-overflow: auto;
-border: 1px dotted #000;
+border: 1px;
+color:#000000;
 }
