@@ -5,7 +5,7 @@ var charCount = text.length;
 var currentLetterCount = 0;
 var speed = 100; // How fast should it type?
 var $input = $(".some-textbox");
-
+var timerId = setInterval(writeLetter, speed);
 function writeLetter() {
     var currentText = $input.val();
     var currentLetter = text.charAt(currentLetterCount);
@@ -16,7 +16,7 @@ function writeLetter() {
 }
 }
 
-var timerId = setInterval(writeLetter, speed);
+
 
 function myFunction(){
 text="hello";
