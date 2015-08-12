@@ -15,10 +15,3 @@ function writeLetter() {
 
 var timerId = setInterval(writeLetter, speed);
 
- 
-".some-textbox" {
- 
- height = 200px;
- width = 200px;
- length= 200px;
-}
