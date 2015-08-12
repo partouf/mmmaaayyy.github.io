@@ -1,3 +1,4 @@
+
 var text = "The quick fox jumped over the lazy dog.";
 var charCount = text.length;
 var currentLetterCount = 0;
