@@ -16,7 +16,7 @@ var max=0;
 
 
       );
-      var x=0; pos=0;
+      var x=500; pos=0;
       var l=tl[0].length;
       function textticker()
       {
