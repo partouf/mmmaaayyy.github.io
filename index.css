@@ -27,18 +27,17 @@
 
 }
 
-body{
-	background-color:#FFCCCC;
-font-family: "teen"; 
-}
 
-title{
+head{
 background-color:#FFCCCC;
 font-family: "teen"; 
-font-size: 50px;
+font-weight: bold;
 }
 
-
+body{
+	background-color:#FFCCCC;
+font-family: "claphappy"; 
+}
 
 p.intro {
     padding-top: 25px;
