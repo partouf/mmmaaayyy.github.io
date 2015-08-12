@@ -34,9 +34,9 @@ font-family: "teen";
 font-weight: bold;
 }
 
-body{
+#intro{
 	background-color:#FFCCCC;
-font-family: "teen"; 
+font-family: "claphappy"; 
 }
 
 p.intro {
