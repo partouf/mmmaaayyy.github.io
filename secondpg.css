@@ -13,13 +13,8 @@ width:1000px;
 .smallscreen{
 width: 400px;
 height: 400px;
-border: 1px;
+border: 2px;
 color:#000000;
-}
-
-resize: both;
-overflow: auto;
-border: 1px dotted #000;
 }
 
 .button {
