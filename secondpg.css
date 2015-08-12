@@ -13,6 +13,31 @@ width:1000px;
 .smallscreen{
 width: 400px;
 height: 400px;
+<<<<<<< HEAD
 border: 1px;
 color:#000000;
 }
+=======
+resize: both;
+overflow: auto;
+border: 1px dotted #000;
+}
+
+.button {
+   font-family:"claphappy";
+   border-top: 1px solid #96d1f8;
+   background: #98edf0;
+   background: -webkit-gradient(linear, left top, left bottom, from(#be96eb), to(#98edf0));
+   background: -webkit-linear-gradient(top, #be96eb, #98edf0);
+   background: -moz-linear-gradient(top, #be96eb, #98edf0);
+   background: -ms-linear-gradient(top, #be96eb, #98edf0);
+   background: -o-linear-gradient(top, #be96eb, #98edf0);
+   padding: 14px 28px;
+   -webkit-border-radius: 36px;
+   -moz-border-radius: 36px;
+   border-radius: 36px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+>>>>>>> origin/master
