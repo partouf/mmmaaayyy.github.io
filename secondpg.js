@@ -32,5 +32,7 @@ function myFunction() {
 }
 
 .button {
-myFunction();
+function myFunction() {
+    document.getElementById("demo").innerHTML = "Oh No! You glance at the alarm clock and notice that its 7:38! You have to be at school in 20 minutes! Do you spend that time doing your makeup, or picking up a nice outfit?";
+}
 }
