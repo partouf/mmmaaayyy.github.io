@@ -11,6 +11,7 @@ width:1000px;
 }
 
 .smallscreen{
+font-family:"claphappy";
 width: 500px;
 height: 400px;
 border: 1px solid;
@@ -19,8 +20,13 @@ color:#000000;
 
 .button {
    font-family:"claphappy";
+<<<<<<< HEAD
    width: 250px;
    height: 30px;
+=======
+   width: 100px;
+   height: 15px;
+>>>>>>> origin/master
    border-top: 1px solid #96d1f8;
    background: #98edf0;
    background: -webkit-gradient(linear, left top, left bottom, from(#be96eb), to(#98edf0));
