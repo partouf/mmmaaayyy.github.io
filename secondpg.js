@@ -16,3 +16,8 @@ function writeLetter() {
 
 var timerId = setInterval(writeLetter, speed);
 
+img onclick="javascript:exportToForm('1.6','55','10','50','1')" src="next.png" />
+
+function exportToForm(a, b, c, d, e) {
+     alert(a, b);
+ }
