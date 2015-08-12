@@ -26,12 +26,7 @@ var max=0;
         setTimeout("textticker()",50);
       }
 
-
-
-document.getElementById('button').onclick = function() {
-#para1 {
-<p>You are a 16-year-old girl who is a junior at North West High School. You love singing, playing sports, hanging out with your friends, and learning new things. This is an important year for you to focus on your academics, and you’re starting to think you want to be an engineer! This is a typical day in your life.</p> = <p>testing fr changes</p>;
-alert("please work");
-}
+function myFunction() {
+    document.getElementById("demo").innerHTML = "Oh No! You glance at the alarm clock and notice that its 7:38! You have to be at school in 20 minutes! Do you spend that time doing your makeup, or picking up a nice outfit?";
 }
 
