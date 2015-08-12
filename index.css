@@ -28,12 +28,12 @@
 }
 
 
-head{
+title{
 background-color:#FFCCCC;
 font-family: "claphappy"; 
-font-weight: 900;
-
+font-size: 100px;
 }
+
 
 body{
 	background-color:#FFCCCC;
