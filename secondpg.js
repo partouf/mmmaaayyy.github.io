@@ -23,7 +23,7 @@ var max=0;
         document.tickform.tickfield.value=tl[x].substring(0,pos)+"_";
         if(pos++==l) { pos=0; setTimeout("textticker()",1000); x++;
         if(x==max) x=0; l=tl[x].length; } else
-        setTimeout("textticker()",50);
+        setTimeout("textticker()",500);
       }
 
 
