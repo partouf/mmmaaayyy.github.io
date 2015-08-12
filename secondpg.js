@@ -24,8 +24,8 @@ var max=0;
         setTimeout("textticker()",50);
       }
 
-//myFunction(){
-//splice(1,1,"oh no! you get up blah blah");
+//func1(){
+//;
 //}
 
 //myFunction();
