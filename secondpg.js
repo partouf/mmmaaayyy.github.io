@@ -30,7 +30,7 @@ var max=0;
 
 //myFunction();
 
-function toggle_visibility() {
+function toggle_visibility('button2') {
        var e = document.getElementById(id);
        if(e.style.display == 'block')
           e.style.display = 'none';
