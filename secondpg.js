@@ -34,9 +34,7 @@
  {
     var e = document.getElementById(id);
     e.style.display = (e.style.display == 'block') ? 'none' : 'block';
-	//var text = document.write("Hello World!");
-	document.getElementById("smallscreen") = document.write("hello");
-	
+	$('#hiddenText').show(); return false;	
 }
     
     
