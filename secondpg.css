@@ -14,6 +14,10 @@ background-repeat: repeat;
 background-attachment: absolute;
 background-position: center;
 }
+.textbox
+{
+   padding: 12px 24px;
+}
 
 #button1 {
    font-family:"claphappy";
