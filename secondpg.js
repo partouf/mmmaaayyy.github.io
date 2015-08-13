@@ -41,10 +41,13 @@
 	$('#hiddenText').show(); return false;	
 }
 
- function showhide2(id) 
+ function showhide2('button2') 
  {
-    var e = document.getElementById(id);
-    e.style.display = (e.style.display == 'block') ? 'none': 'block';
+    var e = document.getElementById('button2');
+   if(e.style.display == "none")
+    e.style.display = "block";
+	else
+    e.style.display = "none";
 	$('#hiddenText2').show(); return false;	
 }
 
