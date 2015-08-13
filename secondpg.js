@@ -14,13 +14,13 @@ var max=0;
        "And the fourth is the last !"
        
       );
-      var x=50; pos=0;
+      var x=0; pos=50;
       var l=tl[0].length;
       function textticker()
       {
         document.tickform.tickfield.value=tl[x].substring(0,pos)+"_";
-        if(pos++==l) { pos=0; setTimeout("textticker()",1000); x++;
-        if(x==max) x=50; l=tl[x].length; } else
+        if(pos++==l) { pos=50; setTimeout("textticker()",1000); x++;
+        if(x==max) x=0; l=tl[x].length; } else
         setTimeout("textticker()",50);
       }
 
