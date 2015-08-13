@@ -37,12 +37,14 @@
 }
 function text1(id){
 $('#hiddenText').show(); return false;
-showhide1();	
+ var e = document.getElementById(id);
+e.style.display = (e.style.display == 'block') ? 'none' : 'block';	
 }
 
 function text2(id){
 $('#hiddenText2').show(); return false;
-showhide2();	
+ var e = document.getElementById(id);
+e.style.display = (e.style.display == 'block') ? 'none' : 'block';	
 }
 
  function showhide2(id) 
