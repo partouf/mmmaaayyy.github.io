@@ -30,54 +30,24 @@
 
 
 
- function showhide1('buttonmakeup') 
+ function showhide1(id) 
  {
     var e = document.getElementById(id);
     if(e.style.display == "none")
     e.style.display = "block";
 	else
     e.style.display = "none";
-	$('#hiddenTextmakeup').show(); return false;	
-}
-function makeup('buttonmakeup')
-{
-var p = document.getElementById('buttonoutfit');
-    if(p.style.display == "none")
-    p.style.display = "block";
-	else
-    p.style.display = "none";
-var e = document.getElementById('buttonmakeup');
-    if(e.style.display == "none")
-    e.style.display = "block";
-	else
-    e.style.display = "none";
-    $('#hiddenTextmakeup').show(); return false;
+	$('#hiddenText1').show(); return false;	
 }
 
-function outfit('buttonoutfit')
-{
-var p = document.getElementById('buttonoutfit');
-    if(p.style.display == "none")
-    p.style.display = "block";
-	else
-    p.style.display = "none";
-    var e = document.getElementById('buttonoutfit');
-    if(e.style.display == "none")
-    e.style.display = "block";
-	else
-    e.style.display = "none";
-    $('#hiddenTextoutfit').show(); return false;   
-}
-
-
- function showhide2('buttonoutfit') 
+ function showhide2(id) 
  {
-    var p = document.getElementById('buttonoutfit');
+    var p = document.getElementById(id);
     if(p.style.display == "none")
     p.style.display = "block";
 	else
     p.style.display = "none";
-	$('#hiddenTextoutfit').show(); return false;	
+	$('#hiddenText2').show(); return false;	
 }
 
  function showhide3(id) 
