@@ -34,7 +34,7 @@ var max=0;
     var e = document.getElementById(id);
     e.style.display = (e.style.display == 'block'); ? 'none' : 'block';
     
- function add_picture() {
+ /*function add_picture() {
         var src = "first.png";
         show_image("first.png", 276,110);
     }
@@ -46,4 +46,4 @@ var max=0;
         img.height = height;
         img.alt = alt;
         document.body.appendChild(img);
-    }
+    }*/
