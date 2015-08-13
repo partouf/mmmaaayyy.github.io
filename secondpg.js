@@ -33,14 +33,14 @@
  function showhide1(id) 
  {
     var e = document.getElementById(id);
-    e.style.display = (e.style.display == 'block') ? 'none' : 'block';
+    e.style.display = (e.style.display == 'block') ? 'none' ; //'block';
 	$('#hiddenText').show(); return false;	
 }
 
  function showhide2(id) 
  {
     var e = document.getElementById(id);
-    e.style.display = (e.style.display == 'block') ? 'none' : 'block';
+    e.style.display = (e.style.display == 'block') ? 'block';
 	$('#hiddenText2').show(); return false;	
 }
 
