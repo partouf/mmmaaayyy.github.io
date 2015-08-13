@@ -34,10 +34,10 @@
  {
     var e = document.getElementById(id);
     //e.style.display = (e.style.display == 'block') ? 'none': 'block';
-    if(p.style.display == "none")
-    p.style.display = "block";
+    if(e.style.display == "none")
+    e.style.display = "block";
 	else
-    p.style.display = "none";
+    e.style.display = "none";
 	$('#hiddenText').show(); return false;	
 }
 
