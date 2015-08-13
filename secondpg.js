@@ -8,10 +8,10 @@ var max=0;
       }
       tl=new textlist
       ( 
-       "This is a  message",    
-       "Another one",
-       "And this will be the third",
-       "And the fourth is the last !"
+       "You glance over at your alarm clock when you notice that it’s 7:38.",    
+       "How is it almost 7:40?",
+       "I have to get ready for school NOW.",
+       "You jump out of bed and run to:"
        
       );
 
