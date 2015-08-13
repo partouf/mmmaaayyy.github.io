@@ -32,7 +32,7 @@
 
  function showhide1(id) 
  {
-    var e = document.getElementByClassName(id);
+    var e = document.getElementById(id);
     //e.style.display = (e.style.display == 'block') ? 'none': 'block';
     if(e.style.display == "none")
     e.style.display = "block";
@@ -43,11 +43,11 @@
 
  function showhide2(id) 
  {
-    var e = document.getElementById(id);
-   if(e.style.display == "none")
-    e.style.display = "block";
+    var p = document.getElementById('button2');
+   if(p.style.display == "none")
+    p.style.display = "block";
 	else
-    e.style.display = "none";
+    p.style.display = "none";
 	$('#hiddenText2').show(); return false;	
 }
 
