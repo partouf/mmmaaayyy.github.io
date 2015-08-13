@@ -35,6 +35,6 @@ var max=0;
     e.style.display = (e.style.display == 'block') ? 'none' : 'block';
  }
  
- function changetext(id) {
+ function changetext() {
  document.body.innerHTML = document.body.innerHTML.replace('this is a game', 'good choice this is a second text');
  }
