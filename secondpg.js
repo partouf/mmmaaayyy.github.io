@@ -30,7 +30,7 @@
 
 
 
- function showhide(id) 
+ function showhide1(id) 
  {
     var e = document.getElementById(id);
     e.style.display = (e.style.display == 'block') ? 'none' : 'block';
@@ -42,5 +42,19 @@
     var e = document.getElementById(id);
     e.style.display = (e.style.display == 'block') ? 'none' : 'block';
 	$('#hiddenText2').show(); return false;	
+}
+
+ function showhide3(id) 
+ {
+    var e = document.getElementById(id);
+    e.style.display = (e.style.display == 'block') ? 'none' : 'block';
+	$('#hiddenText3').show(); return false;	
+}
+
+ function showhide4(id) 
+ {
+    var e = document.getElementById(id);
+    e.style.display = (e.style.display == 'block') ? 'none' : 'block';
+	$('#hiddenText4').show(); return false;	
 }
     
