@@ -35,7 +35,6 @@
     var e = document.getElementById(id);
     e.style.display = (e.style.display == 'block') ? 'none' : 'block';
 	var text = document.write("Hello World!");
-    //document.write("<img src='screenshot_1.png' border=0>");
-    }
+}
     
     
