@@ -41,9 +41,9 @@
 	$('#hiddenText').show(); return false;	
 }
 
- function showhide2('button2') 
+ function showhide2(id) 
  {
-    var e = document.getElementById('button2');
+    var e = document.getElementById(id);
    if(e.style.display == "none")
     e.style.display = "block";
 	else
