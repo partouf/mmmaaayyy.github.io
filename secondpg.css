@@ -46,8 +46,6 @@ background-position: center;
    font-size: 14px;
    text-decoration: none;
    vertical-align: middle;
-   top:200px;
-   position:absolute;
    }
 .button:hover {
    border-top-color: #be96eb;
