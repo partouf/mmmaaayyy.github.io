@@ -32,7 +32,7 @@
 
  function showhide1() 
  {
-    var e = document.getElementByClassName("button");
+    var e = document.getElementByClassName('button');
     //e.style.display = (e.style.display == 'block') ? 'none': 'block';
     if(e.style.display == "none")
     e.style.display = "block";
@@ -43,7 +43,7 @@
 
  function showhide2() 
  {
-    var e = document.getElementByClassName("button");
+    var e = document.getElementByClassName('button');
    if(e.style.display == "none")
     e.style.display = "block";
 	else
