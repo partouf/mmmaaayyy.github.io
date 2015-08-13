@@ -1,15 +1,15 @@
 
 var max=0;
-      function textlist()
+      function opening()
       {
-      max=textlist.arguments.length;
+      max=opening.arguments.length;
       for (i=0; i<max; i++)
-      this[i]=textlist.arguments[i];
+      this[i]=opening.arguments[i];
       }
-      tl=new textlist
+      tl=new opening
       ( 
        "You glance over at your alarm clock when you notice that it’s 7:38.",    
-       " YOU THINK: How is it almost 7:40?",
+       "YOU THINK: How is it almost 7:40?",
        "YOU THINK: I have to get ready for school NOW.",
        "You jump out of bed and run to:"
        
@@ -25,13 +25,13 @@ var max=0;
         setTimeout("textticker()",50);
       }
 var max=0;
-      function textlist()
+      function outfit()
       {
-      max=textlist.arguments.length;
+      max=outfit.arguments.length;
       for (i=0; i<max; i++)
-      this[i]=textlist.arguments[i];
+      this[i]=outfit.arguments[i];
       }
-      tl=new textlist
+      tl=new outfit
       ( 
        "YOU THINK: I should definitely choose my outfit first.",
       "YOU THINK: It’s really important to look presentable.",
