@@ -8,7 +8,7 @@ var max=0;
       }
       tl=new textlist
       ( 
-       "You glance over at your alarm clock when you notice that it’s 7:38.",    
+       "You glance over at your alarm clock when you notice that its 7:38.",    
        "YOU THINK: How is it almost 7:40?",
        "YOU THINK: I have to get ready for school NOW.",
        "You jump out of bed and run to:"
