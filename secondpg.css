@@ -44,7 +44,7 @@ background-position: center;
    font-size: 14px;
    text-decoration: none;
    vertical-align: middle;
-	position: fixed;
+	position: absolute;
    left: 100px;
    top: 390px;
    }
@@ -81,7 +81,7 @@ background-position: center;
    font-size: 14px;
    text-decoration: none;
    vertical-align: middle;
-   	position: fixed;
+   	position: absolutes;
    left: 100px;
    top: 400px;
    }
