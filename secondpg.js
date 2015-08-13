@@ -15,21 +15,7 @@ var max=0;
        
       );
 
-var max=0;
-      function outfit()
-      {
-      max=outfit.arguments.length;
-      for (i=0; i<max; i++)
-      this[i]=outfit.arguments[i];
-      }
-      tl=new outfit
-      ( 
-       "YOU THINK: I should definitely choose my outfit first.",
-      "YOU THINK: It’s really important to look presentable.",
-      "You go through your entire closet, searching for the perfect outfit."
-      "You have a hard time deciding between:"
-       
-      );
+
 
       var x=0; pos=0;
       var l=tl[0].length;
