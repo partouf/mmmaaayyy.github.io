@@ -33,7 +33,4 @@ var max=0;
  function showhide(id) {
     var e = document.getElementById(id);
     e.style.display = (e.style.display == 'block') ? 'none' : 'block';
-    for (var i=0; i<tl.length; i++) {
-    splice(textlist[i],1,"hello");
-    }
     }
