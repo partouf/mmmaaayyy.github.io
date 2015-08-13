@@ -46,6 +46,11 @@ background-position: center;
    font-size: 14px;
    text-decoration: none;
    vertical-align: middle;
+<<<<<<< HEAD
+=======
+   top:200px;
+   
+>>>>>>> origin/master
    }
 .button:hover {
    border-top-color: #be96eb;
