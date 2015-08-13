@@ -9,8 +9,8 @@ var max=0;
       tl=new textlist
       ( 
        "You glance over at your alarm clock when you notice that it’s 7:38.",    
-       "How is it almost 7:40?",
-       "I have to get ready for school NOW.",
+       " YOU THINK: How is it almost 7:40?",
+       "YOU THINK: I have to get ready for school NOW.",
        "You jump out of bed and run to:"
        
       );
@@ -24,6 +24,22 @@ var max=0;
         if(x==max) x=0; l=tl[x].length; } else
         setTimeout("textticker()",50);
       }
+var max=0;
+      function textlist()
+      {
+      max=textlist.arguments.length;
+      for (i=0; i<max; i++)
+      this[i]=textlist.arguments[i];
+      }
+      tl=new textlist
+      ( 
+       "YOU THINK: I should definitely choose my outfit first.",
+      "YOU THINK: It’s really important to look presentable.",
+      "You go through your entire closet, searching for the perfect outfit."
+      "You have a hard time deciding between:"
+       
+      );
+
 
 
  function showhide(id) {
