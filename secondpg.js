@@ -34,14 +34,21 @@
  {
     var e = document.getElementById(id);
     e.style.display = (e.style.display == 'block') ? 'none' : 'block';
-	$('#hiddenText').show(); return false;	
+}
+function text1(id){
+$('#hiddenText').show(); return false;
+showhide1();	
+}
+
+function text2(id){
+$('#hiddenText2').show(); return false;
+showhide2();	
 }
 
  function showhide2(id) 
  {
     var e = document.getElementById(id);
     e.style.display = (e.style.display == 'block') ? 'none': 'block';
-	$('#hiddenText2').show(); return false;	
 }
 
  function showhide3(id) 
