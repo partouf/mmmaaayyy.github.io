@@ -36,3 +36,7 @@ var max=0;
     e.style.display = (e.style.display == 'block') ? 'none' : 'block';
     document.write("<img src='screenshot_1.png' border=0>");
     }
+    function showPic()
+    {
+      whatever i want to do when button is clicked!
+    }
