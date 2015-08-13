@@ -44,7 +44,7 @@ background-position: center;
    font-size: 14px;
    text-decoration: none;
    vertical-align: middle;
-	position: relative;
+	position: fixed;
    left: 100px;
    top: 400px;
    }
@@ -81,9 +81,9 @@ background-position: center;
    font-size: 14px;
    text-decoration: none;
    vertical-align: middle;
-   	position: relative;
+   	position: fixed;
    left: 100px;
-   top: 400px;s
+   top: 400px;
    }
 #button2:hover {
    border-top-color: #be96eb;
