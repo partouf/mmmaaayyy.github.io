@@ -33,9 +33,12 @@
  function showhide1(id) 
  {
     var e = document.getElementById(id);
-    e.style.display = (e.style.display == 'block') ? 'none': 'block';
+    //e.style.display = (e.style.display == 'block') ? 'none': 'block';
+    if(p.style.display == "none")
+    p.style.display = "block";
+	else
+    p.style.display = "none";
 	$('#hiddenText').show(); return false;	
-	$('#button1').hide();
 }
 
  function showhide2(id) 
