@@ -31,7 +31,8 @@
  <p><input style="width: 97%; height: 97%; font-style: italic;" type="text" name="tickfield"/input></p>
 </form>	
 </div>
-<div class="button" id="button1" <a href = button1 onclick= "showhide('button1');">>Makeup</div></a>
+<div style="display: none;" id="button1">Oh No! You glance at the alarm clock and notice that its 7:38! You have to be at school in 20 minutes! Do you spend that time doing your makeup, or picking up a nice outfit?</div>
+<div class="button" id="button1" <a href = button1 onclick= "$('#hiddenText').show(); return false;">Makeup</div></a>
 <div class="button" id = "button2" <a href= button2 onclick= "showhide('button2');">>Outfit</div></a>
 <!--<div class="button" id = "button3" <a href= button3 onclick= "showhide('button3');">>Spaghetti Strap Top</div></a>
 <div class="button" id = "button4" <a href= button4 onclick= "showhide('button4');">>Bar Mitzvah Shirt</div></a>
@@ -55,8 +56,6 @@
 <p>you wake up at 3am blah blah</p>
 -->
 
-<div id="text1"><p>you wake up at 3am blah blah</p></div>
-<div id="text2"><p>then you pick out your makeup</p></div>
 <div style="display: none;" id="hiddenText">This is hidden</div>
 <a href="#" onclick="$('#hiddenText').show(); return false;">Click here to show hidden text</a>
 </div></center>
