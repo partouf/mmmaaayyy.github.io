@@ -17,8 +17,8 @@ background-position: center;
 .textbox
 {
    position: relative;
-   left: -50px;
-   top: 100px;
+   left:-10px;
+   top: 50px;
    font-family:"claphappy";
    background: -webkit-gradient(linear, left top, left bottom, from(#be96eb), to(#98edf0));
 }
