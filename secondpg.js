@@ -34,6 +34,7 @@
  {
     var e = document.getElementById(id);
     e.style.display = (e.style.display == 'block') ? 'none' : 'block';
+<<<<<<< HEAD
     //document.write("<img src='screenshot_1.png' border=0>");
     }
     
@@ -261,3 +262,11 @@ function animateChars ($chars, options, cb) {
   };
 
 };
+=======
+    document.write("<img src='screenshot_1.png' border=0>");
+    }
+    function showPic()
+    {
+      whatever i want to do when button is clicked!
+    }
+>>>>>>> origin/master
