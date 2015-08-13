@@ -47,8 +47,8 @@ background-position: center;
    text-decoration: none;
    vertical-align: middle;
 	position: absolute;
-   left: 250px;
-   top: 375px;
+   left: 350px;
+   top: 500px;
    }
 #button1:hover {
    border-top-color: #be96eb;
@@ -84,8 +84,8 @@ background-position: center;
    text-decoration: none;
    vertical-align: middle;
    	position: absolute;
-   left: 250px;
-   top: 400px;
+   left: 350px;
+   top: 580px;
    }
 #button2:hover {
    border-top-color: #be96eb;
