@@ -33,24 +33,15 @@
  function showhide1(id) 
  {
     var e = document.getElementById(id);
-    e.style.display = (e.style.display == 'block') ? 'none' : 'block';
-}
-function text1(id){
-$('#hiddenText').show(); return false;
- var e = document.getElementById(id);
-e.style.display = (e.style.display == 'block') ? 'none' : 'block';	
-}
-
-function text2(id){
-$('#hiddenText2').show(); return false;
- var e = document.getElementById(id);
-e.style.display = (e.style.display == 'block') ? 'none' : 'block';	
+    e.style.display = (e.style.display == 'block') ? 'none': 'block';
+	$('#hiddenText').show(); return false;	
 }
 
  function showhide2(id) 
  {
     var e = document.getElementById(id);
     e.style.display = (e.style.display == 'block') ? 'none': 'block';
+	$('#hiddenText2').show(); return false;	
 }
 
  function showhide3(id) 
