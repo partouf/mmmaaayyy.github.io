@@ -35,6 +35,7 @@
     var e = document.getElementById(id);
     e.style.display = (e.style.display == 'block') ? 'none' : 'block';
 	//var text = document.write("Hello World!");
+	document.getElementById("words") = document.getElementById("words1");
 }
     
     
