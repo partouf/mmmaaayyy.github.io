@@ -30,8 +30,9 @@ var max=0;
 
 
 
- function showhide(id) {
+ function showhide(id) 
+ {
     var e = document.getElementById(id);
     e.style.display = (e.style.display == 'block') ? 'none' : 'block';
-    document.write("<img src='screenshot_1.png' border=0>");
+    //document.write("<img src='screenshot_1.png' border=0>");
     }
