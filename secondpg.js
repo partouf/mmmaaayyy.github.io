@@ -35,7 +35,7 @@
     var e = document.getElementById(id);
     e.style.display = (e.style.display == 'block') ? 'none': 'block';
 	$('#hiddenText').show(); return false;	
-	$("#button1").hide();
+	$('#button1').hide();
 }
 
  function showhide2(id) 
