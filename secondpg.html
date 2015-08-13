@@ -11,7 +11,10 @@
 	<script src="secondpg.js" type="text/javascript"></script>
 </head>
 
-<body>
+<body onload="textticker()">
+<form name="tickform" action="">
+ <p><input style="width: 97%;height: 97%" type="text" name="tickfield"/></p>
+</form>	
 
 	<div class="intro2">
 	<div id="tp2">
@@ -21,10 +24,8 @@
 	<form action="demo_form.asp" method="get"> First name: <input type="text" name="fname"><br>
 	</form>
 
-<center onload="textticker()"><div class="smallscreen"></center>
-<form name="tickform" action="">
- <p><input style="width: 97%;height: 97%" type="text" name="tickfield"/></p>
-</form>	
+<center><div class="smallscreen"></center>
+
 <div id="para1"><center><p></p></center></div>
 <a href = button1 onclick= "showhide('button1');"><div id="button1">Makeup</div></a>
 <a href= button2 onclick= "showhide('button2');"><div id="button2">Outfit</div></a>
