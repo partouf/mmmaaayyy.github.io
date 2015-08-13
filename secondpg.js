@@ -37,6 +37,7 @@
     e.style.display = "block";
 	else
     e.style.display = "none";
+    document.getElementById('first_scenario').style.display = "block";
 	$('#hiddenText1').show(); return false;	
 }
 
@@ -47,6 +48,7 @@
     p.style.display = "block";
 	else
     p.style.display = "none";
+    document.getElementById('first_scenario').style.display = "block";
 	$('#hiddenText2').show(); return false;	
 }
 
