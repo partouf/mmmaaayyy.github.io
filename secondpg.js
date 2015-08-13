@@ -30,9 +30,9 @@
 
 
 
- function showhide1(class) 
+ function showhide1(id) 
  {
-    var e = document.getElementByClassName(class)[0];
+    var e = document.getElementByClassName(id);
     //e.style.display = (e.style.display == 'block') ? 'none': 'block';
     if(e.style.display == "none")
     e.style.display = "block";
@@ -41,9 +41,9 @@
 	$('#hiddenText').show(); return false;	
 }
 
- function showhide2(class) 
+ function showhide2(id) 
  {
-    var e = document.getElementByClassName(class)[0];
+    var e = document.getElementById(id);
    if(e.style.display == "none")
     e.style.display = "block";
 	else
