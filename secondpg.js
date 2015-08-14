@@ -161,10 +161,11 @@
 	$('#hiddenTextch3').show(); return false;	
 }  
 
+document.getElementById("myTypingText");
 var myString= "blah blah testing...";
 var myArray= myString.split("");
 var loopTimer:
-function frameLooper () {
+function frameLooper (id) {
   if(myArray.length >0){
     document.getElementById("myTypingText").innerHTML+= myArray.shift();
 
