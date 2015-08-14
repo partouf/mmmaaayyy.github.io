@@ -14,6 +14,14 @@ background-repeat: repeat;
 background-attachment: absolute;
 background-position: center;
 }
+
+#hallway{
+background-image: url("hallway.png");
+background-repeat: repeat;
+background-attachment: absolute;
+background-position: center;
+}
+
 .textbox
 {
    font-family:"claphappy";
