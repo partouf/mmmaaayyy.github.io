@@ -88,7 +88,7 @@ font-family:"teen";
 
 #karlalinkedin {
 	position: absolute;
-    top: -200px;
+    top: 200px;
     right: 250px;
     border:0px;
     padding: 5px;
@@ -96,7 +96,7 @@ font-family:"teen";
 
 .right2 {
     position: absolute;
-    top: -190px;
+    top: 190px;
     right: 150px;
     width: 300px;
     border:0px;
@@ -105,7 +105,7 @@ font-family:"teen";
 
 #maylinkedin {
 	position: absolute;
-    top: -190px;
+    top: 190px;
     right: 100px;
     border:0px;
     padding: 5px;
@@ -113,7 +113,7 @@ font-family:"teen";
 
 .right3 {
     position: absolute;
-    top: -290px;
+    top: 290px;
     right: 150px;
     width: 300px;
     border:0px;
@@ -123,7 +123,7 @@ font-family:"teen";
 
 #maevelinkedin {
 	position: absolute;
-    top: -290px;
+    top: 290px;
     right: 100px;
     border:0px;
     padding: 5px;
