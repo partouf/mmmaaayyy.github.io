@@ -67,7 +67,13 @@ li {
     float: left;
 }
 
-
+a {
+    display: block;
+    width: 60px;
+    background-color: #dddddd;
+}
+   
+}
 .right {
     position: absolute;
     top: -20px;
@@ -75,12 +81,4 @@ li {
     width: 300px;
     border:0px;
     padding: 5px;
-}
-    
-a {
-    display: block;
-    width: 100px;
-    background-color: #be96eb;
-
-}
 }
