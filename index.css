@@ -56,32 +56,19 @@ font-family:"teen";
 font-family:"teen";
 }
 
-#cssmenu {
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    display: inline;
+    overflow: hidden;
 }
 
 li {
-    display: inline;
-}
-}
-
-#product {
-font-family:"claphappy";
-
+    float: left;
 }
 
-#contact{
-font-family:"claphappy";
-
-
-}
-
-#about {
-font-family:"claphappy";
-
-
+a {
+    display: block;
+    width: 60px;
+    background-color: #dddddd;
 }
