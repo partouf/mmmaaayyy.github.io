@@ -32,7 +32,7 @@
   document.getElementById("first_scenario").style.visibility = "hidden";
   document.getElementById("button2").style.visibility = "hidden";
   document.getElementById("button3").style.display = "block";
-  document.getElementById("button4").style.visibility = "block";
+  document.getElementById("button4").style.display = "block";
     var e = document.getElementById(id);
     if(e.style.display == "none")
     e.style.display = "block";
