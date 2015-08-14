@@ -58,7 +58,7 @@ font-family:"teen";
 
 ul {
     list-style-type: none;
-    margin: 0;
+    margin: 20;
     padding: 0;
     overflow: hidden;
 }
@@ -69,7 +69,7 @@ li {
 
 a {
     display: block;
-    width: 60px;
+    width: 500px;
     background-color: #dddddd;
 }
 
