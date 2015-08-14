@@ -140,12 +140,24 @@
  {
  document.getElementById("hiddenTextyoga").style.visibility = "hidden";
  document.getElementById("buttonangry").style.visibility = "hidden";
- document.getElementById("buttonnext3").style.display = "block";
+ document.getElementById("buttonch3").style.display = "block";
     var p = document.getElementById(id);
     if(p.style.display == "none")
     p.style.display = "block";
 	else
     p.style.display = "none";
 	$('#hiddenTextnone').show(); return false;	
+}  
+    
+ function showhidech3(id)
+ {
+ document.getElementById("hiddenTextnone").style.visibility = "hidden";
+ document.getElementById("buttonch3").style.display = "block";
+    var p = document.getElementById(id);
+    if(p.style.display == "none")
+    p.style.display = "block";
+	else
+    p.style.display = "none";
+	$('#hiddenTextch3').show(); return false;	
 }  
     
