@@ -39,16 +39,16 @@
 	else
     e.style.display = "none";
 	//$('#hiddenText1').show(); return false;	
-	/*var e = document.getElementById("first_scenario");
-    if(e.style.display == "none")
-    e.style.display = "block";
+	var p = document.getElementById("first_scenario");
+    if(p.style.display == "none")
+    p.style.display = "block";
 	else
-    e.style.display = "none";
-    var e = document.getElementById("button2");
-    if(e.style.display == "none")
-    e.style.display = "block";
+    p.style.display = "none";
+    var d = document.getElementById("button2");
+    if(d.style.display == "none")
+    d.style.display = "block";
 	else
-    e.style.display = "none";*/
+    d.style.display = "none";
     $('#hiddenText1').show(); return false;	
 }
 
