@@ -33,6 +33,7 @@
  function showhide1(id) 
  {
   document.getElementById("first_scenario").style.visibility = "hidden";
+  document.getElementById("button2").style.visibility = "hidden";
     var e = document.getElementById(id);
     if(e.style.display == "none")
     e.style.display = "block";
@@ -44,6 +45,7 @@
  function showhide2(id) 
  {
  document.getElementById("first_scenario").style.visibility = "hidden";
+ document.getElementById("button1").style.visibility = "hidden";
     var p = document.getElementById(id);
     if(p.style.display == "none")
     p.style.display = "block";
