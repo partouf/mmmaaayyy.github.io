@@ -56,6 +56,7 @@ font-family:"teen";
 font-family:"teen";
 }
 
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -72,6 +73,7 @@ a {
     width: 60px;
     background-color: #be96eb;
 }
+
 
 .right {
     position: absolute;
@@ -114,6 +116,7 @@ a {
     width: 300px;
     border:0px;
     padding: 5px;
+
 }
 
 #maevelinkedin {
@@ -123,3 +126,6 @@ a {
     border:0px;
     padding: 5px;
 }
+
+}
+
