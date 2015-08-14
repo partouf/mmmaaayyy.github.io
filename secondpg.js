@@ -57,6 +57,7 @@
  {
  document.getElementById("hiddenText1").style.visibility = "hidden"; //hide makeup message
  document.getElementById("button4").style.visibility = "hidden"; //hide baggy tshirt button
+ document.getElementById("buttonnext").style.display = "block";
     var p = document.getElementById(id); //hide spaghetti strap
     if(p.style.display == "none")
     p.style.display = "block";
@@ -69,11 +70,27 @@
  {
  document.getElementById("hiddenText1").style.visibility = "hidden"; //hide makeup message
  document.getElementById("button3").style.visibility = "hidden"; //hide spaghetti strap button
+ document.getElementById("buttonnext").style.display = "block";
     var p = document.getElementById(id); //hide baggy tshirt button
     if(p.style.display == "none")
     p.style.display = "block";
 	else
     p.style.display = "none";
-	$('#hiddenText4').show(); return false; //show sphaghetti strap message
+	$('#hiddenText4').show(); return false; //show baggy Tshirt message
 }
+
+ function showhidenext(id)
+ {
+ document.getElementById("hiddenText3").style.visibility = "hidden";
+ document.getElementById("hiddenText4").style.visibility = "hidden";
+ document.getElementById("button3").style.visibility = "hidden";
+ document.getElementById("button4").style.visibility = "hidden";
+    var p = document.getElementById(id);
+    if(p.style.display == "none")
+    p.style.display = "block";
+	else
+    p.style.display = "none";
+	$('#hiddenTextnext').show(); return false;
+}
+  
     
