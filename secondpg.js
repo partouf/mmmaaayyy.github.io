@@ -49,7 +49,7 @@ function funcmakeup(id) //makeup
     $('#choosemakeup').show(); return false;	
 }
 
- function funcoutfit(id) //outfit
+ function funcdress(id) //outfit
  {
  	document.getElementById("buttondress").style.display = "block";
     document.getElementById("buttonshirt").style.display = "block";
@@ -70,5 +70,44 @@ function funcmakeup(id) //makeup
     d.style.display = "none";
 	$('#chooseoutfit').show(); return false;	//makes new scenario appear
 }
-
+ function funcshirt(id) //shirt from outfit
+ {
+ 	document.getElementById("buttonfinally").style.display = "block";
+    var e = document.getElementById(id); //make shirt button gone
+    if(e.style.display == "none")
+    e.style.display = "block";
+	else
+    e.style.display = "none";
+    var p = document.getElementById("chooseoutfit");
+    if(p.style.display == "none")
+    p.style.display = "block";
+	else
+    p.style.display = "none";
+    var d = document.getElementById("buttondress");
+    if(d.style.display == "none")
+    d.style.display = "block";
+	else
+    d.style.display = "none";
+	$('#finally').show(); return false;	//finally to school
+}
+ function funcdress(id) //dress from outfit
+ {
+ 	document.getElementById("buttonfinally").style.display = "block";
+    var e = document.getElementById(id); //make dress button gone
+    if(e.style.display == "none")
+    e.style.display = "block";
+	else
+    e.style.display = "none";
+    var p = document.getElementById("chooseoutfit");
+    if(p.style.display == "none")
+    p.style.display = "block";
+	else
+    p.style.display = "none";
+    var d = document.getElementById("buttonshirt");
+    if(d.style.display == "none")
+    d.style.display = "block";
+	else
+    d.style.display = "none";
+	$('#finally').show(); return false;	//finally to school
+}
  
