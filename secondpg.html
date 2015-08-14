@@ -31,8 +31,22 @@
 </form>	
 </div> -->
 <div id= "myTypingText"></div>
+<script type="text/javascript" language="javascript">
+var myString= "blah blah testing...";
+var myArray= myString.split("");
+var loopTimer:
+function frameLooper () {
+	if(myArray.length >0){
+		document.getElementById("myTypingText").innerHTML+= myArray.shift();
 
-
+	} else {
+		clearTimeout(loopTimer);
+		return false;
+	}
+	loopTimer= setTimeout('frameLooper()',70);
+}
+frameLooper();
+</script>
 
 
 <p id="first_scenario">Oh No! You glance at the alarm clock and notice that its 7:38! You have to be at school in 20 minutes! Do you spend that time doing your makeup, or picking up a nice outfit?</p>
