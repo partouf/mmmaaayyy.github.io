@@ -76,7 +76,6 @@
     p.style.display = "block";
 	else
     p.style.display = "none";
-    document.getElementById("hallway").style.display = "block";
 	$('#hiddenText3').show(); return false; //show baggy Tshirt message
 }
 

@@ -15,19 +15,6 @@ background-attachment: absolute;
 background-position: center;
 }
 
-
-label{
-	position: absolute;
-}
-input[type="checkbox"]{
-display: none;
-}
-
-input[type="checkbox"]:checked +div{
-background-image: url("hallway.png");
-}
-
-
 .textbox
 {
    font-family:"claphappy";
