@@ -30,7 +30,7 @@
         this.startDelay = this.options.startDelay;
 
         // backspacing speed
-        this.backSpeed = this.options.backSpeed;
+        //this.backSpeed = this.options.backSpeed;
 
         // amount of time to wait before backspacing
         this.backDelay = this.options.backDelay;
@@ -55,7 +55,7 @@
         this.curLoop = 0;
 
         // for stopping
-        this.stop = false;
+        //this.stop = false;
 
         // custom cursor
         this.cursorChar = this.options.cursorChar;
@@ -215,11 +215,11 @@
         }
 
         ,
-        backspace: function(curString, curStrPos) {
+        /*backspace: function(curString, curStrPos) {
             // exit when stopped
             if (this.stop === true) {
                 return;
-            }
+            }*/
 
             // varying values for setTimeout during typing
             // can't be global since number changes each time loop is executed
