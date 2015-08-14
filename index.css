@@ -59,8 +59,8 @@ font-family:"teen";
 
 .right {
     position: absolute;
-    top: -90px;
-    right: 150px;
+    top: -200px;
+    right: 300px;
     width: 300px;
     border:0px;
     padding: 5px;
@@ -68,8 +68,8 @@ font-family:"teen";
 
 #karlalinkedin {
 	position: absolute;
-    top: -90px;
-    right: 100px;
+    top: -200px;
+    right: 250px;
     border:0px;
     padding: 5px;
 }
