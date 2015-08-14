@@ -49,7 +49,7 @@ function funcmakeup(id) //makeup
     $('#choosemakeup').show(); return false;	
 }
 
- function funcdress(id) //outfit
+ function funcoutfit(id) //outfit
  {
  	document.getElementById("buttondress").style.display = "block";
     document.getElementById("buttonshirt").style.display = "block";
