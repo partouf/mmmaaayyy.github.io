@@ -56,14 +56,18 @@ font-family:"teen";
 font-family:"teen";
 }
 
+.about_us{
+	position: absolute;
+	padding: 5px;
+}
 
 .right {
     position: absolute;
-    top: 0px;
-    right: 300px;
-    width: 300px;
+    top: 50px;
+    right: 370px;
+    width: 100px;
     border:0px;
-    padding: 5px;
+    padding: 3px;
 }
 
 #karlalinkedin {
