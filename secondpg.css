@@ -15,6 +15,17 @@ background-attachment: absolute;
 background-position: center;
 }
 
+
+label{
+	position: absolute;
+}
+input[type="checkbox"]{
+display: none;
+}
+
+input[type="checkbox"]:check
+
+
 .textbox
 {
    font-family:"claphappy";
