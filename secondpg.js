@@ -161,7 +161,7 @@
 	$('#hiddenTextch3').show(); return false;	
 }  
 
-document.getElementById("myTypingText");
+
 var myString= "blah blah testing...";
 var myArray= myString.split("");
 var loopTimer:
