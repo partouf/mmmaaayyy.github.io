@@ -29,8 +29,8 @@
 
  function showhide1(id) //makeup
  {
-  document.getElementById("first_scenario").style.visibility = "hidden";
-  document.getElementById("button2").style.visibility = "hidden";
+  //document.getElementById("first_scenario").style.visibility = "hidden";
+  //document.getElementById("button2").style.visibility = "hidden";
   document.getElementById("button3").style.display = "block";
   document.getElementById("button4").style.display = "block";
     var e = document.getElementById(id);
@@ -38,7 +38,18 @@
     e.style.display = "block";
 	else
     e.style.display = "none";
-	$('#hiddenText1').show(); return false;	
+	//$('#hiddenText1').show(); return false;	
+	var e = document.getElementById("first_scenario");
+    if(e.style.display == "none")
+    e.style.display = "block";
+	else
+    e.style.display = "none";
+    var e = document.getElementById("button2");
+    if(e.style.display == "none")
+    e.style.display = "block";
+	else
+    e.style.display = "none";
+    $('#hiddenText1').show(); return false;	
 }
 
  function showhide2(id) //outfit
