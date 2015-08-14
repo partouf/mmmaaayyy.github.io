@@ -23,7 +23,9 @@ input[type="checkbox"]{
 display: none;
 }
 
-input[type="checkbox"]:check
+input[type="checkbox"]:checked +div{
+background-image: url("hallway.png");
+}
 
 
 .textbox
