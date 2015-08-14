@@ -89,7 +89,21 @@
     p.style.display = "block";
 	else
     p.style.display = "none";
-	$('#hiddenTextnext').show(); return false;
+	$('#hiddenTextnext').show(); return false;	
+}
+
+ function showhidenext2(id)
+ {
+ document.getElementById("hiddenTextnext").style.visibility = "hidden";
+ document.getElementById("buttonnext").style.visibility = "hidden";
+ document.getElementById("buttonyoga").style.display = "block";
+  document.getElementById("buttoncs").style.display = "block";
+    var p = document.getElementById(id);
+    if(p.style.display == "none")
+    p.style.display = "block";
+	else
+    p.style.display = "none";
+	$('#hiddenTextnext2').show(); return false;	
 }
 
 
