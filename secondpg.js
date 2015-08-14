@@ -27,10 +27,10 @@
         setTimeout("textticker()",50);
       }*/
 
- function showhide1(id) //makeup
+function showhide1(id) //makeup
  {
-  document.getElementById("first_scenario").style.visibility = "hidden";
-  document.getElementById("button2").style.visibility = "hidden";
+  //document.getElementById("first_scenario").style.visibility = "hidden";
+  //document.getElementById("button2").style.visibility = "hidden";
   document.getElementById("button3").style.display = "block";
   document.getElementById("button4").style.display = "block";
     var e = document.getElementById(id);
@@ -38,7 +38,18 @@
     e.style.display = "block";
 	else
     e.style.display = "none";
-	$('#hiddenText1').show(); return false;	
+	//$('#hiddenText1').show(); return false;	
+	var p = document.getElementById("first_scenario");
+    if(p.style.display == "none")
+    p.style.display = "block";
+	else
+    p.style.display = "none";
+    var d = document.getElementById("button2");
+    if(d.style.display == "none")
+    d.style.display = "block";
+	else
+    d.style.display = "none";
+    $('#hiddenText1').show(); return false;	
 }
 
  function showhide2(id) //outfit
