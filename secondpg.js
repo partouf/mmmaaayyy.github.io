@@ -113,10 +113,10 @@ function showhide1(id) //makeup
 	$('#hiddenTextshirt').show(); return false;	//makes new scenario appear
 }
 
- function showhidenext1(id) //next after choosing shirt
+ function showhidenextshirt(id) //next after choosing shirt
  {
- 	document.getElementById("buttonnext********").style.display = "block";
-    var e = document.getElementById(id); //makes outfit button disappear
+ 	document.getElementById("buttonnext").style.display = "block";
+    var e = document.getElementById(id); 
     if(e.style.display == "none") //blocks next button
     e.style.display = "block";
 	else
@@ -131,8 +131,8 @@ function showhide1(id) //makeup
 
  function showhidenextdress(id) //next after choosing dress
  {
- 	document.getElementById("buttonnext********").style.display = "block";
-    var e = document.getElementById(id); //makes outfit button disappear
+ 	document.getElementById("buttonnext").style.display = "block";
+    var e = document.getElementById(id); 
     if(e.style.display == "none") //blocks next button
     e.style.display = "block";
 	else
@@ -146,26 +146,49 @@ function showhide1(id) //makeup
 }
 
 
- function showhidenext1(id) //next after choosing dress
+ function showhidenext(id) //you look down at your outfit blah blah
  {
- 	document.getElementById("buttonnext1").style.display = "block";
-    var e = document.getElementById(id); //makes outfit button disappear
+ 	document.getElementById("buttonnext2").style.display = "block";
+    var e = document.getElementById(id); //makes next button disappear
     if(e.style.display == "none")
     e.style.display = "block";
 	else
     e.style.display = "none";
-    var p = document.getElementById("hiddenTextshirt");
+    var p = document.getElementById("hiddenText3");
     if(p.style.display == "none")
     p.style.display = "block";
 	else
     p.style.display = "none";
-    var d = document.getElementById("buttondress");
-    if(d.style.display == "none")
-    d.style.display = "block";
-	else
-    d.style.display = "none";
-	$('#hiddenText3').show(); return false;	//makes new scenario appear
+	$('#hiddenTextnext').show(); return false;	//makes new scenario appear
 }
+
+ function showhidenext2(id) //embarassed, you walk to which class?
+ {
+ 	document.getElementById("buttongym").style.display = "block";
+ 	document.getElementById("buttoncs").style.display = "block";
+    var e = document.getElementById(id); //makes next2 button disappear
+    if(e.style.display == "none")
+    e.style.display = "block";
+	else
+    e.style.display = "none";
+    var p = document.getElementById("hiddenTextnext");
+    if(p.style.display == "none")
+    p.style.display = "block";
+	else
+    p.style.display = "none";
+	$('#hiddenTextnext').show(); return false;	//makes new scenario appear
+}
+
+
+
+
+
+
+
+
+
+
+
 
  function showhide3(id) //sphaghetti strap shirt from choosing makeup
  {
