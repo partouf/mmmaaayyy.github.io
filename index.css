@@ -55,7 +55,7 @@ font-family:"teen";
 #tp2{
 font-family:"teen";
 }
-
+head{
 ul {
     list-style-type: none;
     margin: 20;
@@ -72,7 +72,7 @@ a {
     width: 100px;
     background-color: #dddddd;
 }
-
+}
 
 .right {
     position: absolute;
