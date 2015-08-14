@@ -67,23 +67,23 @@ font-family:"teen";
 	position: absolute;
 	padding: 5px;
 	top: 150px;
-    right: 300px;
+    right: 400px;
 }
 
 .about_us3{
 	position: absolute;
 	padding: 5px;
 	top: 150px;
-    right: 000px;
+    right: 200px;
 }
 
 .right {
     position: absolute;
-    top: 50px;
-    right: 370px;
-    width: 100px;
+    top: 200px;
+    right: 600px;
+    width: 150px;
     border:0px;
-    padding: 3px;
+    padding: 2px;
 }
 
 #karlalinkedin {
