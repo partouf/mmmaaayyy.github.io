@@ -29,16 +29,13 @@
 
 function showhide1(id) //makeup
  {
-  //document.getElementById("first_scenario").style.visibility = "hidden";
-  //document.getElementById("button2").style.visibility = "hidden";
   document.getElementById("button3").style.display = "block";
   document.getElementById("button4").style.display = "block";
     var e = document.getElementById(id);
     if(e.style.display == "none")
     e.style.display = "block";
 	else
-    e.style.display = "none";
-	//$('#hiddenText1').show(); return false;	
+    e.style.display = "none";	
 	var p = document.getElementById("first_scenario");
     if(p.style.display == "none")
     p.style.display = "block";
@@ -54,14 +51,120 @@ function showhide1(id) //makeup
 
  function showhide2(id) //outfit
  {
- document.getElementById("first_scenario").style.visibility = "hidden"; //makes the previous scenario disappear
- document.getElementById("button1").style.visibility = "hidden"; //makes other button disappear
-    var p = document.getElementById(id); //makes outfit button disappear
+ 	document.getElementById("buttondress").style.display = "block";
+    document.getElementById("buttonshirt").style.display = "block";
+    var e = document.getElementById(id); //makes outfit button disappear
+    if(e.style.display == "none")
+    e.style.display = "block";
+	else
+    e.style.display = "none";
+    var p = document.getElementById("hiddenText1");
     if(p.style.display == "none")
     p.style.display = "block";
 	else
     p.style.display = "none";
+    var d = document.getElementById("button1");
+    if(d.style.display == "none")
+    d.style.display = "block";
+	else
+    d.style.display = "none";
 	$('#hiddenText2').show(); return false;	//makes new scenario appear
+}
+
+ function showhidedress(id) //dress from choosing outfit
+ {
+ 	document.getElementById("buttonnext1").style.display = "block"; //shows next
+    var e = document.getElementById(id); //makes dress dissapear
+    if(e.style.display == "none") //makes dress button disappear
+    e.style.display = "block";
+	else
+    e.style.display = "none";
+    var p = document.getElementById("hiddenText2"); makes choose outfit msg disappear
+    if(p.style.display == "none")
+    p.style.display = "block";
+	else
+    p.style.display = "none";
+    var d = document.getElementById("buttonshirt"); makes shirt button disappear
+    if(d.style.display == "none")
+    d.style.display = "block";
+	else
+    d.style.display = "none";
+	$('#hiddenTextdress').show(); return false;	//makes new scenario appear
+}
+
+ function showhideshirt(id) //shirt from choosing outfit
+ {
+ 	document.getElementById("next").style.display = "block";
+    var e = document.getElementById(id); //makes shirt button disappear
+    if(e.style.display == "none")
+    e.style.display = "block";
+	else
+    e.style.display = "none";
+    var p = document.getElementById("hiddenText2"); //makes old text disappear
+    if(p.style.display == "none")
+    p.style.display = "block";
+	else
+    p.style.display = "none";
+    var d = document.getElementById("buttondress"); //makes dress gone
+    if(d.style.display == "none")
+    d.style.display = "block";
+	else
+    d.style.display = "none";
+	$('#hiddenTextshirt').show(); return false;	//makes new scenario appear
+}
+
+ function showhidenext1(id) //next after choosing shirt
+ {
+ 	document.getElementById("buttonnext********").style.display = "block";
+    var e = document.getElementById(id); //makes outfit button disappear
+    if(e.style.display == "none") //blocks next button
+    e.style.display = "block";
+	else
+    e.style.display = "none";
+    var p = document.getElementById("hiddenTextshirt");
+    if(p.style.display == "none")
+    p.style.display = "block";
+	else
+    p.style.display = "none";
+	$('#hiddenText3').show(); return false;	//makes new scenario appear
+}
+
+ function showhidenextdress(id) //next after choosing dress
+ {
+ 	document.getElementById("buttonnext********").style.display = "block";
+    var e = document.getElementById(id); //makes outfit button disappear
+    if(e.style.display == "none") //blocks next button
+    e.style.display = "block";
+	else
+    e.style.display = "none";
+    var p = document.getElementById("hiddenTextdress");
+    if(p.style.display == "none")
+    p.style.display = "block";
+	else
+    p.style.display = "none";
+	$('#hiddenText3').show(); return false;	//makes new scenario appear
+}
+
+
+ function showhidenext1(id) //next after choosing dress
+ {
+ 	document.getElementById("buttonnext1").style.display = "block";
+    var e = document.getElementById(id); //makes outfit button disappear
+    if(e.style.display == "none")
+    e.style.display = "block";
+	else
+    e.style.display = "none";
+    var p = document.getElementById("hiddenTextshirt");
+    if(p.style.display == "none")
+    p.style.display = "block";
+	else
+    p.style.display = "none";
+    var d = document.getElementById("buttondress");
+    if(d.style.display == "none")
+    d.style.display = "block";
+	else
+    d.style.display = "none";
+	$('#hiddenText3').show(); return false;	//makes new scenario appear
 }
 
  function showhide3(id) //sphaghetti strap shirt from choosing makeup
