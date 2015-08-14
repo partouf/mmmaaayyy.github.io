@@ -59,22 +59,22 @@ font-family:"teen";
 .about_us{
 	position: absolute;
 	padding: 5px;
-	top: 100px;
+	top: 150px;
     right: 600px;
 }
 
 .about_us2{
 	position: absolute;
 	padding: 5px;
-	top: 100px;
-    right: 400px;
+	top: 150px;
+    right: 300px;
 }
 
 .about_us3{
 	position: absolute;
 	padding: 5px;
-	top: 100px;
-    right: 200px;
+	top: 150px;
+    right: 000px;
 }
 
 .right {
