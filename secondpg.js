@@ -28,7 +28,7 @@
       }*/
 
 document.getElementById("button3").style.visibility = "hidden";
-  document.getElementById("button4").style.visibility = "hidden";
+document.getElementById("button4").style.visibility = "hidden";
 
 
  function showhide1(id) //makeup
