@@ -57,24 +57,6 @@ font-family:"teen";
 }
 
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
-li {
-    float: left;
-}
-
-a {
-    display: block;
-    width: 60px;
-    background-color: #be96eb;
-}
-
-
 .right {
     position: absolute;
     top: -90px;
