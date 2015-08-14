@@ -32,23 +32,23 @@
 
  function showhide1(id) 
  {
+  document.getElementById("first_scenario").style.visibility = "hidden";
     var e = document.getElementById(id);
     if(e.style.display == "none")
     e.style.display = "block";
 	else
     e.style.display = "none";
-    document.getElementById("first_scenario").style.visibility = "hidden";
 	$('#hiddenText1').show(); return false;	
 }
 
  function showhide2(id) 
  {
+ document.getElementById("first_scenario").style.visibility = "hidden";
     var p = document.getElementById(id);
     if(p.style.display == "none")
     p.style.display = "block";
 	else
     p.style.display = "none";
-    document.getElementById("first_scenario").style.visibility = "hidden";
 	$('#hiddenText2').show(); return false;	
 }
 
