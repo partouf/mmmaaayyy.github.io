@@ -97,7 +97,7 @@
  {
  document.getElementById("hiddenTextnext").style.visibility = "hidden";
  document.getElementById("buttonnext").style.visibility = "hidden";
- document.getElementById("buttonyoga").style.display = "block";
+ document.getElementById("buttongym").style.display = "block";
  document.getElementById("buttoncs").style.display = "block";
     var p = document.getElementById(id);
     if(p.style.display == "none")
@@ -107,6 +107,20 @@
 	$('#hiddenTextnext2').show(); return false;	
 }
 
+
+ function showhidegym(id)
+ {
+ document.getElementById("hiddenTextnext2").style.visibility = "hidden";
+ document.getElementById("buttoncs").style.visibility = "hidden";
+ document.getElementById("buttonyoga").style.display = "block";
+ document.getElementById("buttonbball").style.display = "block";
+    var p = document.getElementById(id);
+    if(p.style.display == "none")
+    p.style.display = "block";
+	else
+    p.style.display = "none";
+	$('#hiddenTextgym').show(); return false;	
+}
 
   
     
