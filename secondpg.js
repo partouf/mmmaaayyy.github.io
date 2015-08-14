@@ -96,8 +96,7 @@
  {
  document.getElementById("hiddenTextnext").style.visibility = "hidden";
  document.getElementById("buttonnext").style.visibility = "hidden";
- document.getElementById("buttonyoga").style.display = "block";
-  document.getElementById("buttoncs").style.display = "block";
+ document.getElementById("buttonnext2").style.display = "block";
     var p = document.getElementById(id);
     if(p.style.display == "none")
     p.style.display = "block";
