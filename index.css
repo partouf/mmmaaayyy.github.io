@@ -81,14 +81,14 @@ font-family:"teen";
     position: absolute;
     top: 300px;
     right: 600px;
-    width: 150px;
+    width: 100px;
     border:0px;
     padding: 2px;
 }
 
 #karlalinkedin {
 	position: absolute;
-    top: 600px;
+    top: 500px;
     right: 600px;
     border:0px;
     padding: 5px;
@@ -98,15 +98,15 @@ font-family:"teen";
     position: absolute;
     top: 600px;
     right: 370px;
-    width: 300px;
+    width: 100px;
     border:0px;
     padding: 5px;
 }
 
 #maylinkedin {
 	position: absolute;
-    top: 190px;
-    right: 100px;
+    top: 500px;
+    right: 00px;
     border:0px;
     padding: 5px;
 }
@@ -115,7 +115,7 @@ font-family:"teen";
     position: absolute;
     top: 290px;
     right: 150px;
-    width: 300px;
+    width: 100px;
     border:0px;
     padding: 5px;
 
@@ -123,7 +123,7 @@ font-family:"teen";
 
 #maevelinkedin {
 	position: absolute;
-    top: 290px;
+    top: 600px;
     right: 100px;
     border:0px;
     padding: 5px;
