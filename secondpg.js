@@ -39,7 +39,7 @@
 	else
     e.style.display = "none";
 	//$('#hiddenText1').show(); return false;	
-	var e = document.getElementById("first_scenario");
+	/*var e = document.getElementById("first_scenario");
     if(e.style.display == "none")
     e.style.display = "block";
 	else
@@ -48,7 +48,7 @@
     if(e.style.display == "none")
     e.style.display = "block";
 	else
-    e.style.display = "none";
+    e.style.display = "none";*/
     $('#hiddenText1').show(); return false;	
 }
 
