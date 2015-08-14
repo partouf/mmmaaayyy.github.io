@@ -30,7 +30,7 @@
 
 
 
- function showhide1(id) 
+ function showhide1(id) //makeup
  {
   document.getElementById("first_scenario").style.visibility = "hidden";
   document.getElementById("button2").style.visibility = "hidden";
@@ -42,29 +42,39 @@
 	$('#hiddenText1').show(); return false;	
 }
 
- function showhide2(id) 
+ function showhide2(id) //outfit
  {
- document.getElementById("first_scenario").style.visibility = "hidden";
- document.getElementById("button1").style.visibility = "hidden";
-    var p = document.getElementById(id);
+ document.getElementById("first_scenario").style.visibility = "hidden"; //makes the previous scenario disappear
+ document.getElementById("button1").style.visibility = "hidden"; //makes other button disappear
+    var p = document.getElementById(id); //makes outfit button disappear
     if(p.style.display == "none")
     p.style.display = "block";
 	else
     p.style.display = "none";
-	$('#hiddenText2').show(); return false;	
+	$('#hiddenText2').show(); return false;	//makes new scenario appear
 }
 
- function showhide3(id) 
+ function showhide3(id) //sphaghetti strap shirt from choosing makeup
  {
-    var e = document.getElementById(id);
-    e.style.display = (e.style.display == 'block') ? 'none' : 'block';
-	$('#hiddenText3').show(); return false;	
+ document.getElementById("hiddenText1").style.visibility = "hidden"; //hide makeup message
+ document.getElementById("button4").style.visibility = "hidden"; //hide baggy tshirt button
+    var p = document.getElementById(id); //hide spaghetti strap
+    if(p.style.display == "none")
+    p.style.display = "block";
+	else
+    p.style.display = "none";
+	$('#hiddenText3').show(); return false; //show sphaghetti strap message
 }
 
- function showhide4(id) 
+ function showhide4(id) //choose baggy t-shirt from choosing makeup
  {
-    var e = document.getElementById(id);
-    e.style.display = (e.style.display == 'block') ? 'none' : 'block';
-	$('#hiddenText4').show(); return false;	
+ document.getElementById("hiddenText1").style.visibility = "hidden"; //hide makeup message
+ document.getElementById("button3").style.visibility = "hidden"; //hide spaghetti strap button
+    var p = document.getElementById(id); //hide baggy tshirt button
+    if(p.style.display == "none")
+    p.style.display = "block";
+	else
+    p.style.display = "none";
+	$('#hiddenText4').show(); return false; //show sphaghetti strap message
 }
     
