@@ -47,7 +47,13 @@ var e = document.getElementById("entername"); //makeup button gone
     e.style.display = "none";
 $('#first_scenario').show(); return false;
 }
+<span class="tooltip" onmouseover="tooltip.pop(this, 'Lorem ipsum dolor...mauris')">
+    Basic
+</span>
 
+<span class="tooltip" onmouseover="tooltip.pop(this, '<span class=\'red\'>Hi</span> there', {position:0})">
+    A little spice
+</span>
 
 function funcmakeup(id) //makeup
  {
