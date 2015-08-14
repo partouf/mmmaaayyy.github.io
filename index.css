@@ -59,7 +59,7 @@ font-family:"teen";
 
 .right {
     position: absolute;
-    top: -200px;
+    top: 0px;
     right: 300px;
     width: 300px;
     border:0px;
