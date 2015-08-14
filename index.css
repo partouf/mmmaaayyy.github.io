@@ -55,24 +55,7 @@ font-family:"teen";
 #tp2{
 font-family:"teen";
 }
-head{
-ul {
-    list-style-type: none;
-    margin: 20;
-    padding: 0;
-    overflow: hidden;
-}
 
-li {
-    float: left;
-}
-
-a {
-    display: block;
-    width: 100px;
-    background-color: #dddddd;
-}
-}
 
 .right {
     position: absolute;
