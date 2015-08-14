@@ -76,13 +76,12 @@
     p.style.display = "block";
 	else
     p.style.display = "none";
-	$('#hiddenText4').show(); return false; //show baggy Tshirt message
+	$('#hiddenText3').show(); return false; //show baggy Tshirt message
 }
 
  function showhidenext(id)
  {
  document.getElementById("hiddenText3").style.visibility = "hidden";
- document.getElementById("hiddenText4").style.visibility = "hidden";
  document.getElementById("button3").style.visibility = "hidden";
  document.getElementById("button4").style.visibility = "hidden";
     var p = document.getElementById(id);
