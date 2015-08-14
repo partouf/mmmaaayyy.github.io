@@ -29,8 +29,8 @@
 
  function showhide1(id) //makeup
  {
-  //document.getElementById("first_scenario").style.visibility = "hidden";
-  //document.getElementById("button2").style.visibility = "hidden";
+  document.getElementById("first_scenario").style.visibility = "hidden";
+  document.getElementById("button2").style.visibility = "hidden";
   document.getElementById("button3").style.display = "block";
   document.getElementById("button4").style.display = "block";
     var e = document.getElementById(id);
@@ -38,28 +38,7 @@
     e.style.display = "block";
 	else
     e.style.display = "none";
-	//$('#hiddenText1').show(); return false;	
-<<<<<<< HEAD
-	var e = document.getElementById("first_scenario");
-    if(e.style.display == "none")
-    e.style.display = "block";
-=======
-	var p = document.getElementById("first_scenario");
-    if(p.style.display == "none")
-    p.style.display = "block";
->>>>>>> origin/master
-	else
-    p.style.display = "none";
-    var d = document.getElementById("button2");
-    if(d.style.display == "none")
-    d.style.display = "block";
-	else
-<<<<<<< HEAD
-    e.style.display = "none";
-=======
-    d.style.display = "none";
->>>>>>> origin/master
-    $('#hiddenText1').show(); return false;	
+	$('#hiddenText1').show(); return false;	
 }
 
  function showhide2(id) //outfit
@@ -214,7 +193,11 @@
         // add a delay before typing starts
         this.startDelay = this.options.startDelay;
 
-     
+        // backspacing speed
+        this.backSpeed = this.options.backSpeed;
+
+        // amount of time to wait before backspacing
+        this.backDelay = this.options.backDelay;
 
         // input strings of text
         this.strings = this.options.strings;
@@ -225,6 +208,10 @@
         // current array position
         this.arrayPos = 0;
 
+        // number to stop backspacing on.
+        // default 0, can change depending on how many chars
+        // you want to remove at the time
+        this.stopNum = 0;
 
         // Looping logic
         this.loop = this.options.loop;
@@ -355,7 +342,7 @@
                         }
 
                         self.timeout = setTimeout(function() {
-                            /*self.backspace(curString, curStrPos);
+                            self.backspace(curString, curStrPos);
                         }, self.backDelay);
                     } else {
 
@@ -392,7 +379,7 @@
         }
 
         ,
-        /*backspace: function(curString, curStrPos) {
+        backspace: function(curString, curStrPos) {
             // exit when stopped
             if (this.stop === true) {
                 return;
@@ -418,6 +405,18 @@
                 //  self.stopNum = 0;
                 // }
 
+                if (self.contentType === 'html') {
+                    // skip over html tags while backspacing
+                    if (curString.substr(curStrPos).charAt(0) === '>') {
+                        var tag = '';
+                        while (curString.substr(curStrPos).charAt(0) !== '<') {
+                            tag -= curString.substr(curStrPos).charAt(0);
+                            curStrPos--;
+                        }
+                        curStrPos--;
+                        tag += '<';
+                    }
+                }
 
                 // ----- continue important stuff ----- //
                 // replace text with base text + typed characters
@@ -461,7 +460,7 @@
                 // humanized value for typing
             }, humanize);
 
-        } 
+        }
         /**
          * Shuffles the numbers in the given array.
          * @param {Array} array
@@ -529,9 +528,12 @@
         typeSpeed: 0,
         // time before typing starts
         startDelay: 0,
- 
+        // backspacing speed
+        backSpeed: 0,
         // shuffle the strings
         shuffle: false,
+        // time before backspacing
+        backDelay: 500,
         // loop
         loop: false,
         // false = infinite
