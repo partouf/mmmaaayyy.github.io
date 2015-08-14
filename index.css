@@ -75,9 +75,51 @@ a {
 
 .right {
     position: absolute;
-    top: -20px;
-    right: 90px;
+    top: -90px;
+    right: 150px;
     width: 300px;
+    border:0px;
+    padding: 5px;
+}
+
+#karlalinkedin {
+	position: absolute;
+    top: -90px;
+    right: 100px;
+    border:0px;
+    padding: 5px;
+}
+
+.right2 {
+    position: absolute;
+    top: -190px;
+    right: 150px;
+    width: 300px;
+    border:0px;
+    padding: 5px;
+}
+
+#maylinkedin {
+	position: absolute;
+    top: -190px;
+    right: 100px;
+    border:0px;
+    padding: 5px;
+}
+
+.right3 {
+    position: absolute;
+    top: -290px;
+    right: 150px;
+    width: 300px;
+    border:0px;
+    padding: 5px;
+}
+
+#maevelinkedin {
+	position: absolute;
+    top: -290px;
+    right: 100px;
     border:0px;
     padding: 5px;
 }
