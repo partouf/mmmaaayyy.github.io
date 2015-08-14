@@ -30,15 +30,16 @@
 
 
 
- function showhide1(id) 
+ function showhide1("button1") 
  {
   document.getElementById("first_scenario").style.visibility = "hidden";
   document.getElementById("button2").style.visibility = "hidden";
-    var e = document.getElementById(id);
-    if(e.style.display == "none")
-    e.style.display = "block";
-	else
-    e.style.display = "none";
+  document.getElementById("button1").style.visibility = "hidden";
+    //var e = document.getElementById(id);
+    //if(e.style.display == "none")
+   // e.style.display = "block";
+	//else
+    //e.style.display = "none";
 	$('#hiddenText1').show(); return false;	
 }
 
