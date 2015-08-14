@@ -34,6 +34,8 @@
  {
   document.getElementById("first_scenario").style.visibility = "hidden";
   document.getElementById("button2").style.visibility = "hidden";
+  document.getElementById("button3").style.visibility = "visible";
+  document.getElementById("button4").style.visibility = "visible";
     var e = document.getElementById(id);
     if(e.style.display == "none")
     e.style.display = "block";
@@ -46,6 +48,8 @@
  {
  document.getElementById("first_scenario").style.visibility = "hidden"; //makes the previous scenario disappear
  document.getElementById("button1").style.visibility = "hidden"; //makes other button disappear
+ document.getElementById("button3").style.visibility = "visible";
+  document.getElementById("button4").style.visibility = "visible";
     var p = document.getElementById(id); //makes outfit button disappear
     if(p.style.display == "none")
     p.style.display = "block";
