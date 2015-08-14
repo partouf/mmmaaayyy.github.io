@@ -26,6 +26,18 @@
         if(x==max) x=0; l=tl[x].length; } else
         setTimeout("textticker()",50);
       }*/
+function funcstart(id)
+{
+document.getElementById("buttonmakeup").style.display = "block";
+document.getElementById("buttonoutfit").style.display = "block";
+var e = document.getElementById(id); //makeup button gone
+    if(e.style.display == "none")
+    e.style.display = "block";
+	else
+    e.style.display = "none";
+$('#first_scenario').show(); return false;
+}
+
 
 function funcmakeup(id) //makeup
  {
