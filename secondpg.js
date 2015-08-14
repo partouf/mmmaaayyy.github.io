@@ -122,5 +122,30 @@
 	$('#hiddenTextgym').show(); return false;	
 }
 
-  
+ function showhideyoga(id)
+ {
+ document.getElementById("hiddenTextgym").style.visibility = "hidden";
+ document.getElementById("buttonbball").style.visibility = "hidden";
+ document.getElementById("buttonnone").style.display = "block";
+ document.getElementById("buttonangry").style.display = "block";
+    var p = document.getElementById(id);
+    if(p.style.display == "none")
+    p.style.display = "block";
+	else
+    p.style.display = "none";
+	$('#hiddenTextyoga').show(); return false;	
+}
+
+ function showhidenone(id)
+ {
+ document.getElementById("hiddenTextyoga").style.visibility = "hidden";
+ document.getElementById("buttonangry").style.visibility = "hidden";
+ document.getElementById("buttonnext3").style.display = "block";
+    var p = document.getElementById(id);
+    if(p.style.display == "none")
+    p.style.display = "block";
+	else
+    p.style.display = "none";
+	$('#hiddenTextnone').show(); return false;	
+}  
     
