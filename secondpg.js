@@ -35,12 +35,12 @@ var e = document.getElementById(id); //makeup button gone
     e.style.display = "block";
 	else
     e.style.display = "none";
-var e = document.getElementById("choosestart"); //makeup button gone
+var e = document.getElementById("instructions"); //makeup button gone
     if(e.style.display == "none")
     e.style.display = "block";
 	else
     e.style.display = "none";
-var e = document.getElementById("form"); //makeup button gone
+var e = document.getElementById("entername"); //makeup button gone
     if(e.style.display == "none")
     e.style.display = "block";
 	else
