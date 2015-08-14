@@ -101,7 +101,7 @@ size: 10%;
 }
 
 #myTypingText {
-   background-color:#000;
+   background-color: transparent;
    width:700px;
    height:120px;
    padding:12px;
