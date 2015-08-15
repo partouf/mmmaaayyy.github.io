@@ -144,46 +144,6 @@ var p = document.getElementById("chooseoutfit");
 	//else
     //e.style.display = "none";
 
- /*function funcshirt(id) //shirt from outfit
- {
- 	document.getElementById("buttonfinally").style.display = "block";
-    var e = document.getElementById(id); //make shirt button gone
-    if(e.style.display == "none")
-    e.style.display = "block";
-	else
-    e.style.display = "none";
-    var p = document.getElementById("chooseoutfit");
-    if(p.style.display == "none")
-    p.style.display = "block";
-	else
-    p.style.display = "none";
-    var d = document.getElementById("buttondress");
-    if(d.style.display == "none")
-    d.style.display = "block";
-	else
-    d.style.display = "none";
-	$('#chooseshirt').show(); return false;	//finally to school
-}
- function funcdress(id) //dress from outfit
- {
- 	document.getElementById("buttonfinally2").style.display = "block";
-    var e = document.getElementById(id); //make dress button gone
-    if(e.style.display == "none")
-    e.style.display = "block";
-	else
-    e.style.display = "none";
-    var p = document.getElementById("chooseoutfit");
-    if(p.style.display == "none")
-    p.style.display = "block";
-	else
-    p.style.display = "none";
-    var d = document.getElementById("buttonshirt");
-    if(d.style.display == "none")
-    d.style.display = "block";
-	else
-    d.style.display = "none";
-	$('#choosedress').show(); return false;	
-}*/
 
 
 
@@ -205,7 +165,8 @@ var p = document.getElementById("chooseoutfit");
 
 
 
- function funcnotice(id) //no one notices your outfit
+
+ function funcnext(id) //no one notices your outfit
  {
  	document.getElementById("buttongym").style.display = "block";
  	document.getElementById("buttoncs").style.display = "block";
