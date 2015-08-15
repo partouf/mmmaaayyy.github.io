@@ -114,7 +114,7 @@ function funcmakeup(id) //makeup
 }
  function funcdress(id) //dress from outfit
  {
- 	document.getElementById("buttonfinally").style.display = "block";
+ 	document.getElementById("buttonfinally2").style.display = "block";
     var e = document.getElementById(id); //make dress button gone
     if(e.style.display == "none")
     e.style.display = "block";
@@ -130,7 +130,7 @@ function funcmakeup(id) //makeup
     d.style.display = "block";
 	else
     d.style.display = "none";
-	$('#choosedress').show(); return false;	
+	$('#choosedress2').show(); return false;	
 }
  
  function funcfinally(id) //finally you get to school
