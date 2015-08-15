@@ -109,3 +109,7 @@ a.tooltip span
     border-radius:4px;
     box-shadow: 5px 5px 8px #CCC;
 }
+
+.callout {
+font-size: 12px;
+}
