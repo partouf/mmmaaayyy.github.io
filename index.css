@@ -90,7 +90,7 @@ font-family:"teen";
 #karlalinkedin {
 	position: absolute;
     top: 500px;
-    right: 600px;
+    left: 260px;
     border:0px;
     padding: 5px;
 }
@@ -107,7 +107,7 @@ font-family:"teen";
 #maylinkedin {
 	position: absolute;
     top: 500px;
-    right: 00px;
+    left: 540px;
     border:0px;
     padding: 5px;
 }
@@ -124,8 +124,8 @@ font-family:"teen";
 
 #maevelinkedin {
 	position: absolute;
-    top: 600px;
-    right: 100px;
+    top: 500px;
+    left: 850px;
     border:0px;
     padding: 5px;
 }
