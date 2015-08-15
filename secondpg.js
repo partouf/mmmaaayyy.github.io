@@ -146,7 +146,8 @@ var p = document.getElementById("choosedress");
     p.style.display = "block";
 	else
     p.style.display = "none";
-	$('#finally').show(); return false;	
+	$('#finally').show(); return false;
+	getElementById("pop").style.display="block";	
 }
  
  function funcfinally2(id) //finally you get to school
@@ -163,6 +164,7 @@ var p = document.getElementById("chooseshirt");
 	else
     p.style.display = "none";
     $('#finally2').show(); return false;	
+    getElementById("pop").style.display="block";
 }    
     
 
@@ -180,6 +182,11 @@ var p = document.getElementById("finally");
     p.style.display = "block";
 	else
     p.style.display = "none";
+    var q = document.getElementById("pop");
+    if(q.style.display == "none")
+    q.style.display = "block";
+	else
+    q.style.display = "none";
 	$('#notice').show(); return false;
 }
 
@@ -197,5 +204,10 @@ var p = document.getElementById("finally2");
     p.style.display = "block";
 	else
     p.style.display = "none";
+     var q = document.getElementById("pop");
+    if(q.style.display == "none")
+    q.style.display = "block";
+	else
+    q.style.display = "none";
 	$('#notice2').show(); return false;
 }
