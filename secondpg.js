@@ -92,7 +92,59 @@ function funcmakeup(id) //makeup
     d.style.display = "none";
 	$('#chooseoutfit').show(); return false;	//makes new scenario appear
 }
- function funcshirt(id) //shirt from outfit
+ 
+ function funcdress(id) //finally you get to school
+ {
+ 	document.getElementById("buttonfinally").style.display = "block";
+var e = document.getElementById(id); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+	else
+    e.style.display = "none";
+var p = document.getElementById("chooseoutfit");
+    if(p.style.display == "none")
+    p.style.display = "block";
+	else
+    p.style.display = "none";
+    var p = document.getElementById("buttonshirt");
+    if(p.style.display == "none")
+    p.style.display = "block";
+	else
+    p.style.display = "none";
+    getElementById("pop1").style.display="block";
+	$('#finally').show(); return false;	
+}
+ function funcshirt(id) //finally you get to school
+ {
+ 	document.getElementById("buttonfinally").style.display = "block";
+var e = document.getElementById(id); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+	else
+    e.style.display = "none";
+var p = document.getElementById("chooseoutfit");
+    if(p.style.display == "none")
+    p.style.display = "block";
+	else
+    p.style.display = "none";
+    var p = document.getElementById("buttondress");
+    if(p.style.display == "none")
+    p.style.display = "block";
+	else
+    p.style.display = "none";
+    getElementById("pop1").style.display="block";
+	$('#finally').show(); return false;	
+}
+
+
+
+//var e = document.getElementById("pop1");
+   // if(e.style.display == "none")
+    //e.style.display = "block";
+	//else
+    //e.style.display = "none";
+
+ /*function funcshirt(id) //shirt from outfit
  {
  	document.getElementById("buttonfinally").style.display = "block";
     var e = document.getElementById(id); //make shirt button gone
@@ -131,40 +183,7 @@ function funcmakeup(id) //makeup
 	else
     d.style.display = "none";
 	$('#choosedress').show(); return false;	
-}
- 
- function funcfinally(id) //finally you get to school
- {
- 	document.getElementById("buttonnotice").style.display = "block";
-var e = document.getElementById(id); 
-    if(e.style.display == "none")
-    e.style.display = "block";
-	else
-    e.style.display = "none";
-var p = document.getElementById("choosedress");
-    if(p.style.display == "none")
-    p.style.display = "block";
-	else
-    p.style.display = "none";
-    var p = document.getElementById("chooseshirt");
-    if(p.style.display == "none")
-    p.style.display = "block";
-	else
-    p.style.display = "none";
-    getElementById("pop1").style.display="block";
-	$('#finally').show(); return false;	
-}
-
-
-
-
-//var e = document.getElementById("pop1");
-   // if(e.style.display == "none")
-    //e.style.display = "block";
-	//else
-    //e.style.display = "none";
-
-
+}*/
 
 
 
