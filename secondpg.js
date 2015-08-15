@@ -142,6 +142,11 @@ var e = document.getElementById(id);
     e.style.display = "block";
 	else
     e.style.display = "none";
+    var e = document.getElementById(id); 
+    if(e.style.display == "buttonfinally")
+    e.style.display = "block";
+	else
+    e.style.display = "none";
 var p = document.getElementById("choosedress");
     if(p.style.display == "none")
     p.style.display = "block";
