@@ -165,8 +165,7 @@ var p = document.getElementById("chooseshirt");
     $('#finally2').show(); return false;	
 }    
     
-    
-    
+
  function funcnotice(id) //no one notices your outfit
  {
  	document.getElementById("buttongym").style.display = "block";
@@ -181,5 +180,10 @@ var p = document.getElementById("finally");
     p.style.display = "block";
 	else
     p.style.display = "none";
-	$('#notice').show(); return false;	//finally to school
+var p = document.getElementById("finally2");
+    if(p.style.display == "none")
+    p.style.display = "block";
+	else
+    p.style.display = "none";
+	$('#notice').show(); return false;
 }
