@@ -30,7 +30,7 @@ body, a, a:hover { cursor:url('http://www.dolliehost.com/dolliecrave/cursors/cur
 }
 
 body{
-	background-color:#E7FEFF;
+	background-color:#ECE8F4;
 font-family: "claphappy"; 
 }
 
@@ -130,10 +130,12 @@ font-family:"teen";
 }
 
 .navbar-default .navbar-backgrnd {
-    color:#FFA3FF;
+    background-color:#FFA3FF;
+    border-color:#FFA3FF; 
 }
 .navbar-default .navbar-fnt {
     font-family:"claphappy";
 }
 }
 
+    
