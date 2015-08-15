@@ -130,20 +130,14 @@ function funcmakeup(id) //makeup
     d.style.display = "block";
 	else
     d.style.display = "none";
-	$('#choosedress2').show(); return false;	
+	$('#choosedress').show(); return false;	
 }
  
  function funcfinally(id) //finally you get to school
  {
  	document.getElementById("buttonnotice").style.display = "block";
- 		getElementById("pop1").style.display="block";
 var e = document.getElementById(id); 
     if(e.style.display == "none")
-    e.style.display = "block";
-	else
-    e.style.display = "none";
-    var e = document.getElementById(id); 
-    if(e.style.display == "buttonfinally")
     e.style.display = "block";
 	else
     e.style.display = "none";
@@ -157,8 +151,35 @@ var p = document.getElementById("choosedress");
     d.style.display = "block";
 	else
     d.style.display = "none";
+    getElementById("pop1").style.display="block";
 	$('#finally').show(); return false;	
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
  function funcnotice(id) //no one notices your outfit
  {
