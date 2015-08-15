@@ -151,7 +151,7 @@ var p = document.getElementById("choosedress");
  
  function funcfinally2(id) //finally you get to school
  {
- 	document.getElementById("buttonnotice").style.display = "block";
+ 	document.getElementById("buttonnotice2").style.display = "block";
 var e = document.getElementById(id); 
     if(e.style.display == "none")
     e.style.display = "block";
@@ -180,10 +180,22 @@ var p = document.getElementById("finally");
     p.style.display = "block";
 	else
     p.style.display = "none";
+	$('#notice').show(); return false;
+}
+
+ function funcnotice2(id) //no one notices your outfit
+ {
+ 	document.getElementById("buttongym").style.display = "block";
+ 	document.getElementById("buttoncs").style.display = "block";
+var e = document.getElementById(id); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+	else
+    e.style.display = "none";
 var p = document.getElementById("finally2");
     if(p.style.display == "none")
     p.style.display = "block";
 	else
     p.style.display = "none";
-	$('#notice').show(); return false;
+	$('#notice2').show(); return false;
 }
