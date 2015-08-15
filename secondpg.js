@@ -136,6 +136,7 @@ function funcmakeup(id) //makeup
  function funcfinally(id) //finally you get to school
  {
  	document.getElementById("buttonnotice").style.display = "block";
+ 		getElementById("pop1").style.display="block";
 var e = document.getElementById(id); 
     if(e.style.display == "none")
     e.style.display = "block";
@@ -146,13 +147,13 @@ var p = document.getElementById("choosedress");
     p.style.display = "block";
 	else
     p.style.display = "none";
-	$('#finally').show(); return false;
-	getElementById("pop").style.display="block";	
+	$('#finally').show(); return false;	
 }
  
  function funcfinally2(id) //finally you get to school
  {
  	document.getElementById("buttonnotice2").style.display = "block";
+ 	getElementById("pop1").style.display="block";
 var e = document.getElementById(id); 
     if(e.style.display == "none")
     e.style.display = "block";
@@ -164,7 +165,6 @@ var p = document.getElementById("chooseshirt");
 	else
     p.style.display = "none";
     $('#finally2').show(); return false;	
-    getElementById("pop").style.display="block";
 }    
     
 
