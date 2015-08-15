@@ -94,7 +94,7 @@ function funcmakeup(id) //makeup
 }
  function funcshirt(id) //shirt from outfit
  {
- 	document.getElementById("buttonfinally").style.display = "block";
+ 	document.getElementById("buttonfinally2").style.display = "block";
     var e = document.getElementById(id); //make shirt button gone
     if(e.style.display == "none")
     e.style.display = "block";
@@ -146,15 +146,27 @@ var p = document.getElementById("choosedress");
     p.style.display = "block";
 	else
     p.style.display = "none";
+	$('#finally').show(); return false;	
+}
+ 
+ function funcfinally2(id) //finally you get to school
+ {
+ 	document.getElementById("buttonnotice").style.display = "block";
+var e = document.getElementById(id); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+	else
+    e.style.display = "none";
 var p = document.getElementById("chooseshirt");
     if(p.style.display == "none")
     p.style.display = "block";
 	else
     p.style.display = "none";
-	$('#finally').show(); return false;	
-}
- 
-
+    $('#finally2').show(); return false;	
+}    
+    
+    
+    
  function funcnotice(id) //no one notices your outfit
  {
  	document.getElementById("buttongym").style.display = "block";
