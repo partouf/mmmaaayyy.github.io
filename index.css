@@ -139,7 +139,8 @@ font-family:"teen";
 }
 
 .homepage {
-    padding-top: 10px;
-    padding-bottom: 200px; 
+    padding: 10px;
+    margin-top: 20px;
+   margin-bottom: 70px;
 }
     
