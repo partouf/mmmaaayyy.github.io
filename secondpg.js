@@ -146,18 +146,41 @@ var p = document.getElementById("choosedress");
     p.style.display = "block";
 	else
     p.style.display = "none";
-    var d = document.getElementById("chooseshirt");
-    if(d.style.display == "none")
-    d.style.display = "block";
-	else
-    d.style.display = "none";
     getElementById("pop1").style.display="block";
 	$('#finally').show(); return false;	
+}
+
+function funcfinally2(id) //finally you get to school
+ {
+ 	document.getElementById("buttonnotice").style.display = "block";
+var e = document.getElementById(id); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+	else
+    e.style.display = "none";
+var p = document.getElementById("choosedress");
+    if(p.style.display == "none")
+    p.style.display = "block";
+	else
+    p.style.display = "none";
+    getElementById("pop1").style.display="block";
+	$('#finally2').show(); return false;	
 }
 
 
 
 
+
+
+
+
+
+
+var e = document.getElementById("pop1");
+    if(e.style.display == "none")
+    e.style.display = "block";
+	else
+    e.style.display = "none";
 
 
 
