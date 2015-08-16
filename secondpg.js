@@ -136,7 +136,7 @@ var p = document.getElementById("chooseoutfit");
 	$('#showfinally').show(); return false;	
 }
 
- function funcnext(id) //when next button is clicked.....
+ function funcfinally(id) //when next button is clicked.....
  {
  	document.getElementById("buttonnext").style.display = "block";
 var e = document.getElementById(id); 
