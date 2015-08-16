@@ -1,28 +1,24 @@
-// *********************************************************************
-// Look things up in the documentation and tell me what everything does!
-// *********************************************************************
 
-L.mapbox.accessToken = 'pk.eyJ1IjoiamVmZnN0ZXJuIiwiYSI6IlAzRFFiN0EifQ.mNWvayrLEw9wULuq0sopyA'; // allows us to use the API
-var map = L.mapbox.map('map', 'examples.map-20v6611k').setView([38.12367, -76.81229], 9); // initial position ([latitude, longitude], zoom))
+L.mapbox.accessToken = 'pk.eyJ1IjoiamVmZnN0ZXJuIiwiYSI6IlAzRFFiN0EifQ.mNWvayrLEw9wULuq0sopyA'; 
+var map = L.mapbox.map('map', 'examples.map-20v6611k').setView([38.12367, -76.81229], 9); 
 
-var myLayer = L.mapbox.featureLayer().addTo(map); //allows us to use GeoJson
+var myLayer = L.mapbox.featureLayer().addTo(map); 
 
 var geojson = {
     type: 'FeatureCollection',
 
-    // This is an array of Map Point objects
     features: [
     
     {
         type: 'Feature',
-        properties: { //describes title, description
+        properties: { 
             title: 'Bay Area, CA',
             description: 'There are FIFTEEN summer immersion programs in the Bay Area this year!',
             'marker-color': '#f9d62e',
             'marker-size': 'large',
             'marker-symbol': 'marker',
         },
-        geometry: { //the marker is a point (also determines the location)
+        geometry: { 
             type: 'Point',
             coordinates: [-122.419, 37.774]
         }
@@ -83,7 +79,7 @@ var geojson = {
             coordinates: [-118.24, 34.05]
         }
     },
-    //add washington DC and Chicao
+    
     {
         type: 'Feature',
         properties: {
@@ -115,10 +111,9 @@ var geojson = {
     ]
 };
 
-myLayer.setGeoJSON(geojson); // Adds all of the markers to the map
+myLayer.setGeoJSON(geojson); 
 
 map.on('ready', function() {
-    // featureLayer.getBounds() returns the corners of the furthest-out markers,
-    // and map.fitBounds() makes sure that the map contains these.
+   
     map.fitBounds(myLayer.getBounds());
 });
