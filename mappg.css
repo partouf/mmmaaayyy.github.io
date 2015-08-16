@@ -1,10 +1,10 @@
 body { 
-	margin:100; 
-	padding:50; 
+	margin:10px; 
+	padding:0px; 
 }
 
 #container { 
-	position:relative; 
+	position:absolute; 
 	margin: 0px auto; 
 	width: 80%;
 }
@@ -12,7 +12,8 @@ body {
 #map { 
 	position:absolute; 
 	height: 500px; 
-	width:200px; 
+	width:100px; 
+	border-color:#000000;
 }
 
 .popupimage { 
