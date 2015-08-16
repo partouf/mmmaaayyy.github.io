@@ -1,4 +1,13 @@
 
+ src='https://api.mapbox.com/mapbox.js/v2.2.1/mapbox.js'></script>
+        link href='https://api.mapbox.com/mapbox.js/v2.2.1/mapbox.css' rel='stylesheet' />
+        link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+        link href="mappg.css" rel="stylesheet">
+        meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+   meta charset=utf-8 
+       
+
+       
 L.mapbox.accessToken = 'pk.eyJ1IjoiamVmZnN0ZXJuIiwiYSI6IlAzRFFiN0EifQ.mNWvayrLEw9wULuq0sopyA'; 
 var map = L.mapbox.map('map', 'examples.map-20v6611k').setView([38.12367, -76.81229], 9); 
 
@@ -116,4 +125,8 @@ myLayer.setGeoJSON(geojson);
 map.on('ready', function() {
    
     map.fitBounds(myLayer.getBounds());
+
 });
+
+
+
