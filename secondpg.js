@@ -170,7 +170,7 @@ var p = document.getElementById("shownotice");
 	$('#chooseclass').show(); return false;
 }
 
- function funcgym(id) //you pick gym as your class
+ function functiongym(id) //you pick gym as your class
  {
  	document.getElementById("gymnext").style.display = "block";
 var e = document.getElementById(id); 
