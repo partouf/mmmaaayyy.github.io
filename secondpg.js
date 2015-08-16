@@ -210,4 +210,25 @@ var p = document.getElementById("choosegym");
 	$('#choosegymnext').show(); return false;
 }*/
 
+ function functiontank(id) 
+ {
+  document.getElementById("next").style.display = "block";
+var e = document.getElementById(id); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+  else
+    e.style.display = "none";
+var p = document.getElementById("choosemakeup");
+    if(p.style.display == "none")
+    p.style.display = "block";
+  else
+    p.style.display = "none";
+    var p = document.getElementById("buttonbaggy");
+    if(p.style.display == "none")
+    p.style.display = "block";
+  else
+    p.style.display = "none";
+  $('#choosetank').show(); return false;
+}
+
  
