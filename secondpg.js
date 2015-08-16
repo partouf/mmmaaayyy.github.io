@@ -191,7 +191,7 @@ var p = document.getElementById("chooseclass");
 	$('#choosegym').show(); return false;
 }
 
- function funcgymnext(id) //you pick gym as your class
+ /*function funcgymnext(id) //you pick gym as your class
  {
  	document.getElementById("yoga").style.display = "block";
  	document.getElementById("soccer").style.display = "block";
@@ -206,5 +206,5 @@ var p = document.getElementById("choosegym");
 	else
     p.style.display = "none";
 	$('#choosegymnext').show(); return false;
-}
+}*/
  
