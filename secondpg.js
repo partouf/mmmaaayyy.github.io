@@ -138,14 +138,6 @@ var p = document.getElementById("chooseoutfit");
 
 
 
-//var e = document.getElementById("pop1");
-   // if(e.style.display == "none")
-    //e.style.display = "block";
-	//else
-    //e.style.display = "none";
-
-
-
 
 
 
