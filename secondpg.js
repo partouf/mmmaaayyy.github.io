@@ -210,20 +210,21 @@ var p = document.getElementById("choosegym");
 	$('#choosegymnext').show(); return false;
 }*/
 
- function functiontank(id) 
+
+function functank(id) 
  {
   document.getElementById("buttonnext").style.display = "block";
-var e = document.getElementById(id); 
+    var e = document.getElementById(id); 
     if(e.style.display == "none")
     e.style.display = "block";
   else
-    e.style.display = "none";
-var p = document.getElementById("choosemakeup");
+    e.style.display = "none"; 
+  var p = document.getElementById("choosemakeup");
     if(p.style.display == "none")
     p.style.display = "block";
   else
     p.style.display = "none";
-var d = document.getElementById("buttonbaggy");
+    var d = document.getElementById("buttonbaggy");
     if(d.style.display == "none")
     d.style.display = "block";
   else
