@@ -138,6 +138,7 @@ var p = document.getElementById("chooseoutfit");
 
  function funcfinally(id) //when next button is clicked.....
  {
+document.getElementById("buttonnext").style.display = "block";
 var e = document.getElementById(id); 
     if(e.style.display == "none")
     e.style.display = "block";
@@ -154,30 +155,7 @@ var p = document.getElementById("pop1");
 	else
     p.style.display = "none";
 	$('#shownotice').show(); return false;	
-	document.getElementById("buttonnext").style.display = "block";
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
  function funcclass(id) //no one notices your outfit
@@ -189,17 +167,12 @@ var e = document.getElementById(id);
     e.style.display = "block";
 	else
     e.style.display = "none";
-var p = document.getElementById("finally");
+var p = document.getElementById("shownotice");
     if(p.style.display == "none")
     p.style.display = "block";
 	else
     p.style.display = "none";
-    var q = document.getElementById("pop1");
-    if(q.style.display == "none")
-    q.style.display = "block";
-	else
-    q.style.display = "none";
-	$('#notice').show(); return false;
+	$('#chooseclass').show(); return false;
 }
 
  
