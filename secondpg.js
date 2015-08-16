@@ -170,5 +170,41 @@ var p = document.getElementById("shownotice");
 	$('#chooseclass').show(); return false;
 }
 
+ function funcgym(id) //you pick gym as your class
+ {
+ 	document.getElementById("gymnext").style.display = "block";
+var e = document.getElementById(id); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+	else
+    e.style.display = "none";
+var p = document.getElementById("chooseclass");
+    if(p.style.display == "none")
+    p.style.display = "block";
+	else
+    p.style.display = "none";
+    var p = document.getElementById("buttoncs");
+    if(p.style.display == "none")
+    p.style.display = "block";
+	else
+    p.style.display = "none";
+	$('#choosegym').show(); return false;
+}
 
+ function funcgymnext(id) //you pick gym as your class
+ {
+ 	document.getElementById("yoga").style.display = "block";
+ 	document.getElementById("soccer").style.display = "block";
+var e = document.getElementById(id); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+	else
+    e.style.display = "none";
+var p = document.getElementById("choosegym");
+    if(p.style.display == "none")
+    p.style.display = "block";
+	else
+    p.style.display = "none";
+	$('#choosegymnext').show(); return false;
+}
  
