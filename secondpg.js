@@ -136,6 +136,27 @@ var p = document.getElementById("chooseoutfit");
 	$('#showfinally').show(); return false;	
 }
 
+ function funcnext(id) //when next button is clicked.....
+ {
+ 	document.getElementById("buttonnext").style.display = "block";
+var e = document.getElementById(id); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+	else
+    e.style.display = "none";
+var p = document.getElementById("pop1");
+    if(p.style.display == "none")
+    p.style.display = "block";
+	else
+    p.style.display = "none";
+    var p = document.getElementById("showfinally");
+    if(p.style.display == "none")
+    p.style.display = "block";
+	else
+    p.style.display = "none";
+	$('#shownotice').show(); return false;	
+}
+
 
 
 
