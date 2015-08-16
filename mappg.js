@@ -1,9 +1,9 @@
 
- src='https://api.mapbox.com/mapbox.js/v2.2.1/mapbox.js'></script>
-        link href='https://api.mapbox.com/mapbox.js/v2.2.1/mapbox.css' rel='stylesheet' />
-        link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+ src='https://api.mapbox.com/mapbox.js/v2.2.1/mapbox.js'
+        link href='https://api.mapbox.com/mapbox.js/v2.2.1/mapbox.css' rel='stylesheet' 
+        link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"
         link href="mappg.css" rel="stylesheet">
-        meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+        meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' 
    meta charset=utf-8 
        
 
