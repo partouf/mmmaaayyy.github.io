@@ -253,4 +253,21 @@ function funcbaggy(id)
     d.style.display = "none";
     $('#choosebaggy').show(); return false;  
 }
+
+function funcnext1(id)
+{
+  document.getElementById("buttonnext1").style.display = "block";
+   var e = document.getElementById(id); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+  else
+    e.style.display = "none"; 
+  var p = document.getElementById("choosetank");
+    if(p.style.display == "none")
+    p.style.display = "block";
+  else
+    p.style.display = "none";
+  $('#showfinally1').show(); return false;  
+
+}
  
