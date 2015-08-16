@@ -167,6 +167,9 @@ var p = document.getElementById("shownotice");
     p.style.display = "block";
 	else
     p.style.display = "none";
+var d= document.getElementById("shownotice1");
+    if(p.style.display == "none")
+    p.style.display = "block";
 	$('#chooseclass').show(); return false;
 }
 
