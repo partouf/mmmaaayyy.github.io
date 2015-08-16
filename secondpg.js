@@ -170,21 +170,5 @@ var p = document.getElementById("shownotice");
 	$('#chooseclass').show(); return false;
 }
 
- function functank(id) 
- {
-  document.getElementById("buttontank").style.display = "block";
-  document.getElementById("buttonbaggy").style.display = "block";
-var e = document.getElementById(id); 
-    if(e.style.display == "none")
-    e.style.display = "block";
-  else
-    e.style.display = "none";
-var p = document.getElementById("showfinally");
-    if(p.style.display == "none")
-    p.style.display = "block";
-  else
-    p.style.display = "none";
-  $('#choosefinally').show(); return false;
-}
 
  
