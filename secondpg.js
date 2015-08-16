@@ -172,8 +172,6 @@ var p = document.getElementById("shownotice");
 
 
 
-}
-
  function functiongym(id) //you pick gym as your class
  {
  	document.getElementById("gymnext").style.display = "block";
