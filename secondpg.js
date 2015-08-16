@@ -112,7 +112,7 @@ var p = document.getElementById("chooseoutfit");
 	else
     p.style.display = "none";
     getElementById("pop1").style.display="block";
-	$('#finally').show(); return false;	
+	$('#showfinally').show(); return false;	
 }
  function funcshirt(id) //finally you get to school
  {
@@ -133,7 +133,7 @@ var p = document.getElementById("chooseoutfit");
 	else
     p.style.display = "none";
     getElementById("pop1").style.display="block";
-	$('#finally').show(); return false;	
+	$('#showfinally').show(); return false;	
 }
 
 
