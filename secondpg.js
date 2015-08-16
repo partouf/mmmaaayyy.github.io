@@ -212,7 +212,7 @@ var p = document.getElementById("choosegym");
 
  function functiontank(id) 
  {
-  document.getElementById("next").style.display = "block";
+  document.getElementById("buttonnext").style.display = "block";
 var e = document.getElementById(id); 
     if(e.style.display == "none")
     e.style.display = "block";
@@ -223,12 +223,12 @@ var p = document.getElementById("choosemakeup");
     p.style.display = "block";
   else
     p.style.display = "none";
-    var p = document.getElementById("buttonbaggy");
-    if(p.style.display == "none")
-    p.style.display = "block";
+var d = document.getElementById("buttonbaggy");
+    if(d.style.display == "none")
+    d.style.display = "block";
   else
-    p.style.display = "none";
-  $('#choosetank').show(); return false;
+    d.style.display = "none";
+    $('#choosetank').show(); return false;  
 }
 
  
