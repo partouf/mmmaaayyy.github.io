@@ -144,11 +144,6 @@ var e = document.getElementById(id);
     e.style.display = "block";
 	else
     e.style.display = "none";
-var p = document.getElementById("pop1");
-    if(p.style.display == "none")
-    p.style.display = "block";
-	else
-    p.style.display = "none";
     var p = document.getElementById("showfinally");
     if(p.style.display == "none")
     p.style.display = "block";
