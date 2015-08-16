@@ -138,7 +138,7 @@ var p = document.getElementById("chooseoutfit");
 
  function funcfinally(id) //when next button is clicked.....
  {
-document.getElementById("buttonnext").style.display = "block";
+document.getElementById("buttonnextclass").style.display = "block";
 var e = document.getElementById(id); 
     if(e.style.display == "none")
     e.style.display = "block";
@@ -213,7 +213,7 @@ var p = document.getElementById("choosegym");
 
 function functank(id) 
  {
-  document.getElementById("buttonnext").style.display = "block";
+  document.getElementById("buttonnext1").style.display = "block";
     var e = document.getElementById(id); 
     if(e.style.display == "none")
     e.style.display = "block";
