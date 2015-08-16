@@ -256,7 +256,7 @@ function funcbaggy(id)
 
 function funcnext1(id)
 {
-  document.getElementById("buttonfinally1").style.display = "block";
+  document.getElementById("buttonnext1").style.display = "block";
    var e = document.getElementById(id); 
     if(e.style.display == "none")
     e.style.display = "block";
