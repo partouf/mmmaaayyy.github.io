@@ -232,4 +232,25 @@ function functank(id)
     $('#choosetank').show(); return false;  
 }
 
+
+function funcbaggy(id) 
+ {
+  document.getElementById("buttonnext1").style.display = "block";
+    var e = document.getElementById(id); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+  else
+    e.style.display = "none"; 
+  var p = document.getElementById("choosemakeup");
+    if(p.style.display == "none")
+    p.style.display = "block";
+  else
+    p.style.display = "none";
+    var d = document.getElementById("buttontank");
+    if(d.style.display == "none")
+    d.style.display = "block";
+  else
+    d.style.display = "none";
+    $('#choosebaggy').show(); return false;  
+}
  
