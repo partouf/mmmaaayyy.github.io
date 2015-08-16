@@ -287,6 +287,23 @@ function funcnext1(id)
 
 }
 
+function funcnext2(id)
+{
+  document.getElementById("buttonfinally2").style.display = "block";
+   var e = document.getElementById(id); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+  else
+    e.style.display = "none"; 
+  var p = document.getElementById("choosebaggy");
+    if(p.style.display == "none")
+    p.style.display = "block";
+  else
+    p.style.display = "none";
+  $('#showfinally2').show(); return false;  
+
+}
+
  function funcfinally1(id) //when next button is clicked.....
  {
 document.getElementById("buttonnextclass1").style.display = "block";
