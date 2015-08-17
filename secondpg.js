@@ -455,28 +455,6 @@ var p = document.getElementById("chooseyoga");
   $('#angryresponse').show(); return false;
 }
 
- function funcangry(id) //you pick gym as your class
- {
-   
-  document.getElementById("lol").style.display = "block";
-var e = document.getElementById(id); 
-    if(e.style.display == "none")
-    e.style.display = "block";
-  else
-    e.style.display = "none";
-var p = document.getElementById("chooseyoga");
-    if(p.style.display == "none")
-    p.style.display = "block";
-  else
-    p.style.display = "none";
-    var d = document.getElementById("nothing");
-    if(d.style.display == "none")
-    d.style.display = "block";
-  else
-    d.style.display = "none";
-  $('#angryresponse').show(); return false;
-}
-
  function funcnothing(id) //you pick gym as your class
  {
    
