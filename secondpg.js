@@ -322,7 +322,7 @@ function funcnext2(id)
 
  function funcfinally1(id) //when next button is clicked.....
  {
-document.getElementById("buttonnextclass").style.display = "block";
+document.getElementById("buttonnextclass1").style.display = "block";
 var e = document.getElementById(id); 
     if(e.style.display == "none")
     e.style.display = "block";
@@ -338,7 +338,7 @@ var e = document.getElementById(id);
 
 function funcfinally2(id) //when next button is clicked.....
  {
-document.getElementById("buttonnextclass1").style.display = "block";
+document.getElementById("buttonnextclass2").style.display = "block";
 var e = document.getElementById(id); 
     if(e.style.display == "none")
     e.style.display = "block";
