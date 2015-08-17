@@ -228,6 +228,7 @@ var p = document.getElementById("shownotice2");
 
  function funcgym(id) //you pick gym as your class
  {
+  	document.getElementById("smallscreen").style.backgroundImage = "url('classroom.png')";
  document.getElementById("nextnext").style.display = "block";
 var e = document.getElementById(id); 
     if(e.style.display == "none")
