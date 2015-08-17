@@ -113,7 +113,6 @@ var p = document.getElementById("chooseoutfit");
     d.style.display = "none";
     //getElementById("pop1").style.display="block";
 	$('#showfinally').show(); return false;	
-	document.getElementById("buttonshirt").src="hallway.png";
 }
 
  function funcnext(id) //finally you get to school
@@ -462,4 +461,4 @@ var e = document.getElementById(id);
   $('#shownotice2').show(); return false;  
 }
 
-
+document.getElementById("theImage").src="hallway.png";
