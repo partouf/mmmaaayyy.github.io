@@ -340,7 +340,7 @@ var p = document.getElementById("cspage");
   $('#confidentpage').show(); return false;
 }
 
-function funcca(id) 
+function funca(id) 
  {
   document.getElementById("a").style.display = "block";
 var e = document.getElementById(id); 
@@ -356,7 +356,7 @@ var p = document.getElementById("shypage");
   $('#csresolve').show(); return false;
 }
 
-function funccb(id) 
+function funcb(id) 
  {
   document.getElementById("b").style.display = "block";
 var e = document.getElementById(id); 
@@ -369,7 +369,7 @@ var p = document.getElementById("confidentpage");
     p.style.display = "block";
   else
     p.style.display = "none";
-  $('#csresolve1').show(); return false;
+  $('#csresolve').show(); return false;
 }
 
  function funcyoga(id) //you pick gym as your class
