@@ -286,7 +286,7 @@ function funcbaggy(id)
     $('#choosebaggy').show(); return false;  
 }
 
-function funcnext1(id)
+function funcnextclass1(id)
 {
   document.getElementById("buttonfinally1").style.display = "block";
    var e = document.getElementById(id); 
@@ -303,7 +303,7 @@ function funcnext1(id)
 
 }
 
-function funcnext2(id)
+function funcnextclass2(id)
 {
   document.getElementById("buttonfinally2").style.display = "block";
    var e = document.getElementById(id); 
