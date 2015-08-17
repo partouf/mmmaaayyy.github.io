@@ -652,7 +652,7 @@ var p = document.getElementById("choosesoccer");
  function funck(id) 
  {
    
-  document.getElementById("l").style.display = "block";
+  document.getElementById("m").style.display = "block";
 var e = document.getElementById(id); 
     if(e.style.display == "none")
     e.style.display = "block";
@@ -669,7 +669,7 @@ var p = document.getElementById("angryresponse1");
  function funcl(id) 
  {
    
-  document.getElementById("l").style.display = "block";
+  document.getElementById("n").style.display = "block";
 var e = document.getElementById(id); 
     if(e.style.display == "none")
     e.style.display = "block";
