@@ -62,27 +62,27 @@ font-family:"teen";
 	position: absolute;
 	padding: 5px;
 	top: 150px;
-    left: 200px;
+    left: 100px;
 }
 
 .about_us2{
 	position: absolute;
 	padding: 5px;
 	top: 150px;
-    left: 450px;
+    left: 350px;
 }
 
 .about_us3{
 	position: absolute;
 	padding: 5px;
 	top: 150px;
-    left: 700px;
+    left: 600px;
 }
 
 .right {
     position: absolute;
     top: 370px;
-    left: 200px;
+    left: 100px;
     width: 180px;
     border:0px;
     padding: 3px;
@@ -116,7 +116,7 @@ font-family:"teen";
 .right3 {
     position: absolute;
     top: 370px;
-    left: 700px;
+    left: 600px;
     width: 180px;
     border:0px;
     padding: 5px;
@@ -155,7 +155,7 @@ padding-bottom: 20px;
 font-family:"claphappy";
 width: 700px;
 height: 500px;
-border: 1px solid;
+border: 0px;
 color:#000000;
 }
 
