@@ -269,6 +269,38 @@ function funcbaggy(id)
     $('#choosebaggy').show(); return false;  
 }
 
+function funcnextclass1(id)
+{
+  document.getElementById("buttonfinally1").style.display = "block";
+   var e = document.getElementById(id); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+  else
+    e.style.display = "none"; 
+  var p = document.getElementById("choosetank");
+    if(p.style.display == "none")
+    p.style.display = "block";
+  else
+    p.style.display = "none";
+  $('#showfinally1').show(); return false;  
+
+}
+
+function funcnextclass2(id)
+{
+  document.getElementById("buttonfinally2").style.display = "block";
+   var e = document.getElementById(id); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+  else
+    e.style.display = "none"; 
+  var p = document.getElementById("choosebaggy");
+    if(p.style.display == "none")
+    p.style.display = "block";
+  else
+    p.style.display = "none";
+  $('#showfinally2').show(); return false;  
+
 } function funcfinally(id) //when next button is clicked.....
  {
 document.getElementById("buttonnextclass").style.display = "block";
