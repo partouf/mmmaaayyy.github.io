@@ -342,7 +342,7 @@ var p = document.getElementById("cspage");
 
 function funca(id) 
  {
-  document.getElementById("aq").style.display = "block";
+  document.getElementById("aa").style.display = "block";
 var e = document.getElementById(id); 
     if(e.style.display == "none")
     e.style.display = "block";
