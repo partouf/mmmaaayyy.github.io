@@ -340,9 +340,9 @@ var p = document.getElementById("cspage");
   $('#confidentpage').show(); return false;
 }
 
-function funca(id) 
+function funcca(id) 
  {
-  document.getElementById("aa").style.display = "block";
+  document.getElementById("a").style.display = "block";
 var e = document.getElementById(id); 
     if(e.style.display == "none")
     e.style.display = "block";
@@ -358,7 +358,7 @@ var p = document.getElementById("shypage");
 
 function funcb(id) 
  {
-  document.getElementById("bb").style.display = "block";
+  document.getElementById("b").style.display = "block";
 var e = document.getElementById(id); 
     if(e.style.display == "none")
     e.style.display = "block";
