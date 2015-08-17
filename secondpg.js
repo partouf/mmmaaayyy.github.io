@@ -224,7 +224,7 @@ var p = document.getElementById("shownotice2");
 
  function funcgym(id) //you pick gym as your class
  {
- //document.getElementById("gymnext").style.display = "block";
+ document.getElementById("gymnext").style.display = "block";
 var e = document.getElementById(id); 
     if(e.style.display == "none")
     e.style.display = "block";
@@ -243,7 +243,7 @@ var p = document.getElementById("chooseclass");
 	$('#choosegym').show(); return false;
 }
 
- /*function funcgymnext(id) //you pick gym as your class
+ function funcgymnext(id) //you pick gym as your class
  {
  	document.getElementById("yoga").style.display = "block";
  	document.getElementById("soccer").style.display = "block";
@@ -258,7 +258,7 @@ var p = document.getElementById("choosegym");
 	else
     p.style.display = "none";
 	$('#choosegymnext').show(); return false;
-}*/
+}
 
 
 function functank(id) 
