@@ -114,6 +114,25 @@ var p = document.getElementById("chooseoutfit");
     //getElementById("pop1").style.display="block";
 	$('#showfinally').show(); return false;	
 }
+
+ function funcnext(id) //finally you get to school
+ {
+  document.getElementById("buttonfinally").style.display = "block";
+var e = document.getElementById(id); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+  else
+    e.style.display = "none";
+var p = document.getElementById("choosetank");
+    if(p.style.display == "none")
+    p.style.display = "block";
+  else
+    p.style.display = "none";
+    //getElementById("pop1").style.display="block";
+  $('#showfinally').show(); return false; 
+}
+
+
  function funcshirt(id) //finally you get to school
  {
  	document.getElementById("buttonfinally").style.display = "block";
@@ -151,40 +170,6 @@ var p = document.getElementById("shownotice");
 	else
     p.style.display = "none";
 	$('#chooseclass').show(); return false;
-}
-
- function funcclass1(id) //no one notices your outfit
- {
-  document.getElementById("buttongym").style.display = "block";
-  document.getElementById("buttoncs").style.display = "block";
-var e = document.getElementById(id); 
-    if(e.style.display == "none")
-    e.style.display = "block";
-  else
-    e.style.display = "none";
-var p = document.getElementById("shownotice1");
-    if(p.style.display == "none")
-    p.style.display = "block";
-  else
-    p.style.display = "none";
-  $('#chooseclass').show(); return false;
-}
-
- function funcclass2(id) //no one notices your outfit
- {
-  document.getElementById("buttongym").style.display = "block";
-  document.getElementById("buttoncs").style.display = "block";
-var e = document.getElementById(id); 
-    if(e.style.display == "none")
-    e.style.display = "block";
-  else
-    e.style.display = "none";
-var p = document.getElementById("shownotice2");
-    if(p.style.display == "none")
-    p.style.display = "block";
-  else
-    p.style.display = "none";
-  $('#chooseclass').show(); return false;
 }
 
  function functiongym(id) //you pick gym as your class
@@ -284,38 +269,3 @@ var e = document.getElementById(id);
     p.style.display = "none";
   $('#shownotice').show(); return false;  
 }
-
- function funcfinally1(id) 
- {
-document.getElementById("buttonnextclass1").style.display = "block";
-var e = document.getElementById(id); 
-    if(e.style.display == "none")
-    e.style.display = "block";
-  else
-    e.style.display = "none";
-    var p = document.getElementById("showfinally1");
-    if(p.style.display == "none")
-    p.style.display = "block";
-  else
-    p.style.display = "none";
-  $('#shownotice1').show(); return false;  
-}
-
-function funcfinally2(id) 
- {
-document.getElementById("buttonnextclass2").style.display = "block";
-var e = document.getElementById(id); 
-    if(e.style.display == "none")
-    e.style.display = "block";
-  else
-    e.style.display = "none";
-    var p = document.getElementById("showfinally2");
-    if(p.style.display == "none")
-    p.style.display = "block";
-  else
-    p.style.display = "none";
-  $('#shownotice2').show(); return false;  
-}
-
-
- 
