@@ -255,6 +255,7 @@ var p = document.getElementById("chooseclass");
  {
    	document.getElementById("smallscreen").style.backgroundImage = "url('classroom.png')";
  document.getElementById("nextnext1").style.display = "block";
+ document.getElementById("pop2").style.display = "block";
 var e = document.getElementById(id); 
     if(e.style.display == "none")
     e.style.display = "block";
