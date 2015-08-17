@@ -671,6 +671,11 @@ var d = document.getElementById("pop1");
     d.style.display = "block";
   else
     d.style.display = "none";
+var g = document.getElementById("please");
+    if(g.style.display == "none")
+    g.style.display = "block";
+	else
+    g.style.display = "none";
   $('#shownotice').show(); return false;  
 }
 
