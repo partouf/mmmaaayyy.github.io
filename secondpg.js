@@ -527,7 +527,7 @@ var p = document.getElementById("angryteacherresponse");
     p.style.display = "block";
   else
     p.style.display = "none";
-  $('#csresolve1').show(); return false;
+  $('#resolve1').show(); return false;
 }
 
 function funclul(id) //you pick gym as your class
@@ -544,7 +544,7 @@ var p = document.getElementById("nothingteacherresponse");
     p.style.display = "block";
   else
     p.style.display = "none";
-  $('#csresolve1').show(); return false;
+  $('#resolve1').show(); return false;
 }
 
 function funcg(id) //you pick gym as your class
@@ -556,7 +556,7 @@ var e = document.getElementById(id);
     e.style.display = "block";
   else
     e.style.display = "none";
-var p = document.getElementById("csresolve1");
+var p = document.getElementById("resolve1");
     if(p.style.display == "none")
     p.style.display = "block";
   else
@@ -573,7 +573,7 @@ var e = document.getElementById(id);
     e.style.display = "block";
   else
     e.style.display = "none";
-var p = document.getElementById("csresolve1");
+var p = document.getElementById("resolve1");
     if(p.style.display == "none")
     p.style.display = "block";
   else
