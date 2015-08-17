@@ -136,23 +136,6 @@ var p = document.getElementById("chooseoutfit");
 	$('#showfinally').show(); return false;	
 }
 
- function funcfinally(id) //when next button is clicked.....
- {
-document.getElementById("buttonnextclass").style.display = "block";
-var e = document.getElementById(id); 
-    if(e.style.display == "none")
-    e.style.display = "block";
-	else
-    e.style.display = "none";
-    var p = document.getElementById("showfinally");
-    if(p.style.display == "none")
-    p.style.display = "block";
-	else
-    p.style.display = "none";
-	$('#shownotice').show(); return false;	
-}
-
-
  function funcclass(id) //no one notices your outfit
  {
  	document.getElementById("buttongym").style.display = "block";
@@ -318,6 +301,20 @@ function funcnextclass2(id)
     p.style.display = "none";
   $('#showfinally2').show(); return false;  
 
+} function funcfinally(id) //when next button is clicked.....
+ {
+document.getElementById("buttonnextclass").style.display = "block";
+var e = document.getElementById(id); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+  else
+    e.style.display = "none";
+    var p = document.getElementById("showfinally");
+    if(p.style.display == "none")
+    p.style.display = "block";
+  else
+    p.style.display = "none";
+  $('#shownotice').show(); return false;  
 }
 
  function funcfinally1(id) 
@@ -333,7 +330,7 @@ var e = document.getElementById(id);
     p.style.display = "block";
   else
     p.style.display = "none";
-  $('#chooseclass').show(); return false;  
+  $('#shownotice1').show(); return false;  
 }
 
 function funcfinally2(id) 
@@ -349,7 +346,7 @@ var e = document.getElementById(id);
     p.style.display = "block";
   else
     p.style.display = "none";
-  $('#chooseclass').show(); return false;  
+  $('#shownotice2').show(); return false;  
 }
 
  
