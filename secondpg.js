@@ -281,7 +281,6 @@ var p = document.getElementById("choosegym");
 	$('#nextpage').show(); return false;
 }
 
-<<<<<<< HEAD
  function funcnextnext1(id) //you pick gym as your class
  {
   document.getElementById("confidentanswer").style.display = "block";
@@ -299,7 +298,7 @@ var p = document.getElementById("choosecs");
   $('#cspage').show(); return false;
 }
 
-=======
+
  function funcyoga(id) //you pick gym as your class
  {
  	document.getElementById("angry").style.display = "block";
@@ -349,8 +348,6 @@ var p = document.getElementById("nextpage");
 
 
 
-
->>>>>>> origin/master
 
 function functank(id) 
  {
