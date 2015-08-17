@@ -597,6 +597,11 @@ var e = document.getElementById(id);
     p.style.display = "block";
   else
     p.style.display = "none";
+var d = document.getElementById("pop1");
+    if(d.style.display == "none")
+    d.style.display = "block";
+  else
+    d.style.display = "none";
   $('#shownotice').show(); return false;  
 }
 
