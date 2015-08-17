@@ -95,9 +95,9 @@ function funcmakeup(id) //makeup
  
  function funcdress(id) //finally you get to school
  {
-    document.getElementById("pop1").style.display = "block";
  	document.getElementById("smallscreen").style.backgroundImage = "url('hallway2.png')";
  	document.getElementById("buttonfinally").style.display = "block";
+ 	    document.getElementById("pop1").style.display = "block";
 var e = document.getElementById(id); 
     if(e.style.display == "none")
     e.style.display = "block";
@@ -155,9 +155,9 @@ var p = document.getElementById("choosebaggy");
 
  function funcshirt(id) //finally you get to school
  {
-   document.getElementById("pop1").style.display = "block";
   	document.getElementById("smallscreen").style.backgroundImage = "url('hallway2.png')";
  	document.getElementById("buttonfinally").style.display = "block";
+ 	   document.getElementById("pop1").style.display = "block";
 var e = document.getElementById(id); 
     if(e.style.display == "none")
     e.style.display = "block";
