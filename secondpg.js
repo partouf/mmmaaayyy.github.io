@@ -285,3 +285,19 @@ var e = document.getElementById(id);
     p.style.display = "none";
   $('#shownotice').show(); return false;  
 }
+
+ function funcfinally1(id) //when next button is clicked.....
+ {
+document.getElementById("buttonnextclass").style.display = "block";
+var e = document.getElementById(id); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+  else
+    e.style.display = "none";
+    var p = document.getElementById("showfinally1");
+    if(p.style.display == "none")
+    p.style.display = "block";
+  else
+    p.style.display = "none";
+  $('#shownotice1').show(); return false;  
+}
