@@ -370,7 +370,7 @@ var p = document.getElementById("confidentpage");
     p.style.display = "block";
   else
     p.style.display = "none";
-  $('#csresolve1').show(); return false;
+  $('#csresolve').show(); return false;
 }
 
  function funcyoga(id) //you pick gym as your class
