@@ -253,6 +253,7 @@ var p = document.getElementById("chooseclass");
 
  function funccs(id) //you pick cs
  {
+   	document.getElementById("smallscreen").style.backgroundImage = "url('classroom.png')";
  document.getElementById("nextnext1").style.display = "block";
 var e = document.getElementById(id); 
     if(e.style.display == "none")
