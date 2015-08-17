@@ -373,6 +373,39 @@ var p = document.getElementById("confidentpage");
   $('#csresolve').show(); return false;
 }
 
+function funcc(id) 
+ {
+  document.getElementById("e").style.display = "block";
+var e = document.getElementById(id); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+  else
+    e.style.display = "none";
+var p = document.getElementById("csresolve");
+    if(p.style.display == "none")
+    p.style.display = "block";
+  else
+    p.style.display = "none";
+  $('#nextchapter').show(); return false;
+}
+
+function funcd(id) 
+ {
+  document.getElementById("f").style.display = "block";
+var e = document.getElementById(id); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+  else
+    e.style.display = "none";
+var p = document.getElementById("csresolve");
+    if(p.style.display == "none")
+    p.style.display = "block";
+  else
+    p.style.display = "none";
+  $('#nextchapter').show(); return false;
+}
+
+
  function funcyoga(id) //you pick gym as your class
  {
  	document.getElementById("angry").style.display = "block";
