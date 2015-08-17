@@ -383,7 +383,7 @@ var p = document.getElementById("confidentpage");
 
 function funcc(id) 
  {
-
+   	document.getElementById("smallscreen").style.backgroundImage = "url('living.png')";
   document.getElementById("e").style.display = "block";
 var e = document.getElementById(id); 
     if(e.style.display == "none")
