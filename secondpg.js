@@ -26,7 +26,7 @@
         if(x==max) x=0; l=tl[x].length; } else
         setTimeout("textticker()",50);
       }*/
-function funcstart(id)
+function functionstart(id)
 {
 document.getElementById("buttonmakeup").style.display = "block";
 document.getElementById("buttonoutfit").style.display = "block";
@@ -269,7 +269,7 @@ function funcbaggy(id)
     $('#choosebaggy').show(); return false;  
 }
 
-} function funcfinally(id) //when next button is clicked.....
+ function funcfinally(id) //when next button is clicked.....
  {
 document.getElementById("buttonnextclass").style.display = "block";
 var e = document.getElementById(id); 
