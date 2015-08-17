@@ -561,7 +561,7 @@ var p = document.getElementById("csresolve");
     p.style.display = "block";
   else
     p.style.display = "none";
-  $('#csresolve').show(); return false;
+  $('#nextchapter').show(); return false;
 }
 
 function funch(id) //you pick gym as your class
