@@ -476,7 +476,7 @@ var p = document.getElementById("chooseyoga");
     d.style.display = "block";
   else
     d.style.display = "none";
-  $('#angryresponse').show(); return false;
+  $('#nothingresponse').show(); return false;
 }
 
  function funcsoccer(id) //you pick gym as your class
