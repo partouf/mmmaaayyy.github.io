@@ -447,6 +447,23 @@ var p = document.getElementById("dangerouscurfew");
   $('#prepareconcert').show(); return false;
 }
 
+function funcz(id) 
+ {
+  document.getElementById("partyfin").style.display = "block";
+var e = document.getElementById(id); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+  else
+    e.style.display = "none";
+var p = document.getElementById("prepareconcert");
+    if(p.style.display == "none")
+    p.style.display = "block";
+  else
+    p.style.display = "none";
+  $('#partyfinish').show(); return false;
+}
+
+
 function funcd(id) 
  {
    	document.getElementById("smallscreen").style.backgroundImage = "url('living.png')";
@@ -510,6 +527,22 @@ var p = document.getElementById("dangerouscurfew");
   else
     p.style.display = "none";
   $('#prepareconcert').show(); return false;
+}
+
+function funcw(id) 
+ {
+  document.getElementById("partyfin1").style.display = "block";
+var e = document.getElementById(id); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+  else
+    e.style.display = "none";
+var p = document.getElementById("prepareconcert");
+    if(p.style.display == "none")
+    p.style.display = "block";
+  else
+    p.style.display = "none";
+  $('#partyfinish').show(); return false;
 }
 
  function funcyoga(id) //you pick gym as your class
@@ -713,6 +746,22 @@ var p = document.getElementById("dangerouscurfew");
   $('#prepareconcert').show(); return false;
 }
 
+function funcx(id) 
+ {
+  document.getElementById("partyfin2").style.display = "block";
+var e = document.getElementById(id); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+  else
+    e.style.display = "none";
+var p = document.getElementById("prepareconcert");
+    if(p.style.display == "none")
+    p.style.display = "block";
+  else
+    p.style.display = "none";
+  $('#partyfinish').show(); return false;
+}
+
 function funch(id) //you pick gym as your class
  {
       	document.getElementById("smallscreen").style.backgroundImage = "url('living.png')";
@@ -777,6 +826,22 @@ var p = document.getElementById("dangerouscurfew");
   else
     p.style.display = "none";
   $('#prepareconcert').show(); return false;
+}
+
+function funcy(id) 
+ {
+  document.getElementById("partyfin3").style.display = "block";
+var e = document.getElementById(id); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+  else
+    e.style.display = "none";
+var p = document.getElementById("prepareconcert");
+    if(p.style.display == "none")
+    p.style.display = "block";
+  else
+    p.style.display = "none";
+  $('#partyfinish').show(); return false;
 }
 
  function funcsoccer(id) 
