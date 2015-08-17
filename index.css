@@ -61,21 +61,21 @@ font-family:"teen";
 	position: absolute;
 	padding: 5px;
 	top: 150px;
-    left: 200px;
+    left: 150px;
 }
 
 .about_us2{
 	position: absolute;
 	padding: 5px;
 	top: 150px;
-    left: 500px;
+    left: 450px;
 }
 
 .about_us3{
 	position: absolute;
 	padding: 5px;
 	top: 150px;
-    left: 800px;
+    left: 750px;
 }
 
 .right {
@@ -98,7 +98,7 @@ font-family:"teen";
 .right2 {
     position: absolute;
     top: 370px;
-    left: 550px;
+    left: 500px;
     width: 250px;
     border:0px;
     padding: 3px;
@@ -115,7 +115,7 @@ font-family:"teen";
 .right3 {
     position: absolute;
     top: 370px;
-    left: 950px;
+    left: 900px;
     width: 250px;
     border:0px;
     padding: 5px;
