@@ -188,6 +188,40 @@ var p = document.getElementById("shownotice");
 	$('#chooseclass').show(); return false;
 }
 
+ function funcclass1(id) //no one notices your outfit
+ {
+  document.getElementById("buttongym").style.display = "block";
+  document.getElementById("buttoncs").style.display = "block";
+var e = document.getElementById(id); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+  else
+    e.style.display = "none";
+var p = document.getElementById("shownotice1");
+    if(p.style.display == "none")
+    p.style.display = "block";
+  else
+    p.style.display = "none";
+  $('#chooseclass').show(); return false;
+}
+
+ function funcclass2(id) //no one notices your outfit
+ {
+  document.getElementById("buttongym").style.display = "block";
+  document.getElementById("buttoncs").style.display = "block";
+var e = document.getElementById(id); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+  else
+    e.style.display = "none";
+var p = document.getElementById("shownotice2");
+    if(p.style.display == "none")
+    p.style.display = "block";
+  else
+    p.style.display = "none";
+  $('#chooseclass').show(); return false;
+}
+
  function functiongym(id) //you pick gym as your class
  {
  document.getElementById("gymnext").style.display = "block";
@@ -288,7 +322,7 @@ var e = document.getElementById(id);
 
  function funcfinally1(id) //when next button is clicked.....
  {
-document.getElementById("buttonnextclass").style.display = "block";
+document.getElementById("buttonnextclass1").style.display = "block";
 var e = document.getElementById(id); 
     if(e.style.display == "none")
     e.style.display = "block";
