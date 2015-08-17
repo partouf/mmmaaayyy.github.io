@@ -340,6 +340,38 @@ var p = document.getElementById("cspage");
   $('#confidentpage').show(); return false;
 }
 
+function funcca(id) 
+ {
+  document.getElementById("a").style.display = "block";
+var e = document.getElementById(id); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+  else
+    e.style.display = "none";
+var p = document.getElementById("shypage");
+    if(p.style.display == "none")
+    p.style.display = "block";
+  else
+    p.style.display = "none";
+  $('#csresolve').show(); return false;
+}
+
+function funccb(id) 
+ {
+  document.getElementById("b").style.display = "block";
+var e = document.getElementById(id); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+  else
+    e.style.display = "none";
+var p = document.getElementById("confidentpage");
+    if(p.style.display == "none")
+    p.style.display = "block";
+  else
+    p.style.display = "none";
+  $('#csresolve').show(); return false;
+}
+
  function funcyoga(id) //you pick gym as your class
  {
  	document.getElementById("angry").style.display = "block";
