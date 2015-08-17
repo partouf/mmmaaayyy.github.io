@@ -118,6 +118,7 @@ var p = document.getElementById("chooseoutfit");
 
  function funcnext(id) //finally you get to school
  {
+  	document.getElementById("smallscreen").style.backgroundImage = "url('hallway2.png')";
   document.getElementById("buttonfinally1").style.display = "block";
 var e = document.getElementById(id); 
     if(e.style.display == "none")
@@ -135,6 +136,7 @@ var p = document.getElementById("choosetank");
 
  function funcnexty(id) //finally you get to school
  {
+  	document.getElementById("smallscreen").style.backgroundImage = "url('hallway2.png')";
   document.getElementById("buttonfinally2").style.display = "block";
 var e = document.getElementById(id); 
     if(e.style.display == "none")
@@ -459,7 +461,6 @@ var p = document.getElementById("nextpage");
 
 function functank(id) 
  {
-  	document.getElementById("smallscreen").style.backgroundImage = "url('hallway2.png')";
   document.getElementById("buttonnext").style.display = "block";
     var e = document.getElementById(id); 
     if(e.style.display == "none")
@@ -482,7 +483,6 @@ function functank(id)
 
 function funcbaggy(id) 
  {
-  	document.getElementById("smallscreen").style.backgroundImage = "url('hallway2.png')";
   document.getElementById("buttonnexty").style.display = "block";
     var e = document.getElementById(id); 
     if(e.style.display == "none")
