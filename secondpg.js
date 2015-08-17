@@ -281,6 +281,7 @@ var p = document.getElementById("choosegym");
 	$('#nextpage').show(); return false;
 }
 
+<<<<<<< HEAD
  function funcnextnext1(id) //you pick gym as your class
  {
   document.getElementById("confidentanswer").style.display = "block";
@@ -298,6 +299,58 @@ var p = document.getElementById("choosecs");
   $('#cspage').show(); return false;
 }
 
+=======
+ function funcyoga(id) //you pick gym as your class
+ {
+ 	document.getElementById("angry").style.display = "block";
+ 	document.getElementById("nothing").style.display = "block";
+var e = document.getElementById(id); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+	else
+    e.style.display = "none";
+var p = document.getElementById("soccer1");
+    if(p.style.display == "none")
+    p.style.display = "block";
+	else
+    p.style.display = "none";
+    var d = document.getElementById("nextpage");
+    if(d.style.display == "none")
+    d.style.display = "block";
+	else
+    d.style.display = "none";
+	$('#chooseyoga').show(); return false;
+}
+
+ function funcsoccer(id) //you pick gym as your class
+ {
+ 	document.getElementById("angry1").style.display = "block";
+ 	document.getElementById("nothing1").style.display = "block";
+var e = document.getElementById(id); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+	else
+    e.style.display = "none";
+var p = document.getElementById("nextpage");
+    if(p.style.display == "none")
+    p.style.display = "block";
+	else
+    p.style.display = "none";
+    var d = document.getElementById("yoga1");
+    if(d.style.display == "none")
+    d.style.display = "block";
+	else
+    d.style.display = "none";
+	$('#choosesoccer').show(); return false;
+}
+
+
+
+
+
+
+
+>>>>>>> origin/master
 
 function functank(id) 
  {
