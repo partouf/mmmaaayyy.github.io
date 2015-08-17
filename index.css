@@ -44,6 +44,7 @@ font-family: "claphappy";
 
 #tp{
 font-family:"claphappy";
+position: absolute;
 }
 
 .intro2{
@@ -61,27 +62,27 @@ font-family:"teen";
 	position: absolute;
 	padding: 5px;
 	top: 150px;
-    left: 100px;
+    left: 200px;
 }
 
 .about_us2{
 	position: absolute;
 	padding: 5px;
 	top: 150px;
-    left: 350px;
+    left: 450px;
 }
 
 .about_us3{
 	position: absolute;
 	padding: 5px;
 	top: 150px;
-    left: 600px;
+    left: 700px;
 }
 
 .right {
     position: absolute;
     top: 370px;
-    left: 100px;
+    left: 200px;
     width: 180px;
     border:0px;
     padding: 3px;
@@ -90,7 +91,7 @@ font-family:"teen";
 #karlalinkedin {
 	position: absolute;
     top: 600px;
-    left: 260px;
+    left: 230px;
     border:0px;
     padding: 5px;
 }
@@ -107,7 +108,7 @@ font-family:"teen";
 #maylinkedin {
 	position: absolute;
     top: 600px;
-    left: 540px;
+    left: 380px;
     border:0px;
     padding: 3px;
 }
@@ -115,7 +116,7 @@ font-family:"teen";
 .right3 {
     position: absolute;
     top: 370px;
-    left: 600px;
+    left: 700px;
     width: 180px;
     border:0px;
     padding: 5px;
@@ -125,7 +126,7 @@ font-family:"teen";
 #maevelinkedin {
 	position: absolute;
     top: 600px;
-    left: 850px;
+    left: 730px;
     border:0px;
     padding: 5px;
 }
