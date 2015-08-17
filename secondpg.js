@@ -648,6 +648,39 @@ var p = document.getElementById("choosesoccer");
   $('#nothingresponse1').show(); return false;
 }
 
+ function funck(id) 
+ {
+   
+  document.getElementById("l").style.display = "block";
+var e = document.getElementById(id); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+  else
+    e.style.display = "none";
+var p = document.getElementById("angryresponse1");
+    if(p.style.display == "none")
+    p.style.display = "block";
+  else
+    p.style.display = "none";
+  $('#angryteacherresponse').show(); return false;
+}
+
+ function funcl(id) 
+ {
+   
+  document.getElementById("l").style.display = "block";
+var e = document.getElementById(id); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+  else
+    e.style.display = "none";
+var p = document.getElementById("nothingresponse1");
+    if(p.style.display == "none")
+    p.style.display = "block";
+  else
+    p.style.display = "none";
+  $('#nothingteacherresponse').show(); return false;
+}
 
 function functank(id) 
  {
