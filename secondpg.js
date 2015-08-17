@@ -307,7 +307,7 @@ var e = document.getElementById(id);
     e.style.display = "block";
   else
     e.style.display = "none";
-var p = document.getElementById("shypage");
+var p = document.getElementById("nextnext1");
     if(p.style.display == "none")
     p.style.display = "block";
   else
@@ -317,7 +317,7 @@ var p = document.getElementById("shypage");
     c.style.display = "block";
   else
     c.style.display = "none";
-  $('#cspage').show(); return false;
+  $('#shypage').show(); return false;
 }
 
 
