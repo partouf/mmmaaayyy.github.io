@@ -343,7 +343,7 @@ var p = document.getElementById("cspage");
 
 function funca(id) 
  {
-  document.getElementById("a").style.display = "block";
+  document.getElementById("c").style.display = "block";
 var e = document.getElementById(id); 
     if(e.style.display == "none")
     e.style.display = "block";
@@ -359,7 +359,7 @@ var p = document.getElementById("shypage");
 
 function funcb(id) 
  {
-  document.getElementById("b").style.display = "block";
+  document.getElementById("d").style.display = "block";
 var e = document.getElementById(id); 
     if(e.style.display == "none")
     e.style.display = "block";
