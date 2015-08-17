@@ -395,7 +395,7 @@ var p = document.getElementById("csresolve");
     p.style.display = "block";
   else
     p.style.display = "none";
-  $('#next	').show(); return false;
+  $('#nextchapter').show(); return false;
 }
 
 function funce(id) 
