@@ -245,8 +245,8 @@ var p = document.getElementById("chooseclass");
 
  function funcnextnext(id) //you pick gym as your class
  {
- 	document.getElementById("yoga").style.display = "block";
- 	document.getElementById("soccer").style.display = "block";
+ 	document.getElementById("yoga1").style.display = "block";
+ 	document.getElementById("soccer1").style.display = "block";
 var e = document.getElementById(id); 
     if(e.style.display == "none")
     e.style.display = "block";
