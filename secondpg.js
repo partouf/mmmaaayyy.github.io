@@ -582,7 +582,7 @@ var p = document.getElementById("resolve1");
   $('#nextchapter').show(); return false;
 }
 
- function funcsoccer(id) //you pick gym as your class
+ function funcsoccer(id) 
  {
  	document.getElementById("angry1").style.display = "block";
  	document.getElementById("nothing1").style.display = "block";
@@ -604,10 +604,49 @@ var p = document.getElementById("nextpage");
 	$('#choosesoccer').show(); return false;
 }
 
+ function funcangry1(id) //you pick gym as your class
+ {
+   
+  document.getElementById("k").style.display = "block";
+var e = document.getElementById(id); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+  else
+    e.style.display = "none";
+var p = document.getElementById("choosesoccer");
+    if(p.style.display == "none")
+    p.style.display = "block";
+  else
+    p.style.display = "none";
+    var d = document.getElementById("nothing1");
+    if(d.style.display == "none")
+    d.style.display = "block";
+  else
+    d.style.display = "none";
+  $('#angryresponse1').show(); return false;
+}
 
-
-
-
+ function funcnothing1(id) //you pick gym as your class
+ {
+   
+  document.getElementById("l").style.display = "block";
+var e = document.getElementById(id); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+  else
+    e.style.display = "none";
+var p = document.getElementById("chooseyoga");
+    if(p.style.display == "none")
+    p.style.display = "block";
+  else
+    p.style.display = "none";
+    var d = document.getElementById("angry1");
+    if(d.style.display == "none")
+    d.style.display = "block";
+  else
+    d.style.display = "none";
+  $('#nothingresponse1').show(); return false;
+}
 
 
 function functank(id) 
