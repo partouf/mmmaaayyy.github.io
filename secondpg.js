@@ -461,4 +461,4 @@ var e = document.getElementById(id);
   $('#shownotice2').show(); return false;  
 }
 
-document.getElementById("theImage").src="hallway.png";
+
