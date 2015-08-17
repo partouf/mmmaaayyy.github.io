@@ -430,6 +430,22 @@ var p = document.getElementById("convincemom");
   $('#dangerouscurfew').show(); return false;
 }
 
+function funcs(id) 
+ {
+  document.getElementById("z").style.display = "block";
+var e = document.getElementById(id); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+  else
+    e.style.display = "none";
+var p = document.getElementById("dangerouscurfew");
+    if(p.style.display == "none")
+    p.style.display = "block";
+  else
+    p.style.display = "none";
+  $('#prepareconcert').show(); return false;
+}
+
 function funcd(id) 
  {
    	document.getElementById("smallscreen").style.backgroundImage = "url('living.png')";
@@ -477,6 +493,22 @@ var p = document.getElementById("convincemom");
   else
     p.style.display = "none";
   $('#dangerouscurfew').show(); return false;
+}
+
+function funcv(id) 
+ {
+  document.getElementById("w").style.display = "block";
+var e = document.getElementById(id); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+  else
+    e.style.display = "none";
+var p = document.getElementById("dangerouscurfew");
+    if(p.style.display == "none")
+    p.style.display = "block";
+  else
+    p.style.display = "none";
+  $('#prepareconcert').show(); return false;
 }
 
  function funcyoga(id) //you pick gym as your class
@@ -664,6 +696,22 @@ var p = document.getElementById("convincemom");
   $('#dangerouscurfew').show(); return false;
 }
 
+function funct(id) 
+ {
+  document.getElementById("x").style.display = "block";
+var e = document.getElementById(id); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+  else
+    e.style.display = "none";
+var p = document.getElementById("dangerouscurfew");
+    if(p.style.display == "none")
+    p.style.display = "block";
+  else
+    p.style.display = "none";
+  $('#prepareconcert').show(); return false;
+}
+
 function funch(id) //you pick gym as your class
  {
       	document.getElementById("smallscreen").style.backgroundImage = "url('living.png')";
@@ -714,6 +762,22 @@ var p = document.getElementById("convincemom");
     p.style.display = "none";
   $('#dangerouscurfew').show(); return false;
 }
+function funcu(id) 
+ {
+  document.getElementById("y").style.display = "block";
+var e = document.getElementById(id); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+  else
+    e.style.display = "none";
+var p = document.getElementById("dangerouscurfew");
+    if(p.style.display == "none")
+    p.style.display = "block";
+  else
+    p.style.display = "none";
+  $('#prepareconcert').show(); return false;
+}
+
  function funcsoccer(id) 
  {
  	document.getElementById("angry1").style.display = "block";
