@@ -117,7 +117,7 @@ var p = document.getElementById("chooseoutfit");
 
  function funcnext(id) //finally you get to school
  {
-  document.getElementById("buttonfinally").style.display = "block";
+  document.getElementById("buttonfinally1").style.display = "block";
 var e = document.getElementById(id); 
     if(e.style.display == "none")
     e.style.display = "block";
@@ -132,9 +132,9 @@ var p = document.getElementById("choosetank");
   $('#showfinally1').show(); return false; 
 }
 
- function funcnext1(id) //finally you get to school
+ function funcnexty(id) //finally you get to school
  {
-  document.getElementById("buttonfinally").style.display = "block";
+  document.getElementById("buttonfinally2").style.display = "block";
 var e = document.getElementById(id); 
     if(e.style.display == "none")
     e.style.display = "block";
@@ -188,7 +188,45 @@ var p = document.getElementById("shownotice");
 	$('#chooseclass').show(); return false;
 }
 
+<<<<<<< HEAD
  function funcgym(id) //you pick gym as your class
+=======
+ function funcbuttonn(id) 
+ {
+  document.getElementById("buttongym").style.display = "block";
+  document.getElementById("buttoncs").style.display = "block";
+var e = document.getElementById(id); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+  else
+    e.style.display = "none";
+var p = document.getElementById("shownotice1");
+    if(p.style.display == "none")
+    p.style.display = "block";
+  else
+    p.style.display = "none";
+  $('#chooseclass').show(); return false;
+}
+
+ function funcbuttonnn(id) 
+ {
+  document.getElementById("buttongym").style.display = "block";
+  document.getElementById("buttoncs").style.display = "block";
+var e = document.getElementById(id); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+  else
+    e.style.display = "none";
+var p = document.getElementById("shownotice2");
+    if(p.style.display == "none")
+    p.style.display = "block";
+  else
+    p.style.display = "none";
+  $('#chooseclass').show(); return false;
+}
+
+ function functiongym(id) //you pick gym as your class
+>>>>>>> origin/master
  {
  //document.getElementById("gymnext").style.display = "block";
 var e = document.getElementById(id); 
@@ -229,7 +267,7 @@ var p = document.getElementById("choosegym");
 
 function functank(id) 
  {
-  document.getElementById("buttonnextclass").style.display = "block";
+  document.getElementById("buttonnext").style.display = "block";
     var e = document.getElementById(id); 
     if(e.style.display == "none")
     e.style.display = "block";
@@ -251,7 +289,7 @@ function functank(id)
 
 function funcbaggy(id) 
  {
-  document.getElementById("buttonnextclass").style.display = "block";
+  document.getElementById("buttonnexty").style.display = "block";
     var e = document.getElementById(id); 
     if(e.style.display == "none")
     e.style.display = "block";
@@ -285,3 +323,37 @@ var e = document.getElementById(id);
     p.style.display = "none";
   $('#shownotice').show(); return false;  
 }
+
+ function funcfinally1(id) //when next button is clicked.....
+ {
+document.getElementById("buttonn").style.display = "block";
+var e = document.getElementById(id); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+  else
+    e.style.display = "none";
+    var p = document.getElementById("showfinally1");
+    if(p.style.display == "none")
+    p.style.display = "block";
+  else
+    p.style.display = "none";
+  $('#shownotice1').show(); return false;  
+}
+
+ function funcfinally2(id) //when next button is clicked.....
+ {
+document.getElementById("buttonnn").style.display = "block";
+var e = document.getElementById(id); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+  else
+    e.style.display = "none";
+    var p = document.getElementById("showfinally2");
+    if(p.style.display == "none")
+    p.style.display = "block";
+  else
+    p.style.display = "none";
+  $('#shownotice2').show(); return false;  
+}
+
+
