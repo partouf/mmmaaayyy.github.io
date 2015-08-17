@@ -43,7 +43,6 @@ font-family: "claphappy";
 }
 
 #tp{
-font-family:"claphappy";
 position: absolute;
 }
 
@@ -59,18 +58,21 @@ font-family:"teen";
 }
 
 .about_us{
+	position: absolute;
 	padding: 5px;
 	top: 150px;
     left: 100px;
 }
 
 .about_us2{
+	position: absolute;
 	padding: 5px;
 	top: 150px;
     left: 350px;
 }
 
 .about_us3{
+	position: absolute;
 	padding: 5px;
 	top: 150px;
     left: 600px;
