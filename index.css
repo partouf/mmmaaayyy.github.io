@@ -86,7 +86,8 @@ color:#000000;
 }
 
 .container {
-      display:inline-block;
+      display: inline-block;
+      float: left;
     }
 
 
