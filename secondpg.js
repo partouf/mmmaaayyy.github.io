@@ -635,7 +635,7 @@ var e = document.getElementById(id);
     e.style.display = "block";
   else
     e.style.display = "none";
-var p = document.getElementById("chooseyoga");
+var p = document.getElementById("choosesoccer");
     if(p.style.display == "none")
     p.style.display = "block";
   else
