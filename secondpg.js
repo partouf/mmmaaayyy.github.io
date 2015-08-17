@@ -397,6 +397,22 @@ var p = document.getElementById("csresolve");
   $('#nextchapter').show(); return false;
 }
 
+function funce(id) 
+ {
+  document.getElementById("o").style.display = "block";
+var e = document.getElementById(id); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+  else
+    e.style.display = "none";
+var p = document.getElementById("nextchapter");
+    if(p.style.display == "none")
+    p.style.display = "block";
+  else
+    p.style.display = "none";
+  $('#convincemom').show(); return false;
+}
+
 function funcd(id) 
  {
   document.getElementById("f").style.display = "block";
@@ -411,6 +427,22 @@ var p = document.getElementById("csresolve");
   else
     p.style.display = "none";
   $('#nextchapter').show(); return false;
+}
+
+function funcf(id) 
+ {
+  document.getElementById("p").style.display = "block";
+var e = document.getElementById(id); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+  else
+    e.style.display = "none";
+var p = document.getElementById("nextchapter");
+    if(p.style.display == "none")
+    p.style.display = "block";
+  else
+    p.style.display = "none";
+  $('#convincemom').show(); return false;
 }
 
 
@@ -566,6 +598,23 @@ var p = document.getElementById("resolve1");
   $('#nextchapter').show(); return false;
 }
 
+function funci(id) 
+ {
+   
+  document.getElementById("q").style.display = "block";
+var e = document.getElementById(id); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+  else
+    e.style.display = "none";
+var p = document.getElementById("nextchapter");
+    if(p.style.display == "none")
+    p.style.display = "block";
+  else
+    p.style.display = "none";
+  $('#convincemom').show(); return false;
+}
+
 function funch(id) //you pick gym as your class
  {
    
@@ -581,6 +630,24 @@ var p = document.getElementById("resolve1");
   else
     p.style.display = "none";
   $('#nextchapter').show(); return false;
+}
+
+
+function funcj(id) //you pick gym as your class
+ {
+   
+  document.getElementById("r").style.display = "block";
+var e = document.getElementById(id); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+  else
+    e.style.display = "none";
+var p = document.getElementById("nextchapter");
+    if(p.style.display == "none")
+    p.style.display = "block";
+  else
+    p.style.display = "none";
+  $('#convincemom').show(); return false;
 }
 
  function funcsoccer(id) 
