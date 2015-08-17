@@ -249,7 +249,7 @@ function functank(id)
 }
 
 
-function funcbaggy(id) 
+function funcnext2(id) 
  {
   document.getElementById("buttonnext1").style.display = "block";
     var e = document.getElementById(id); 
@@ -287,7 +287,7 @@ function funcnext1(id)
 
 }
 
-function funcnext2(id)
+function choosebaggy(id)
 {
   document.getElementById("buttonfinally2").style.display = "block";
    var e = document.getElementById(id); 
