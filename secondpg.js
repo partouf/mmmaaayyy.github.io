@@ -479,6 +479,40 @@ var p = document.getElementById("chooseyoga");
   $('#nothingresponse').show(); return false;
 }
 
+ function funclol(id) //you pick gym as your class
+ {
+   
+  document.getElementById("lil").style.display = "block";
+var e = document.getElementById(id); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+  else
+    e.style.display = "none";
+var p = document.getElementById("nothingresponse");
+    if(p.style.display == "none")
+    p.style.display = "block";
+  else
+    p.style.display = "none";
+  $('#angryteacherresponse').show(); return false;
+}
+
+ function funclel(id) //you pick gym as your class
+ {
+   
+  document.getElementById("lul").style.display = "block";
+var e = document.getElementById(id); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+  else
+    e.style.display = "none";
+var p = document.getElementById("nothingresponse");
+    if(p.style.display == "none")
+    p.style.display = "block";
+  else
+    p.style.display = "none";
+  $('#nothingteacherresponse').show(); return false;
+}
+
  function funcsoccer(id) //you pick gym as your class
  {
  	document.getElementById("angry1").style.display = "block";
