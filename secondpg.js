@@ -513,6 +513,40 @@ var p = document.getElementById("nothingresponse");
   $('#nothingteacherresponse').show(); return false;
 }
 
+function funclil(id) //you pick gym as your class
+ {
+   
+  document.getElementById("g").style.display = "block";
+var e = document.getElementById(id); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+  else
+    e.style.display = "none";
+var p = document.getElementById("angryteacherresponse");
+    if(p.style.display == "none")
+    p.style.display = "block";
+  else
+    p.style.display = "none";
+  $('#csresolve').show(); return false;
+}
+
+function funclul(id) //you pick gym as your class
+ {
+   
+  document.getElementById("h").style.display = "block";
+var e = document.getElementById(id); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+  else
+    e.style.display = "none";
+var p = document.getElementById("nothingteacherresponse");
+    if(p.style.display == "none")
+    p.style.display = "block";
+  else
+    p.style.display = "none";
+  $('#csresolve').show(); return false;
+}
+
  function funcsoccer(id) //you pick gym as your class
  {
  	document.getElementById("angry1").style.display = "block";
