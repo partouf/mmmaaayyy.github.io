@@ -395,7 +395,7 @@ var p = document.getElementById("csresolve");
     p.style.display = "block";
   else
     p.style.display = "none";
-  $('#nextchapter').show(); return false;
+  $('#next	').show(); return false;
 }
 
 function funce(id) 
@@ -616,7 +616,7 @@ var p = document.getElementById("nothingteacherresponse");
 
 function funcg(id) //you pick gym as your class
  {
-   
+      	document.getElementById("smallscreen").style.backgroundImage = "url('living.png')";
   document.getElementById("i").style.display = "block";
 var e = document.getElementById(id); 
     if(e.style.display == "none")
@@ -666,7 +666,7 @@ var p = document.getElementById("convincemom");
 
 function funch(id) //you pick gym as your class
  {
-   
+      	document.getElementById("smallscreen").style.backgroundImage = "url('living.png')";
   document.getElementById("j").style.display = "block";
 var e = document.getElementById(id); 
     if(e.style.display == "none")
