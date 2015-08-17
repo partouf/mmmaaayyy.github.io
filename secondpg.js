@@ -95,6 +95,7 @@ function funcmakeup(id) //makeup
  
  function funcdress(id) //finally you get to school
  {
+ 	document.body.background = "hallway.png";
  	document.getElementById("buttonfinally").style.display = "block";
 var e = document.getElementById(id); 
     if(e.style.display == "none")
