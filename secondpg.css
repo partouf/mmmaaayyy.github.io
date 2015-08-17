@@ -1,9 +1,10 @@
 body, a, a:hover { cursor:url('http://www.dolliehost.com/dolliecrave/cursors/cursors-arrow/arrow38.gif'), auto }
-body{
+body
+{
 	background-color:#EFF4F9;
 }
 
-.smallscreen{
+#smallscreen{
 font-family:"claphappy";
 width: 500px;
 height: 400px;
