@@ -320,7 +320,7 @@ function funcnextclass2(id)
 
 }
 
- function funcfinally1(id) //when next button is clicked.....
+ function funcfinally1(id) 
  {
 document.getElementById("buttonnextclass1").style.display = "block";
 var e = document.getElementById(id); 
@@ -328,15 +328,15 @@ var e = document.getElementById(id);
     e.style.display = "block";
   else
     e.style.display = "none";
-    var p = document.getElementById("showfinally1");
+    var p = document.getElementById("choosetank");
     if(p.style.display == "none")
     p.style.display = "block";
   else
     p.style.display = "none";
-  $('#shownotice1').show(); return false;  
+  $('#chooseclass').show(); return false;  
 }
 
-function funcfinally2(id) //when next button is clicked.....
+function funcfinally2(id) 
  {
 document.getElementById("buttonnextclass2").style.display = "block";
 var e = document.getElementById(id); 
@@ -344,12 +344,12 @@ var e = document.getElementById(id);
     e.style.display = "block";
   else
     e.style.display = "none";
-    var p = document.getElementById("showfinally2");
+    var p = document.getElementById("choosebaggy");
     if(p.style.display == "none")
     p.style.display = "block";
   else
     p.style.display = "none";
-  $('#shownotice2').show(); return false;  
+  $('#chooseclass').show(); return false;  
 }
 
  
