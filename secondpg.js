@@ -285,7 +285,7 @@ function functank(id)
 
 function funcbaggy(id) 
  {
-  document.getElementById("buttonnext").style.display = "block";
+  document.getElementById("buttonnexty").style.display = "block";
     var e = document.getElementById(id); 
     if(e.style.display == "none")
     e.style.display = "block";
