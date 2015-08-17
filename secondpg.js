@@ -340,7 +340,7 @@ var p = document.getElementById("cspage");
   $('#confidentpage').show(); return false;
 }
 
-function funcca(id) 
+function funca(id) 
  {
   document.getElementById("aaa").style.display = "block";
 var e = document.getElementById(id); 
