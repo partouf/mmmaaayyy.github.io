@@ -188,9 +188,6 @@ var p = document.getElementById("shownotice");
 	$('#chooseclass').show(); return false;
 }
 
-<<<<<<< HEAD
- function funcgym(id) //you pick gym as your class
-=======
  function funcbuttonn(id) 
  {
   document.getElementById("buttongym").style.display = "block";
@@ -225,8 +222,7 @@ var p = document.getElementById("shownotice2");
   $('#chooseclass').show(); return false;
 }
 
- function functiongym(id) //you pick gym as your class
->>>>>>> origin/master
+ function funcgym(id) //you pick gym as your class
  {
  //document.getElementById("gymnext").style.display = "block";
 var e = document.getElementById(id); 
