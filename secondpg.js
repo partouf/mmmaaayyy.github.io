@@ -245,7 +245,7 @@ var p = document.getElementById("choosegym");
 
 function functank(id) 
  {
-  document.getElementById("buttonnext1").style.display = "block";
+  document.getElementById("buttonnextclass1").style.display = "block";
     var e = document.getElementById(id); 
     if(e.style.display == "none")
     e.style.display = "block";
@@ -267,7 +267,7 @@ function functank(id)
 
 function funcbaggy(id) 
  {
-  document.getElementById("buttonnext2").style.display = "block";
+  document.getElementById("buttonnextclass2").style.display = "block";
     var e = document.getElementById(id); 
     if(e.style.display == "none")
     e.style.display = "block";
