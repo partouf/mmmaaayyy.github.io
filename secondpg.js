@@ -117,7 +117,7 @@ var p = document.getElementById("chooseoutfit");
 
  function funcnext(id) //finally you get to school
  {
-  document.getElementById("buttonfinally").style.display = "block";
+  document.getElementById("buttonfinally1").style.display = "block";
 var e = document.getElementById(id); 
     if(e.style.display == "none")
     e.style.display = "block";
