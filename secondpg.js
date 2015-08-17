@@ -298,7 +298,7 @@ var p = document.getElementById("choosecs");
   $('#cspage').show(); return false;
 }
 
-function funcshyanswer(id) //you pick gym as your class
+function funcshyanswer(id) 
  {
   document.getElementById("a").style.display = "block";
 var e = document.getElementById(id); 
@@ -319,6 +319,26 @@ var p = document.getElementById("cspage");
   $('#shypage').show(); return false;
 }
 
+function funcconfidentanswer(id) 
+ {
+  document.getElementById("b").style.display = "block";
+var e = document.getElementById(id); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+  else
+    e.style.display = "none";
+var p = document.getElementById("cspage");
+    if(p.style.display == "none")
+    p.style.display = "block";
+  else
+    p.style.display = "none";
+    var c = document.getElementById("shyanswer");
+    if(c.style.display == "none")
+    c.style.display = "block";
+  else
+    c.style.display = "none";
+  $('#confidentpage').show(); return false;
+}
 
  function funcyoga(id) //you pick gym as your class
  {
