@@ -201,7 +201,7 @@ var p = document.getElementById("shownotice2");
     p.style.display = "block";
   else
     p.style.display = "none";
-  $('#chooseclass1').show(); return false;
+  $('#chooseclass').show(); return false;
 }
 
  function functiongym(id) //you pick gym as your class
@@ -322,13 +322,14 @@ function funcnextclass2(id)
 
  function funcfinally1(id) 
  {
-document.getElementById("buttonnextclass1").style.display = "block";
+  document.getElementById("buttongym").style.display = "block";
+  document.getElementById("buttoncs").style.display = "block";
 var e = document.getElementById(id); 
     if(e.style.display == "none")
     e.style.display = "block";
   else
     e.style.display = "none";
-    var p = document.getElementById("choosetank");
+    var p = document.getElementById("showfinally1");
     if(p.style.display == "none")
     p.style.display = "block";
   else
@@ -338,13 +339,14 @@ var e = document.getElementById(id);
 
 function funcfinally2(id) 
  {
-document.getElementById("buttonnextclass2").style.display = "block";
+  document.getElementById("buttongym").style.display = "block";
+  document.getElementById("buttoncs").style.display = "block";
 var e = document.getElementById(id); 
     if(e.style.display == "none")
     e.style.display = "block";
   else
     e.style.display = "none";
-    var p = document.getElementById("choosebaggy");
+    var p = document.getElementById("showfinally2");
     if(p.style.display == "none")
     p.style.display = "block";
   else
