@@ -243,6 +243,27 @@ var p = document.getElementById("chooseclass");
 	$('#choosegym').show(); return false;
 }
 
+ function funccs(id) //you pick cs
+ {
+ document.getElementById("nextnext1").style.display = "block";
+var e = document.getElementById(id); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+  else
+    e.style.display = "none";
+var p = document.getElementById("chooseclass");
+    if(p.style.display == "none")
+    p.style.display = "block";
+  else
+    p.style.display = "none";
+    var c = document.getElementById("buttongym");
+    if(c.style.display == "none")
+    c.style.display = "block";
+  else
+    c.style.display = "none";
+  $('#choosecs').show(); return false;
+}
+
  function funcnextnext(id) //you pick gym as your class
  {
  	document.getElementById("yoga1").style.display = "block";
