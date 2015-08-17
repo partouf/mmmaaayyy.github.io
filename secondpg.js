@@ -412,6 +412,7 @@ var p = document.getElementById("csresolve");
 
  function funcyoga(id) //you pick gym as your class
  {
+  	document.getElementById("smallscreen").style.backgroundImage = "url('yoga.png')";
  	document.getElementById("angry").style.display = "block";
  	document.getElementById("nothing").style.display = "block";
 var e = document.getElementById(id); 
