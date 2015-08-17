@@ -85,4 +85,8 @@ border: 1px solid;
 color:#000000;
 }
 
+.container {
+      display:inline-block;
+    }
+
 
