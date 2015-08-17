@@ -299,6 +299,27 @@ var p = document.getElementById("choosecs");
   $('#cspage').show(); return false;
 }
 
+function funcshyanswer(id) //you pick gym as your class
+ {
+  document.getElementById("a").style.display = "block";
+var e = document.getElementById(id); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+  else
+    e.style.display = "none";
+var p = document.getElementById("shypage");
+    if(p.style.display == "none")
+    p.style.display = "block";
+  else
+    p.style.display = "none";
+    var c = document.getElementById("confidentanswer");
+    if(c.style.display == "none")
+    c.style.display = "block";
+  else
+    c.style.display = "none";
+  $('#cspage').show(); return false;
+}
+
 
  function funcyoga(id) //you pick gym as your class
  {
