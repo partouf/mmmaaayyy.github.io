@@ -201,7 +201,7 @@ var p = document.getElementById("shownotice2");
     p.style.display = "block";
   else
     p.style.display = "none";
-  $('#chooseclass').show(); return false;
+  $('#chooseclass1').show(); return false;
 }
 
  function functiongym(id) //you pick gym as your class
