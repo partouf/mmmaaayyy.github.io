@@ -188,7 +188,7 @@ var p = document.getElementById("shownotice");
 	$('#chooseclass').show(); return false;
 }
 
- function funcclass1(id) //no one notices your outfit
+ function funcbuttonn(id) //no one notices your outfit
  {
   document.getElementById("buttongym").style.display = "block";
   document.getElementById("buttoncs").style.display = "block";
@@ -205,22 +205,6 @@ var p = document.getElementById("shownotice1");
   $('#chooseclass').show(); return false;
 }
 
- function funcclass2(id) //no one notices your outfit
- {
-  document.getElementById("buttongym").style.display = "block";
-  document.getElementById("buttoncs").style.display = "block";
-var e = document.getElementById(id); 
-    if(e.style.display == "none")
-    e.style.display = "block";
-  else
-    e.style.display = "none";
-var p = document.getElementById("shownotice2");
-    if(p.style.display == "none")
-    p.style.display = "block";
-  else
-    p.style.display = "none";
-  $('#chooseclass').show(); return false;
-}
 
  function functiongym(id) //you pick gym as your class
  {
