@@ -132,9 +132,9 @@ var p = document.getElementById("choosetank");
   $('#showfinally1').show(); return false; 
 }
 
- function funcnext1(id) //finally you get to school
+ function funcnexty(id) //finally you get to school
  {
-  document.getElementById("buttonfinally").style.display = "block";
+  document.getElementById("buttonfinally2").style.display = "block";
 var e = document.getElementById(id); 
     if(e.style.display == "none")
     e.style.display = "block";
