@@ -683,6 +683,40 @@ var p = document.getElementById("nothingresponse1");
   $('#nothingteacherresponse').show(); return false;
 }
 
+function funcm(id) //you pick gym as your class
+ {
+   
+  document.getElementById("g").style.display = "block";
+var e = document.getElementById(id); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+  else
+    e.style.display = "none";
+var p = document.getElementById("angryteacherresponse");
+    if(p.style.display == "none")
+    p.style.display = "block";
+  else
+    p.style.display = "none";
+  $('#resolve1').show(); return false;
+}
+
+function funcn(id) //you pick gym as your class
+ {
+   
+  document.getElementById("h").style.display = "block";
+var e = document.getElementById(id); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+  else
+    e.style.display = "none";
+var p = document.getElementById("nothingteacherresponse");
+    if(p.style.display == "none")
+    p.style.display = "block";
+  else
+    p.style.display = "none";
+  $('#resolve1').show(); return false;
+}
+
 function functank(id) 
  {
   document.getElementById("buttonnext").style.display = "block";
