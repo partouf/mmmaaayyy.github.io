@@ -281,6 +281,23 @@ var p = document.getElementById("choosegym");
 	$('#nextpage').show(); return false;
 }
 
+ function funcnextnext1(id) //you pick gym as your class
+ {
+  document.getElementById("confidentanswer").style.display = "block";
+  document.getElementById("shyanswer").style.display = "block";
+var e = document.getElementById(id); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+  else
+    e.style.display = "none";
+var p = document.getElementById("choosecs");
+    if(p.style.display == "none")
+    p.style.display = "block";
+  else
+    p.style.display = "none";
+  $('#cspage').show(); return false;
+}
+
 
 function functank(id) 
  {
