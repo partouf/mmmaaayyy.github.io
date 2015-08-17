@@ -188,9 +188,9 @@ var p = document.getElementById("shownotice");
 	$('#chooseclass').show(); return false;
 }
 
- function functiongym(id) //you pick gym as your class
+ function funcgym(id) //you pick gym as your class
  {
- document.getElementById("gymnext").style.display = "block";
+ //document.getElementById("gymnext").style.display = "block";
 var e = document.getElementById(id); 
     if(e.style.display == "none")
     e.style.display = "block";
