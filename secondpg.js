@@ -359,7 +359,7 @@ var p = document.getElementById("shypage");
 
 function funcb(id) 
  {
-  document.getElementById("b").style.display = "block";
+  document.getElementById("a").style.display = "block";
 var e = document.getElementById(id); 
     if(e.style.display == "none")
     e.style.display = "block";
