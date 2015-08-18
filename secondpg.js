@@ -249,6 +249,16 @@ var p = document.getElementById("chooseclass");
     c.style.display = "block";
 	else
     c.style.display = "none";
+var y = document.getElementById("please"); 
+    if(y.style.display == "none")
+    y.style.display = "block";
+  else
+    y.style.display = "none";
+var o = document.getElementById("pop1"); 
+    if(o.style.display == "none")
+    o.style.display = "block";
+  else
+    o.style.display = "none";
 	$('#choosegym').show(); return false;
 }
 
@@ -1075,6 +1085,8 @@ var g = document.getElementById("please");
  function funcfinally1(id) //when next button is clicked.....
  {
 document.getElementById("buttonn").style.display = "block";
+document.getElementById("pop1").style.display = "block";
+document.getElementById("please").style.display = "block";
 var e = document.getElementById(id); 
     if(e.style.display == "none")
     e.style.display = "block";
