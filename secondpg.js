@@ -1125,7 +1125,7 @@ var e = document.getElementById(id);
     e.style.display = "block";
   else
     e.style.display = "none";
-    var p = document.getElementById("partyfinish");
+    var p = document.getElementById("partyfinish1");
     if(p.style.display == "none")
     p.style.display = "block";
   else
@@ -1142,7 +1142,7 @@ var e = document.getElementById(id);
     e.style.display = "block";
   else
     e.style.display = "none";
-    var p = document.getElementById("partyfinish");
+    var p = document.getElementById("partyfinish2");
     if(p.style.display == "none")
     p.style.display = "block";
   else
@@ -1159,7 +1159,7 @@ var e = document.getElementById(id);
     e.style.display = "block";
   else
     e.style.display = "none";
-    var p = document.getElementById("partyfinish");
+    var p = document.getElementById("partyfinish3");
     if(p.style.display == "none")
     p.style.display = "block";
   else
