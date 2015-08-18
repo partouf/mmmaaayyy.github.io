@@ -169,7 +169,7 @@ var x = document.getElementById("please");
     x.style.display = "block";
 	else
     x.style.display = "none";
-	$('#showfinally3').show(); return false;	
+	$('#showfinally').show(); return false;	
 }
 
  function funcclass(id) //no one notices your outfit
