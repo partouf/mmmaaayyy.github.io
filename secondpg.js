@@ -1322,7 +1322,7 @@ var e = document.getElementById(id);
   $('#catcall').show(); return false;  
 }
 
-function funcweapon2(id) //when next button is clicked.....
+function funcweapon3(id) //when next button is clicked.....
  {
 document.getElementById("mno").style.display = "block";
 var e = document.getElementById(id); 
@@ -1344,7 +1344,7 @@ var e = document.getElementById(id);
   $('#choosekeys').show(); return false;  
 }
 
-function funcignore2(id) //when next button is clicked.....
+function funcignore3(id) //when next button is clicked.....
  {
 document.getElementById("pqr").style.display = "block";
 var e = document.getElementById(id); 
