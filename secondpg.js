@@ -859,6 +859,7 @@ var p = document.getElementById("prepareconcert");
 
  function funcsoccer(id) 
  {
+     	document.getElementById("smallscreen").style.backgroundImage = "url('soccer.png')";
  	document.getElementById("angry1").style.display = "block";
  	document.getElementById("nothing1").style.display = "block";
 var e = document.getElementById(id); 
