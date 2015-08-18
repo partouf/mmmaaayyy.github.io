@@ -438,6 +438,7 @@ var p = document.getElementById("convincemom");
 
 function funcs(id) 
  {
+   	document.getElementById("smallscreen").style.backgroundImage = "url('concert.png')";
   document.getElementById("z").style.display = "block";
 var e = document.getElementById(id); 
     if(e.style.display == "none")
@@ -520,6 +521,7 @@ var p = document.getElementById("convincemom");
 
 function funcv(id) 
  {
+    	document.getElementById("smallscreen").style.backgroundImage = "url('concert.png')";
   document.getElementById("w").style.display = "block";
 var e = document.getElementById(id); 
     if(e.style.display == "none")
@@ -737,6 +739,7 @@ var p = document.getElementById("convincemom");
 
 function funct(id) 
  {
+    	document.getElementById("smallscreen").style.backgroundImage = "url('concert.png')";
   document.getElementById("x").style.display = "block";
 var e = document.getElementById(id); 
     if(e.style.display == "none")
@@ -819,6 +822,7 @@ var p = document.getElementById("convincemom");
 }
 function funcu(id) 
  {
+    	document.getElementById("smallscreen").style.backgroundImage = "url('concert.png')";
   document.getElementById("y").style.display = "block";
 var e = document.getElementById(id); 
     if(e.style.display == "none")
