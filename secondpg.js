@@ -1116,6 +1116,50 @@ var e = document.getElementById(id);
   $('#catcall').show(); return false;  
 }
 
+function funcweapon(id) //when next button is clicked.....
+ {
+document.getElementById("bla").style.display = "block";
+var e = document.getElementById(id); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+  else
+    e.style.display = "none";
+    var p = document.getElementById("catcall");
+    if(p.style.display == "none")
+    p.style.display = "block";
+  else
+    p.style.display = "none";
+   var d = document.getElementById("ignorethem");
+    if(d.style.display == "none")
+    d.style.display = "block";
+  else
+    d.style.display = "none";
+
+  $('#choosekeys').show(); return false;  
+}
+
+function funcignorethem(id) //when next button is clicked.....
+ {
+document.getElementById("blah").style.display = "block";
+var e = document.getElementById(id); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+  else
+    e.style.display = "none";
+    var p = document.getElementById("catcall");
+    if(p.style.display == "none")
+    p.style.display = "block";
+  else
+    p.style.display = "none";
+   var d = document.getElementById("ignorethem");
+    if(d.style.display == "none")
+    d.style.display = "block";
+  else
+    d.style.display = "none";
+
+  $('#choosekeys').show(); return false;  
+}
+
  function funcpartyfin1(id) //when next button is clicked.....
  {
 document.getElementById("weapon").style.display = "block";
