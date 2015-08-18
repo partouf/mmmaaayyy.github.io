@@ -169,11 +169,11 @@ var z = document.getElementById("pop1");
     z.style.display = "block";
 	else
     z.style.display = "none";
-var q = document.getElementById("please");
-    if(q.style.display == "none")
-    q.style.display = "block";
+var n = document.getElementById("please");
+    if(n.style.display == "none")
+    n.style.display = "block";
 	else
-    q.style.display = "none";
+    n.style.display = "none";
 	$('#chooseclass').show(); return false;
 }
 
