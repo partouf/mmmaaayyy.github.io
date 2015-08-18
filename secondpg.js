@@ -276,6 +276,16 @@ var p = document.getElementById("choosegym");
     p.style.display = "block";
 	else
     p.style.display = "none";
+var p = document.getElementById("likeagirl");
+    if(p.style.display == "none")
+    p.style.display = "block";
+	else
+    p.style.display = "none";
+var p = document.getElementById("pop5");
+    if(p.style.display == "none")
+    p.style.display = "block";
+	else
+    p.style.display = "none";
 	$('#nextpage').show(); return false;
 }
 
@@ -908,16 +918,6 @@ var p = document.getElementById("choosesoccer");
     d.style.display = "block";
   else
     d.style.display = "none";
-var w = document.getElementById("pop5");
-    if(w.style.display == "none")
-    w.style.display = "block";
-  else
-    w.style.display = "none";
-var t = document.getElementById("likeagirl");
-    if(t.style.display == "none")
-    t.style.display = "block";
-  else
-    t.style.display = "none";
   $('#angryresponse1').show(); return false;
 }
 
