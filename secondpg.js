@@ -122,6 +122,7 @@ var p = document.getElementById("chooseoutfit");
  {
   	document.getElementById("smallscreen").style.backgroundImage = "url('hallway2.png')";
   document.getElementById("buttonfinally1").style.display = "block";
+   document.getElementById("pop3").style.display = "block";
 var e = document.getElementById(id); 
     if(e.style.display == "none")
     e.style.display = "block";
@@ -927,6 +928,7 @@ var p = document.getElementById("partyfinish");
 
  function funcsoccer(id) 
  {
+     	document.getElementById("smallscreen").style.backgroundImage = "url('soccer.png')";
  	document.getElementById("angry1").style.display = "block";
  	document.getElementById("nothing1").style.display = "block";
 var e = document.getElementById(id); 
@@ -1160,4 +1162,71 @@ var e = document.getElementById(id);
   $('#shownotice2').show(); return false;  
 }
 
+ function funcpartyfin(id) //when next button is clicked.....
+ {
+document.getElementById("weapon").style.display = "block";
+document.getElementById("ignorethem").style.display = "block";
+var e = document.getElementById(id); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+  else
+    e.style.display = "none";
+    var p = document.getElementById("partyfinish");
+    if(p.style.display == "none")
+    p.style.display = "block";
+  else
+    p.style.display = "none";
+  $('#catcall').show(); return false;  
+}
+
+ function funcpartyfin1(id) //when next button is clicked.....
+ {
+document.getElementById("weapon").style.display = "block";
+document.getElementById("ignorethem").style.display = "block";
+var e = document.getElementById(id); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+  else
+    e.style.display = "none";
+    var p = document.getElementById("partyfinish");
+    if(p.style.display == "none")
+    p.style.display = "block";
+  else
+    p.style.display = "none";
+  $('#catcall1').show(); return false;  
+}
+
+ function funcpartyfin2(id) //when next button is clicked.....
+ {
+document.getElementById("weapon").style.display = "block";
+document.getElementById("ignorethem").style.display = "block";
+var e = document.getElementById(id); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+  else
+    e.style.display = "none";
+    var p = document.getElementById("partyfinish");
+    if(p.style.display == "none")
+    p.style.display = "block";
+  else
+    p.style.display = "none";
+  $('#catcall2').show(); return false;  
+}
+
+ function funcpartyfin3(id) //when next button is clicked.....
+ {
+document.getElementById("weapon").style.display = "block";
+document.getElementById("ignorethem").style.display = "block";
+var e = document.getElementById(id); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+  else
+    e.style.display = "none";
+    var p = document.getElementById("partyfinish");
+    if(p.style.display == "none")
+    p.style.display = "block";
+  else
+    p.style.display = "none";
+  $('#catcall3').show(); return false;  
+}
 
