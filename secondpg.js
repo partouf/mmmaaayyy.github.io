@@ -164,16 +164,6 @@ var p = document.getElementById("shownotice");
     p.style.display = "block";
 	else
     p.style.display = "none";
-var z = document.getElementById("pop1");
-    if(z.style.display == "none")
-    z.style.display = "block";
-	else
-    z.style.display = "none";
-var n = document.getElementById("please");
-    if(n.style.display == "none")
-    n.style.display = "block";
-	else
-    n.style.display = "none";
 	$('#chooseclass').show(); return false;
 }
 
