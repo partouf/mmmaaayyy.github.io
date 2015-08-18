@@ -125,6 +125,16 @@ var p = document.getElementById("choosebaggy");
     p.style.display = "block";
   else
     p.style.display = "none";
+var w = document.getElementById("pop7");
+    if(w.style.display == "none")
+    w.style.display = "block";
+  else
+    w.style.display = "none";
+var t = document.getElementById("beperfect");
+    if(t.style.display == "none")
+    t.style.display = "block";
+  else
+    t.style.display = "none";
   $('#showfinally2').show(); return false; 
 }
 
