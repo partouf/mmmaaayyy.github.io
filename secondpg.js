@@ -87,7 +87,6 @@ var p = document.getElementById("chooseoutfit");
     d.style.display = "block";
 	else
     d.style.display = "none";
-    //getElementById("pop1").style.display="block";
 	$('#showfinally').show(); return false;	
 }
 
@@ -107,7 +106,6 @@ var p = document.getElementById("choosetank");
     p.style.display = "block";
   else
     p.style.display = "none";
-    //getElementById("pop1").style.display="block";
   $('#showfinally1').show(); return false; 
 }
 
@@ -125,7 +123,6 @@ var p = document.getElementById("choosebaggy");
     p.style.display = "block";
   else
     p.style.display = "none";
-    //getElementById("pop1").style.display="block";
   $('#showfinally2').show(); return false; 
 }
 
@@ -1091,7 +1088,7 @@ var g = document.getElementById("please");
  function funcfinally1(id) //when next button is clicked.....
  {
 document.getElementById("buttonn").style.display = "block";
-document.getElementById("pop1").style.display = "block";
+//document.getElementById("pop1").style.display = "block";
 document.getElementById("please").style.display = "block";
 var e = document.getElementById(id); 
     if(e.style.display == "none")
