@@ -1179,7 +1179,7 @@ var r = document.getElementById("catcallvideo");
   $('#choosekeys').show(); return false;  
 }
 
-function bla(id) //when next button is clicked.....
+function funcbla(id) //when next button is clicked.....
  {
 var e = document.getElementById(id); 
     if(e.style.display == "none")
@@ -1224,7 +1224,7 @@ var r = document.getElementById("catcallvideo");
     r.style.display = "none";
   $('#choosecross').show(); return false;  
 }
-function blahh(id) //when next button is clicked.....
+function funcblahh(id) //when next button is clicked.....
  {
 var e = document.getElementById(id); 
     if(e.style.display == "none")
@@ -1289,7 +1289,7 @@ var r = document.getElementById("catcallvideo");
   $('#choosekeys').show(); return false;  
 }
 
-function abc(id) //when next button is clicked.....
+function funcabc(id) //when next button is clicked.....
  {
 var e = document.getElementById(id); 
     if(e.style.display == "none")
@@ -1335,7 +1335,7 @@ var r = document.getElementById("catcallvideo");
   $('#choosecross').show(); return false;  
 }
 
-function def(id) //when next button is clicked.....
+function funcdef(id) //when next button is clicked.....
  {
 var e = document.getElementById(id); 
     if(e.style.display == "none")
@@ -1400,7 +1400,7 @@ var r = document.getElementById("catcallvideo");
   $('#choosekeys').show(); return false;  
 }
 
-function ghi(id) //when next button is clicked.....
+function funcghi(id) //when next button is clicked.....
  {
 var e = document.getElementById(id); 
     if(e.style.display == "none")
@@ -1446,7 +1446,7 @@ var r = document.getElementById("catcallvideo");
   $('#choosecross').show(); return false;  
 }
 
-function jkl(id) //when next button is clicked.....
+function funcjkl(id) //when next button is clicked.....
  {
 var e = document.getElementById(id); 
     if(e.style.display == "none")
@@ -1512,7 +1512,7 @@ var r = document.getElementById("catcallvideo");
   $('#choosekeys').show(); return false;  
 }
 
-function mno(id) //when next button is clicked.....
+function funcmno(id) //when next button is clicked.....
  {
 var e = document.getElementById(id); 
     if(e.style.display == "none")
@@ -1558,7 +1558,7 @@ var r = document.getElementById("catcallvideo");
   $('#choosecross').show(); return false;  
 }
 
-function pqr(id) //when next button is clicked.....
+function funcpqr(id) //when next button is clicked.....
  {
 var e = document.getElementById(id); 
     if(e.style.display == "none")
