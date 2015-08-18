@@ -1197,7 +1197,7 @@ var e = document.getElementById(id);
     p.style.display = "block";
   else
     p.style.display = "none";
-  $('#catcall1').show(); return false;  
+  $('#catcall').show(); return false;  
 }
 
 function funcweapon1(id) //when next button is clicked.....
@@ -1208,7 +1208,7 @@ var e = document.getElementById(id);
     e.style.display = "block";
   else
     e.style.display = "none";
-    var p = document.getElementById("catcall1");
+    var p = document.getElementById("catcall");
     if(p.style.display == "none")
     p.style.display = "block";
   else
@@ -1230,7 +1230,7 @@ var e = document.getElementById(id);
     e.style.display = "block";
   else
     e.style.display = "none";
-    var p = document.getElementById("catcall1");
+    var p = document.getElementById("catcall");
     if(p.style.display == "none")
     p.style.display = "block";
   else
@@ -1258,7 +1258,7 @@ var e = document.getElementById(id);
     p.style.display = "block";
   else
     p.style.display = "none";
-  $('#catcall2').show(); return false;  
+  $('#catcall').show(); return false;  
 }
 
 function funcweapon2(id) //when next button is clicked.....
@@ -1269,7 +1269,7 @@ var e = document.getElementById(id);
     e.style.display = "block";
   else
     e.style.display = "none";
-    var p = document.getElementById("catcall2");
+    var p = document.getElementById("catcall");
     if(p.style.display == "none")
     p.style.display = "block";
   else
@@ -1291,7 +1291,7 @@ var e = document.getElementById(id);
     e.style.display = "block";
   else
     e.style.display = "none";
-    var p = document.getElementById("catcall2");
+    var p = document.getElementById("catcall");
     if(p.style.display == "none")
     p.style.display = "block";
   else
@@ -1319,7 +1319,7 @@ var e = document.getElementById(id);
     p.style.display = "block";
   else
     p.style.display = "none";
-  $('#catcall3').show(); return false;  
+  $('#catcall').show(); return false;  
 }
 
 function funcweapon2(id) //when next button is clicked.....
@@ -1330,7 +1330,7 @@ var e = document.getElementById(id);
     e.style.display = "block";
   else
     e.style.display = "none";
-    var p = document.getElementById("catcall3");
+    var p = document.getElementById("catcall");
     if(p.style.display == "none")
     p.style.display = "block";
   else
@@ -1352,7 +1352,7 @@ var e = document.getElementById(id);
     e.style.display = "block";
   else
     e.style.display = "none";
-    var p = document.getElementById("catcall3");
+    var p = document.getElementById("catcall");
     if(p.style.display == "none")
     p.style.display = "block";
   else
