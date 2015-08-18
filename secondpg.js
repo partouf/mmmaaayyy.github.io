@@ -1199,6 +1199,7 @@ var r = document.getElementById("catcallvideo");
 
 function funcbla(id) //when next button is clicked.....
  {
+     	document.getElementById("smallscreen").style.backgroundImage = "url('startpage.png')";
 var e = document.getElementById(id); 
     if(e.style.display == "none")
     e.style.display = "block";
@@ -1244,6 +1245,7 @@ var r = document.getElementById("catcallvideo");
 }
 function funcblahh(id) //when next button is clicked.....
  {
+     	document.getElementById("smallscreen").style.backgroundImage = "url('startpage.png')";
 var e = document.getElementById(id); 
     if(e.style.display == "none")
     e.style.display = "block";
@@ -1309,6 +1311,7 @@ var r = document.getElementById("catcallvideo");
 
 function funcabc(id) //when next button is clicked.....
  {
+     	document.getElementById("smallscreen").style.backgroundImage = "url('startpage.png')";
 var e = document.getElementById(id); 
     if(e.style.display == "none")
     e.style.display = "block";
@@ -1355,6 +1358,7 @@ var r = document.getElementById("catcallvideo");
 
 function funcdef(id) //when next button is clicked.....
  {
+     	document.getElementById("smallscreen").style.backgroundImage = "url('startpage.png')";
 var e = document.getElementById(id); 
     if(e.style.display == "none")
     e.style.display = "block";
@@ -1420,6 +1424,7 @@ var r = document.getElementById("catcallvideo");
 
 function funcghi(id) //when next button is clicked.....
  {
+    	document.getElementById("smallscreen").style.backgroundImage = "url('startpage.png')";
 var e = document.getElementById(id); 
     if(e.style.display == "none")
     e.style.display = "block";
@@ -1466,6 +1471,7 @@ var r = document.getElementById("catcallvideo");
 
 function funcjkl(id) //when next button is clicked.....
  {
+     	document.getElementById("smallscreen").style.backgroundImage = "url('startpage.png')";
 var e = document.getElementById(id); 
     if(e.style.display == "none")
     e.style.display = "block";
@@ -1532,6 +1538,7 @@ var r = document.getElementById("catcallvideo");
 
 function funcmno(id) //when next button is clicked.....
  {
+     	document.getElementById("smallscreen").style.backgroundImage = "url('startpage.png')";
 var e = document.getElementById(id); 
     if(e.style.display == "none")
     e.style.display = "block";
