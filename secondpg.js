@@ -253,16 +253,6 @@ var p = document.getElementById("chooseclass");
     c.style.display = "block";
 	else
     c.style.display = "none";
-var y = document.getElementById("please"); 
-    if(y.style.display == "none")
-    y.style.display = "block";
-  else
-    y.style.display = "none";
-var o = document.getElementById("pop1"); 
-    if(o.style.display == "none")
-    o.style.display = "block";
-  else
-    o.style.display = "none";
 	$('#choosegym').show(); return false;
 }
 
