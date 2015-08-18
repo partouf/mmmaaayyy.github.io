@@ -313,6 +313,11 @@ var p = document.getElementById("choosecs");
     p.style.display = "block";
   else
     p.style.display = "none";
+var b = document.getElementById("weblink"); 
+    if(b.style.display == "none")
+    b.style.display = "block";
+  else
+    b.style.display = "none";
   $('#cspage').show(); return false;
 }
 
