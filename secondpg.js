@@ -143,7 +143,7 @@ var p = document.getElementById("choosebaggy");
   	document.getElementById("smallscreen").style.backgroundImage = "url('hallway2.png')";
  	document.getElementById("buttonfinally").style.display = "block";
  	document.getElementById("pop1").style.display = "block";
- 	 document.getElementById("please").style.display = "block";
+ 	 	document.getElementById("please").style.display = "block";
 var e = document.getElementById(id); 
     if(e.style.display == "none")
     e.style.display = "block";
@@ -169,7 +169,7 @@ var x = document.getElementById("please");
     x.style.display = "block";
 	else
     x.style.display = "none";
-	$('#showfinally3').show(); return false;	
+	$('#showfinally').show(); return false;	
 }
 
  function funcclass(id) //no one notices your outfit
@@ -1143,8 +1143,11 @@ var b = document.getElementById("please");
     b.style.display = "none";
   $('#shownotice2').show(); return false;  
 }
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> parent of d1a3b46... fsd
 
  function funcpartyfin(id) //when next button is clicked.....
  {
