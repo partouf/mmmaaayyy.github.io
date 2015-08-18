@@ -455,6 +455,7 @@ var p = document.getElementById("dangerouscurfew");
 
 function funcz(id) 
  {
+    	document.getElementById("smallscreen").style.backgroundImage = "url('city.png')";
   document.getElementById("partyfin").style.display = "block";
 var e = document.getElementById(id); 
     if(e.style.display == "none")
@@ -538,6 +539,7 @@ var p = document.getElementById("dangerouscurfew");
 
 function funcw(id) 
  {
+     	document.getElementById("smallscreen").style.backgroundImage = "url('city.png')";
   document.getElementById("partyfin1").style.display = "block";
 var e = document.getElementById(id); 
     if(e.style.display == "none")
@@ -756,6 +758,7 @@ var p = document.getElementById("dangerouscurfew");
 
 function funcx(id) 
  {
+     	document.getElementById("smallscreen").style.backgroundImage = "url('city.png')";
   document.getElementById("partyfin2").style.display = "block";
 var e = document.getElementById(id); 
     if(e.style.display == "none")
@@ -839,6 +842,7 @@ var p = document.getElementById("dangerouscurfew");
 
 function funcy(id) 
  {
+     	document.getElementById("smallscreen").style.backgroundImage = "url('city.png')";
   document.getElementById("partyfin3").style.display = "block";
 var e = document.getElementById(id); 
     if(e.style.display == "none")
