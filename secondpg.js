@@ -1,6 +1,7 @@
 
 function functionstart(id)
 {
+ 	document.getElementById("smallscreen").style.backgroundImage = "url('broom.png')";
 document.getElementById("buttonmakeup").style.display = "block";
 document.getElementById("buttonoutfit").style.display = "block";
 var e = document.getElementById(id); //makeup button gone
