@@ -87,16 +87,6 @@ var p = document.getElementById("chooseoutfit");
     d.style.display = "block";
 	else
     d.style.display = "none";
-var s = document.getElementById("pop1");
-    if(s.style.display == "none")
-    s.style.display = "block";
-	else
-    s.style.display = "none";
-var v = document.getElementById("please");
-    if(v.style.display == "none")
-    v.style.display = "block";
-	else
-    v.style.display = "none";
 	$('#showfinally').show(); return false;	
 }
 
@@ -159,16 +149,6 @@ var p = document.getElementById("chooseoutfit");
     p.style.display = "block";
 	else
     p.style.display = "none";
-var s = document.getElementById("pop1");
-    if(s.style.display == "none")
-    s.style.display = "block";
-	else
-    s.style.display = "none";
-var x = document.getElementById("please");
-    if(x.style.display == "none")
-    x.style.display = "block";
-	else
-    x.style.display = "none";
 	$('#showfinally').show(); return false;	
 }
 
