@@ -1148,7 +1148,7 @@ var e = document.getElementById(id);
   $('#choosekeys').show(); return false;  
 }
 
-function funcignorethem(id) //when next button is clicked.....
+function funcignore(id) //when next button is clicked.....
  {
 document.getElementById("blah").style.display = "block";
 var e = document.getElementById(id); 
@@ -1161,19 +1161,19 @@ var e = document.getElementById(id);
     p.style.display = "block";
   else
     p.style.display = "none";
-   var d = document.getElementById("ignorethem");
+   var d = document.getElementById("weapon");
     if(d.style.display == "none")
     d.style.display = "block";
   else
     d.style.display = "none";
 
-  $('#choosekeys').show(); return false;  
+  $('#choosecross').show(); return false;  
 }
 
  function funcpartyfin1(id) //when next button is clicked.....
  {
-document.getElementById("weapon").style.display = "block";
-document.getElementById("ignorethem").style.display = "block";
+document.getElementById("weapon1").style.display = "block";
+document.getElementById("ignorethem1").style.display = "block";
 var e = document.getElementById(id); 
     if(e.style.display == "none")
     e.style.display = "block";
@@ -1187,10 +1187,54 @@ var e = document.getElementById(id);
   $('#catcall1').show(); return false;  
 }
 
+function funcweapon1(id) //when next button is clicked.....
+ {
+document.getElementById("abc").style.display = "block";
+var e = document.getElementById(id); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+  else
+    e.style.display = "none";
+    var p = document.getElementById("catcall1");
+    if(p.style.display == "none")
+    p.style.display = "block";
+  else
+    p.style.display = "none";
+   var d = document.getElementById("ignorethem1");
+    if(d.style.display == "none")
+    d.style.display = "block";
+  else
+    d.style.display = "none";
+
+  $('#choosekeys').show(); return false;  
+}
+
+function funcignore1(id) //when next button is clicked.....
+ {
+document.getElementById("def").style.display = "block";
+var e = document.getElementById(id); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+  else
+    e.style.display = "none";
+    var p = document.getElementById("catcall1");
+    if(p.style.display == "none")
+    p.style.display = "block";
+  else
+    p.style.display = "none";
+   var d = document.getElementById("weapon1");
+    if(d.style.display == "none")
+    d.style.display = "block";
+  else
+    d.style.display = "none";
+
+  $('#choosecross').show(); return false;  
+}
+
  function funcpartyfin2(id) //when next button is clicked.....
  {
-document.getElementById("weapon").style.display = "block";
-document.getElementById("ignorethem").style.display = "block";
+document.getElementById("weapon2").style.display = "block";
+document.getElementById("ignorethem2").style.display = "block";
 var e = document.getElementById(id); 
     if(e.style.display == "none")
     e.style.display = "block";
@@ -1204,10 +1248,54 @@ var e = document.getElementById(id);
   $('#catcall2').show(); return false;  
 }
 
+function funcweapon2(id) //when next button is clicked.....
+ {
+document.getElementById("ghi").style.display = "block";
+var e = document.getElementById(id); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+  else
+    e.style.display = "none";
+    var p = document.getElementById("catcall2");
+    if(p.style.display == "none")
+    p.style.display = "block";
+  else
+    p.style.display = "none";
+   var d = document.getElementById("ignorethem2");
+    if(d.style.display == "none")
+    d.style.display = "block";
+  else
+    d.style.display = "none";
+
+  $('#choosekeys').show(); return false;  
+}
+
+function funcignore2(id) //when next button is clicked.....
+ {
+document.getElementById("jkl").style.display = "block";
+var e = document.getElementById(id); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+  else
+    e.style.display = "none";
+    var p = document.getElementById("catcall2");
+    if(p.style.display == "none")
+    p.style.display = "block";
+  else
+    p.style.display = "none";
+   var d = document.getElementById("weapon2");
+    if(d.style.display == "none")
+    d.style.display = "block";
+  else
+    d.style.display = "none";
+
+  $('#choosecross').show(); return false;  
+}
+
  function funcpartyfin3(id) //when next button is clicked.....
  {
-document.getElementById("weapon").style.display = "block";
-document.getElementById("ignorethem").style.display = "block";
+document.getElementById("weapon3").style.display = "block";
+document.getElementById("ignorethem3").style.display = "block";
 var e = document.getElementById(id); 
     if(e.style.display == "none")
     e.style.display = "block";
@@ -1219,5 +1307,49 @@ var e = document.getElementById(id);
   else
     p.style.display = "none";
   $('#catcall3').show(); return false;  
+}
+
+function funcweapon2(id) //when next button is clicked.....
+ {
+document.getElementById("mno").style.display = "block";
+var e = document.getElementById(id); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+  else
+    e.style.display = "none";
+    var p = document.getElementById("catcall3");
+    if(p.style.display == "none")
+    p.style.display = "block";
+  else
+    p.style.display = "none";
+   var d = document.getElementById("ignorethem3");
+    if(d.style.display == "none")
+    d.style.display = "block";
+  else
+    d.style.display = "none";
+
+  $('#choosekeys').show(); return false;  
+}
+
+function funcignore2(id) //when next button is clicked.....
+ {
+document.getElementById("pqr").style.display = "block";
+var e = document.getElementById(id); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+  else
+    e.style.display = "none";
+    var p = document.getElementById("catcall3");
+    if(p.style.display == "none")
+    p.style.display = "block";
+  else
+    p.style.display = "none";
+   var d = document.getElementById("weapon3");
+    if(d.style.display == "none")
+    d.style.display = "block";
+  else
+    d.style.display = "none";
+
+  $('#choosecross').show(); return false;  
 }
 
