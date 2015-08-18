@@ -1151,7 +1151,7 @@ var e = document.getElementById(id);
 
 function funcignore(id) //when next button is clicked.....
  {
-document.getElementById("blah").style.display = "block";
+document.getElementById("blahh").style.display = "block";
 var e = document.getElementById(id); 
     if(e.style.display == "none")
     e.style.display = "block";
@@ -1170,7 +1170,7 @@ var e = document.getElementById(id);
 
   $('#choosecross').show(); return false;  
 }
-function blah(id) //when next button is clicked.....
+function blahh(id) //when next button is clicked.....
  {
 var e = document.getElementById(id); 
     if(e.style.display == "none")
