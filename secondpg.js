@@ -1076,6 +1076,11 @@ var e = document.getElementById(id);
     y.style.display = "block";
   else
     y.style.display = "none";
+var v = document.getElementById("websitelink"); 
+    if(v.style.display == "none")
+    v.style.display = "block";
+  else
+    v.style.display = "none";
   $('#shownotice1').show(); return false;  
 }
 
