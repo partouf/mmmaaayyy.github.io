@@ -1578,7 +1578,7 @@ var r = document.getElementById("catcallvideo");
 
 function funcpqr(id) //when next button is clicked.....
  {
-    	document.getElementById("smallscreen").style.backgroundImage = "url('endpage.png')";
+    	document.getElementById("smallscreen").style.backgroundImage = "url('startpage.png')";
     document.getElementById("returntohome").style.display = "block";
 var e = document.getElementById(id); 
     if(e.style.display == "none")
