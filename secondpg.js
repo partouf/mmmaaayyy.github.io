@@ -123,6 +123,7 @@ var p = document.getElementById("chooseoutfit");
   	document.getElementById("smallscreen").style.backgroundImage = "url('hallway2.png')";
   document.getElementById("buttonfinally1").style.display = "block";
    document.getElementById("pop3").style.display = "block";
+   document.getElementById("websitelink").style.display = "block";
 var e = document.getElementById(id); 
     if(e.style.display == "none")
     e.style.display = "block";
