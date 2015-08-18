@@ -572,6 +572,8 @@ var p = document.getElementById("prepareconcert");
   	document.getElementById("smallscreen").style.backgroundImage = "url('yoga.png')";
  	document.getElementById("angry").style.display = "block";
  	document.getElementById("nothing").style.display = "block";
+  document.getElementById("pop6").style.display = "block";
+     document.getElementById("boyswillbeboys").style.display = "block";
 var e = document.getElementById(id); 
     if(e.style.display == "none")
     e.style.display = "block";
