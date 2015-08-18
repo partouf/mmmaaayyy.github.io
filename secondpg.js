@@ -594,7 +594,7 @@ var p = document.getElementById("chooseyoga");
     d.style.display = "block";
   else
     d.style.display = "none";
-  var b = document.getElementById("pop7");
+  var b = document.getElementById("pop6");
     if(b.style.display == "none")
     b.style.display = "block";
   else
