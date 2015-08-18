@@ -238,6 +238,8 @@ var q = document.getElementById("please");
  {
   	document.getElementById("smallscreen").style.backgroundImage = "url('gym.png')";
  document.getElementById("nextnext").style.display = "block";
+ document.getElementById("pop5").style.display = "block";
+     document.getElementById("likeagirl").style.display = "block";
 var e = document.getElementById(id); 
     if(e.style.display == "none")
     e.style.display = "block";
