@@ -1085,6 +1085,11 @@ var e = document.getElementById(id);
     p.style.display = "block";
   else
     p.style.display = "none";
+    var y = document.getElementById("pop3"); 
+    if(y.style.display == "none")
+    y.style.display = "block";
+  else
+    y.style.display = "none";
   $('#shownotice1').show(); return false;  
 }
 
