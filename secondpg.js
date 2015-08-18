@@ -1082,14 +1082,13 @@ var g = document.getElementById("please");
     g.style.display = "block";
 	else
     g.style.display = "none";
-  $('#shownotice').show(); return false;  
+  $('#chooseclass').show(); return false;  
 }
 
  function funcfinally1(id) //when next button is clicked.....
  {
 document.getElementById("buttonn").style.display = "block";
 //document.getElementById("pop1").style.display = "block";
-document.getElementById("please").style.display = "block";
 var e = document.getElementById(id); 
     if(e.style.display == "none")
     e.style.display = "block";
