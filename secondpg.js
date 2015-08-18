@@ -1143,31 +1143,7 @@ var b = document.getElementById("please");
     b.style.display = "none";
   $('#shownotice2').show(); return false;  
 }
- function funcfinally3(id) //when next button is clicked.....
- {
-document.getElementById("buttonnextclass").style.display = "block";
-var e = document.getElementById(id); 
-    if(e.style.display == "none")
-    e.style.display = "block";
-  else
-    e.style.display = "none";
-    var p = document.getElementById("showfinally");
-    if(p.style.display == "none")
-    p.style.display = "block";
-  else
-    p.style.display = "none";
-var u = document.getElementById("pop1");
-    if(u.style.display == "none")
-    u.style.display = "block";
-  else
-    u.style.display = "none";
-var b = document.getElementById("please");
-    if(b.style.display == "none")
-    b.style.display = "block";
-  else
-    b.style.display = "none";
-  $('#shownotice').show(); return false;  
-}
+
 
 
  function funcpartyfin(id) //when next button is clicked.....
