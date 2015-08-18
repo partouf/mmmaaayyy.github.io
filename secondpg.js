@@ -70,6 +70,8 @@ function funcmakeup(id) //makeup
  {
  	document.getElementById("smallscreen").style.backgroundImage = "url('hallway2.png')";
  	document.getElementById("buttonfinally").style.display = "block";
+ 	 	document.getElementById("pop1").style.display = "block";
+ 	 	 	document.getElementById("please").style.display = "block";
 var e = document.getElementById(id); 
     if(e.style.display == "none")
     e.style.display = "block";
@@ -111,6 +113,8 @@ var p = document.getElementById("choosetank");
  {
   	document.getElementById("smallscreen").style.backgroundImage = "url('hallway2.png')";
   document.getElementById("buttonfinally2").style.display = "block";
+  document.getElementById("pop1").style.display = "block";
+ 	 	 	document.getElementById("please").style.display = "block";
 var e = document.getElementById(id); 
     if(e.style.display == "none")
     e.style.display = "block";
@@ -1043,6 +1047,16 @@ var e = document.getElementById(id);
     p.style.display = "block";
   else
     p.style.display = "none";
+var u = document.getElementById("pop1");
+    if(u.style.display == "none")
+    u.style.display = "block";
+  else
+    u.style.display = "none";
+var b = document.getElementById("please");
+    if(b.style.display == "none")
+    b.style.display = "block";
+  else
+    b.style.display = "none";
   $('#shownotice').show(); return false;  
 }
 
@@ -1085,6 +1099,16 @@ var e = document.getElementById(id);
     p.style.display = "block";
   else
     p.style.display = "none";
+var u = document.getElementById("pop1");
+    if(u.style.display == "none")
+    u.style.display = "block";
+  else
+    u.style.display = "none";
+var b = document.getElementById("please");
+    if(b.style.display == "none")
+    b.style.display = "block";
+  else
+    b.style.display = "none";
   $('#shownotice2').show(); return false;  
 }
 
