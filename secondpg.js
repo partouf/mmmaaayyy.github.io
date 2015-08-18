@@ -177,6 +177,7 @@ var n = document.getElementById("please");
 	$('#chooseclass').show(); return false;
 }
 
+
  function funcbuttonn(id) 
  {
   document.getElementById("buttongym").style.display = "block";
@@ -1084,7 +1085,7 @@ var g = document.getElementById("please");
     g.style.display = "block";
 	else
     g.style.display = "none";
-  $('#chooseclass').show(); return false;  
+  $('#shownotice').show(); return false;  
 }
 
  function funcfinally1(id) //when next button is clicked.....
