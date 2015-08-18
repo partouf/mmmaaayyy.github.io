@@ -1,4 +1,4 @@
-x
+
 /*var max=0;
       function textlist()
       {
