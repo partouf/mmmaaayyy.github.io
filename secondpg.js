@@ -167,6 +167,16 @@ var p = document.getElementById("shownotice");
     p.style.display = "block";
 	else
     p.style.display = "none";
+var z = document.getElementById("pop1");
+    if(z.style.display == "none")
+    z.style.display = "block";
+	else
+    z.style.display = "none";
+var q = document.getElementById("please");
+    if(q.style.display == "none")
+    q.style.display = "block";
+	else
+    q.style.display = "none";
 	$('#chooseclass').show(); return false;
 }
 
@@ -184,6 +194,16 @@ var p = document.getElementById("shownotice1");
     p.style.display = "block";
   else
     p.style.display = "none";
+var z = document.getElementById("pop1");
+    if(z.style.display == "none")
+    z.style.display = "block";
+	else
+    z.style.display = "none";
+var q = document.getElementById("please");
+    if(q.style.display == "none")
+    q.style.display = "block";
+	else
+    q.style.display = "none";
   $('#chooseclass').show(); return false;
 }
 
@@ -201,6 +221,16 @@ var p = document.getElementById("shownotice2");
     p.style.display = "block";
   else
     p.style.display = "none";
+var z = document.getElementById("pop1");
+    if(z.style.display == "none")
+    z.style.display = "block";
+	else
+    z.style.display = "none";
+var q = document.getElementById("please");
+    if(q.style.display == "none")
+    q.style.display = "block";
+	else
+    q.style.display = "none";
   $('#chooseclass').show(); return false;
 }
 
