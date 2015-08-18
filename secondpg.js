@@ -470,6 +470,22 @@ var p = document.getElementById("prepareconcert");
   $('#partyfinish').show(); return false;
 }
 
+function funcpartyfin(id) 
+ {
+  document.getElementById("grabkeys").style.display = "block";    
+  document.getElementById("crossstreet").style.display = "block";
+var e = document.getElementById(id); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+  else
+    e.style.display = "none";
+var p = document.getElementById("partyfinish");
+    if(p.style.display == "none")
+    p.style.display = "block";
+  else
+    p.style.display = "none";
+  $('#walkinghome').show(); return false;
+}
 
 function funcd(id) 
  {
@@ -553,6 +569,24 @@ var p = document.getElementById("prepareconcert");
     p.style.display = "none";
   $('#partyfinish').show(); return false;
 }
+
+function funcpartyfin(id) 
+ {
+  document.getElementById("grabkeys").style.display = "block";    
+  document.getElementById("crossstreet").style.display = "block";
+var e = document.getElementById(id); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+  else
+    e.style.display = "none";
+var p = document.getElementById("partyfinish");
+    if(p.style.display == "none")
+    p.style.display = "block";
+  else
+    p.style.display = "none";
+  $('#walkinghome').show(); return false;
+}
+
 
  function funcyoga(id) //you pick gym as your class
  {
@@ -773,6 +807,23 @@ var p = document.getElementById("prepareconcert");
   $('#partyfinish').show(); return false;
 }
 
+function partyfin2(id) 
+ {
+  document.getElementById("grabkeys").style.display = "block";    
+  document.getElementById("crossstreet").style.display = "block";
+var e = document.getElementById(id); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+  else
+    e.style.display = "none";
+var p = document.getElementById("partyfinish");
+    if(p.style.display == "none")
+    p.style.display = "block";
+  else
+    p.style.display = "none";
+  $('#walkinghome').show(); return false;
+}
+
 function funch(id) //you pick gym as your class
  {
       	document.getElementById("smallscreen").style.backgroundImage = "url('living.png')";
@@ -855,6 +906,23 @@ var p = document.getElementById("prepareconcert");
   else
     p.style.display = "none";
   $('#partyfinish').show(); return false;
+}
+
+function funcpartyfin3(id) 
+ {
+  document.getElementById("grabkeys").style.display = "block";    
+  document.getElementById("crossstreet").style.display = "block";
+var e = document.getElementById(id); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+  else
+    e.style.display = "none";
+var p = document.getElementById("partyfinish");
+    if(p.style.display == "none")
+    p.style.display = "block";
+  else
+    p.style.display = "none";
+  $('#walkinghome').show(); return false;
 }
 
  function funcsoccer(id) 
