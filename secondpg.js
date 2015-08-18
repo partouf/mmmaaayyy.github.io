@@ -1,31 +1,4 @@
 
-/*var max=0;
-      function textlist()
-      {
-      max=textlist.arguments.length;
-      for (i=0; i<max; i++)
-      this[i]=textlist.arguments[i];
-      }
-      tl=new textlist
-      ( 
-       "You glance over at your alarm clock when you notice that its 7:38.",    
-       "YOU THINK: How is it almost 7:40?",
-       "YOU THINK: I have to get ready for school NOW.",
-       "You jump out of bed and run to:"
-       
-      );
-
-
-
-      var x=0; pos=0;
-      var l=tl[0].length;
-      function textticker()
-      {
-        document.tickform.tickfield.value=tl[x].substring(0,pos)+"_";
-        if(pos++==l) { pos=0; setTimeout("textticker()",1000); x++;
-        if(x==max) x=0; l=tl[x].length; } else
-        setTimeout("textticker()",50);
-      }*/
 function functionstart(id)
 {
 document.getElementById("buttonmakeup").style.display = "block";
@@ -1161,6 +1134,21 @@ var e = document.getElementById(id);
   $('#choosekeys').show(); return false;  
 }
 
+function bla(id) //when next button is clicked.....
+ {
+var e = document.getElementById(id); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+  else
+    e.style.display = "none";
+    var p = document.getElementById("choosekeys");
+    if(p.style.display == "none")
+    p.style.display = "block";
+  else
+    p.style.display = "none";
+  $('#ending').show(); return false;  
+}
+
 function funcignore(id) //when next button is clicked.....
  {
 document.getElementById("blah").style.display = "block";
@@ -1181,6 +1169,20 @@ var e = document.getElementById(id);
     d.style.display = "none";
 
   $('#choosecross').show(); return false;  
+}
+function blah(id) //when next button is clicked.....
+ {
+var e = document.getElementById(id); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+  else
+    e.style.display = "none";
+    var p = document.getElementById("choosecross");
+    if(p.style.display == "none")
+    p.style.display = "block";
+  else
+    p.style.display = "none";
+  $('#ending').show(); return false;  
 }
 
  function funcpartyfin1(id) //when next button is clicked.....
@@ -1222,6 +1224,21 @@ var e = document.getElementById(id);
   $('#choosekeys').show(); return false;  
 }
 
+function abc(id) //when next button is clicked.....
+ {
+var e = document.getElementById(id); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+  else
+    e.style.display = "none";
+    var p = document.getElementById("choosekeys");
+    if(p.style.display == "none")
+    p.style.display = "block";
+  else
+    p.style.display = "none";
+  $('#ending').show(); return false;  
+}
+
 function funcignore1(id) //when next button is clicked.....
  {
 document.getElementById("def").style.display = "block";
@@ -1242,6 +1259,21 @@ var e = document.getElementById(id);
     d.style.display = "none";
 
   $('#choosecross').show(); return false;  
+}
+
+function def(id) //when next button is clicked.....
+ {
+var e = document.getElementById(id); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+  else
+    e.style.display = "none";
+    var p = document.getElementById("choosecross");
+    if(p.style.display == "none")
+    p.style.display = "block";
+  else
+    p.style.display = "none";
+  $('#ending').show(); return false;  
 }
 
  function funcpartyfin2(id) //when next button is clicked.....
@@ -1283,6 +1315,21 @@ var e = document.getElementById(id);
   $('#choosekeys').show(); return false;  
 }
 
+function ghi(id) //when next button is clicked.....
+ {
+var e = document.getElementById(id); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+  else
+    e.style.display = "none";
+    var p = document.getElementById("choosekeys");
+    if(p.style.display == "none")
+    p.style.display = "block";
+  else
+    p.style.display = "none";
+  $('#ending').show(); return false;  
+}
+
 function funcignore2(id) //when next button is clicked.....
  {
 document.getElementById("jkl").style.display = "block";
@@ -1303,6 +1350,21 @@ var e = document.getElementById(id);
     d.style.display = "none";
 
   $('#choosecross').show(); return false;  
+}
+
+function jkl(id) //when next button is clicked.....
+ {
+var e = document.getElementById(id); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+  else
+    e.style.display = "none";
+    var p = document.getElementById("choosecross");
+    if(p.style.display == "none")
+    p.style.display = "block";
+  else
+    p.style.display = "none";
+  $('#ending').show(); return false;  
 }
 
  function funcpartyfin3(id) //when next button is clicked.....
@@ -1344,6 +1406,21 @@ var e = document.getElementById(id);
   $('#choosekeys').show(); return false;  
 }
 
+function mno(id) //when next button is clicked.....
+ {
+var e = document.getElementById(id); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+  else
+    e.style.display = "none";
+    var p = document.getElementById("choosekeys");
+    if(p.style.display == "none")
+    p.style.display = "block";
+  else
+    p.style.display = "none";
+  $('#ending').show(); return false;  
+}
+
 function funcignore3(id) //when next button is clicked.....
  {
 document.getElementById("pqr").style.display = "block";
@@ -1363,5 +1440,20 @@ var e = document.getElementById(id);
   else
     d.style.display = "none";
   $('#choosecross').show(); return false;  
+}
+
+function pqr(id) //when next button is clicked.....
+ {
+var e = document.getElementById(id); 
+    if(e.style.display == "none")
+    e.style.display = "block";
+  else
+    e.style.display = "none";
+    var p = document.getElementById("choosecross");
+    if(p.style.display == "none")
+    p.style.display = "block";
+  else
+    p.style.display = "none";
+  $('#ending').show(); return false;  
 }
 
