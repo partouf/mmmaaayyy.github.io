@@ -70,8 +70,6 @@ function funcmakeup(id) //makeup
  {
  	document.getElementById("smallscreen").style.backgroundImage = "url('hallway2.png')";
  	document.getElementById("buttonfinally").style.display = "block";
- 	    document.getElementById("pop1").style.display = "block";
- 	document.getElementById("please").style.display = "block";
 var e = document.getElementById(id); 
     if(e.style.display == "none")
     e.style.display = "block";
@@ -130,8 +128,6 @@ var p = document.getElementById("choosebaggy");
  {
   	document.getElementById("smallscreen").style.backgroundImage = "url('hallway2.png')";
  	document.getElementById("buttonfinally").style.display = "block";
- 	   document.getElementById("pop1").style.display = "block";
- 	   document.getElementById("please").style.display = "block";
 var e = document.getElementById(id); 
     if(e.style.display == "none")
     e.style.display = "block";
@@ -182,16 +178,6 @@ var p = document.getElementById("shownotice1");
     p.style.display = "block";
   else
     p.style.display = "none";
-var z = document.getElementById("pop1");
-    if(z.style.display == "none")
-    z.style.display = "block";
-	else
-    z.style.display = "none";
-var q = document.getElementById("please");
-    if(q.style.display == "none")
-    q.style.display = "block";
-	else
-    q.style.display = "none";
   $('#chooseclass').show(); return false;
 }
 
@@ -209,16 +195,6 @@ var p = document.getElementById("shownotice2");
     p.style.display = "block";
   else
     p.style.display = "none";
-var z = document.getElementById("pop1");
-    if(z.style.display == "none")
-    z.style.display = "block";
-	else
-    z.style.display = "none";
-var q = document.getElementById("please");
-    if(q.style.display == "none")
-    q.style.display = "block";
-	else
-    q.style.display = "none";
   $('#chooseclass').show(); return false;
 }
 
@@ -1067,23 +1043,12 @@ var e = document.getElementById(id);
     p.style.display = "block";
   else
     p.style.display = "none";
-var d = document.getElementById("pop1");
-    if(d.style.display == "none")
-    d.style.display = "block";
-  else
-    d.style.display = "none";
-var g = document.getElementById("please");
-    if(g.style.display == "none")
-    g.style.display = "block";
-	else
-    g.style.display = "none";
   $('#shownotice').show(); return false;  
 }
 
  function funcfinally1(id) //when next button is clicked.....
  {
 document.getElementById("buttonn").style.display = "block";
-//document.getElementById("pop1").style.display = "block";
 var e = document.getElementById(id); 
     if(e.style.display == "none")
     e.style.display = "block";
