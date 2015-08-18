@@ -1045,6 +1045,8 @@ function funcbaggy(id)
  {
   document.getElementById("buttonnexty").style.display = "block";
     var e = document.getElementById(id); 
+    document.getElementById("pop7").style.display = "block";
+     document.getElementById("beperfect").style.display = "block";
     if(e.style.display == "none")
     e.style.display = "block";
   else
