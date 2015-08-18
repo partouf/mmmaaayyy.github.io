@@ -636,6 +636,16 @@ var p = document.getElementById("chooseyoga");
     d.style.display = "block";
   else
     d.style.display = "none";
+var n = document.getElementById("boyswillbeboys");
+    if(n.style.display == "none")
+    n.style.display = "block";
+  else
+    n.style.display = "none";
+var z = document.getElementById("pop6");
+    if(z.style.display == "none")
+    z.style.display = "block";
+  else
+    z.style.display = "none";
   $('#nothingresponse').show(); return false;
 }
 
