@@ -300,6 +300,11 @@ var e = document.getElementById(id);
     e.style.display = "block";
   else
     e.style.display = "none";
+var y = document.getElementById("pop2"); 
+    if(y.style.display == "none")
+    y.style.display = "block";
+  else
+    y.style.display = "none";
 var p = document.getElementById("choosecs");
     if(p.style.display == "none")
     p.style.display = "block";
