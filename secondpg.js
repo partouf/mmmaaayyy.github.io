@@ -1097,6 +1097,8 @@ var e = document.getElementById(id);
 
  function funcpartyfin(id) //when next button is clicked.....
  {
+ document.getElementById("pop4").style.display = "block";
+  document.getElementById("catcallvideo").style.display = "block";
 document.getElementById("weapon").style.display = "block";
 document.getElementById("ignorethem").style.display = "block";
 var e = document.getElementById(id); 
@@ -1130,7 +1132,16 @@ var e = document.getElementById(id);
     d.style.display = "block";
   else
     d.style.display = "none";
-
+var v = document.getElementById("pop4"); 
+    if(v.style.display == "none")
+    v.style.display = "block";
+  else
+    v.style.display = "none";
+var r = document.getElementById("catcallvideo"); 
+    if(r.style.display == "none")
+    r.style.display = "block";
+  else
+    r.style.display = "none";
   $('#choosekeys').show(); return false;  
 }
 
@@ -1167,7 +1178,16 @@ var e = document.getElementById(id);
     d.style.display = "block";
   else
     d.style.display = "none";
-
+var v = document.getElementById("pop4"); 
+    if(v.style.display == "none")
+    v.style.display = "block";
+  else
+    v.style.display = "none";
+var r = document.getElementById("catcallvideo"); 
+    if(r.style.display == "none")
+    r.style.display = "block";
+  else
+    r.style.display = "none";
   $('#choosecross').show(); return false;  
 }
 function blahh(id) //when next button is clicked.....
@@ -1187,6 +1207,8 @@ var e = document.getElementById(id);
 
  function funcpartyfin1(id) //when next button is clicked.....
  {
+  document.getElementById("pop4").style.display = "block";
+  document.getElementById("catcallvideo").style.display = "block";
 document.getElementById("weapon1").style.display = "block";
 document.getElementById("ignorethem1").style.display = "block";
 var e = document.getElementById(id); 
@@ -1220,7 +1242,16 @@ var e = document.getElementById(id);
     d.style.display = "block";
   else
     d.style.display = "none";
-
+var v = document.getElementById("pop4"); 
+    if(v.style.display == "none")
+    v.style.display = "block";
+  else
+    v.style.display = "none";
+var r = document.getElementById("catcallvideo"); 
+    if(r.style.display == "none")
+    r.style.display = "block";
+  else
+    r.style.display = "none";
   $('#choosekeys').show(); return false;  
 }
 
@@ -1257,7 +1288,16 @@ var e = document.getElementById(id);
     d.style.display = "block";
   else
     d.style.display = "none";
-
+var v = document.getElementById("pop4"); 
+    if(v.style.display == "none")
+    v.style.display = "block";
+  else
+    v.style.display = "none";
+var r = document.getElementById("catcallvideo"); 
+    if(r.style.display == "none")
+    r.style.display = "block";
+  else
+    r.style.display = "none";
   $('#choosecross').show(); return false;  
 }
 
@@ -1278,6 +1318,8 @@ var e = document.getElementById(id);
 
  function funcpartyfin2(id) //when next button is clicked.....
  {
+  document.getElementById("pop4").style.display = "block";
+  document.getElementById("catcallvideo").style.display = "block";
 document.getElementById("weapon2").style.display = "block";
 document.getElementById("ignorethem2").style.display = "block";
 var e = document.getElementById(id); 
@@ -1311,7 +1353,16 @@ var e = document.getElementById(id);
     d.style.display = "block";
   else
     d.style.display = "none";
-
+var v = document.getElementById("pop4"); 
+    if(v.style.display == "none")
+    v.style.display = "block";
+  else
+    v.style.display = "none";
+var r = document.getElementById("catcallvideo"); 
+    if(r.style.display == "none")
+    r.style.display = "block";
+  else
+    r.style.display = "none";
   $('#choosekeys').show(); return false;  
 }
 
@@ -1348,7 +1399,16 @@ var e = document.getElementById(id);
     d.style.display = "block";
   else
     d.style.display = "none";
-
+var v = document.getElementById("pop4"); 
+    if(v.style.display == "none")
+    v.style.display = "block";
+  else
+    v.style.display = "none";
+var r = document.getElementById("catcallvideo"); 
+    if(r.style.display == "none")
+    r.style.display = "block";
+  else
+    r.style.display = "none";
   $('#choosecross').show(); return false;  
 }
 
@@ -1369,6 +1429,8 @@ var e = document.getElementById(id);
 
  function funcpartyfin3(id) //when next button is clicked.....
  {
+  document.getElementById("pop4").style.display = "block";
+  document.getElementById("catcallvideo").style.display = "block";
 document.getElementById("weapon3").style.display = "block";
 document.getElementById("ignorethem3").style.display = "block";
 var e = document.getElementById(id); 
@@ -1403,6 +1465,16 @@ var e = document.getElementById(id);
     d.style.display = "block";
   else
     d.style.display = "none";
+var v = document.getElementById("pop4"); 
+    if(v.style.display == "none")
+    v.style.display = "block";
+  else
+    v.style.display = "none";
+var r = document.getElementById("catcallvideo"); 
+    if(r.style.display == "none")
+    r.style.display = "block";
+  else
+    r.style.display = "none";
   $('#choosekeys').show(); return false;  
 }
 
@@ -1439,6 +1511,16 @@ var e = document.getElementById(id);
     d.style.display = "block";
   else
     d.style.display = "none";
+var v = document.getElementById("pop4"); 
+    if(v.style.display == "none")
+    v.style.display = "block";
+  else
+    v.style.display = "none";
+var r = document.getElementById("catcallvideo"); 
+    if(r.style.display == "none")
+    r.style.display = "block";
+  else
+    r.style.display = "none";
   $('#choosecross').show(); return false;  
 }
 
