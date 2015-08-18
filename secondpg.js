@@ -1335,6 +1335,12 @@ var e = document.getElementById(id);
     p.style.display = "block";
   else
     p.style.display = "none";
+
+  var d = document.getElementById("ignorethem3");
+    if(d.style.display == "none")
+    d.style.display = "block";
+  else
+    d.style.display = "none";
   $('#choosekeys').show(); return false;  
 }
 
@@ -1351,6 +1357,11 @@ var e = document.getElementById(id);
     p.style.display = "block";
   else
     p.style.display = "none";
+    var d = document.getElementById("weapon3");
+    if(d.style.display == "none")
+    d.style.display = "block";
+  else
+    d.style.display = "none";
   $('#choosecross').show(); return false;  
 }
 
