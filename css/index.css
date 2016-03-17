@@ -2,12 +2,12 @@ body, a, a:hover { cursor:url('http://www.dolliehost.com/dolliecrave/cursors/cur
 
 @font-face {
     font-family: 'teen';
-    src: url('teen-webfont.eot');
-    src: url('teen-webfont.eot?#iefix') format('embedded-opentype'),
-         url('teen-webfont.woff2') format('woff2'),
-         url('teen-webfont.woff') format('woff'),
-         url('teen-webfont.ttf') format('truetype'),
-         url('teen-webfont.svg#teenregular') format('svg');
+    src: url('/style/teen-webfont.eot');
+    src: url('/style/teen-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/style/teen-webfont.woff2') format('woff2'),
+         url('/style/teen-webfont.woff') format('woff'),
+         url('/style/teen-webfont.ttf') format('truetype'),
+         url('/style/teen-webfont.svg#teenregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -18,12 +18,12 @@ body, a, a:hover { cursor:url('http://www.dolliehost.com/dolliecrave/cursors/cur
 
 @font-face {
     font-family: 'claphappy';
-    src: url('claphappy-webfont.eot');
-    src: url('claphappy-webfont.eot?#iefix') format('embedded-opentype'),
-         url('claphappy-webfont.woff2') format('woff2'),
-         url('claphappy-webfont.woff') format('woff'),
-         url('claphappy-webfont.ttf') format('truetype'),
-         url('claphappy-webfont.svg#claphappymedium') format('svg');
+    src: url('/style/claphappy-webfont.eot');
+    src: url('/style/claphappy-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/style/claphappy-webfont.woff2') format('woff2'),
+         url('/style/claphappy-webfont.woff') format('woff'),
+         url('/style/claphappy-webfont.ttf') format('truetype'),
+         url('/style/claphappy-webfont.svg#claphappymedium') format('svg');
     font-weight: normal;
     font-style: normal;
 

@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		
-		<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-		<script src="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
-		<script src="file.js"></script>
-		<!-- Latest compiled and minified CSS -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="css/index.css">
+
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="scripts/file.js"></script>
+<!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
 <!-- Optional theme -->
@@ -13,59 +13,53 @@
 
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-<link rel="stylesheet" type="text/css" href="index.css">
-	<head>
-		<title>MY CHOICE</title>
-	</head>
-	<body>
-	<nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="">My Choice</a>
-    </div>
+<head>
+    <title>MY CHOICE</title>
+</head>
+<body>
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="">My Choice</a>
+        </div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="http://mmmaaayyy.github.io/">Home <span class="sr-only">(current)</span></a></li>
-        <li><a href="aboutus.html">About us</a></li>
-        <li><a href="mappg.html">Game Menu</a></li>
-        <li><a href="product.html">Product</a></li>
-      </ul> 
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="/">Home <span class="sr-only">(current)</span></a></li>
+                <li><a href="http://mmmaaayyy.github.io//">Original</a></li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
 </nav>
 
 
-	<style> body, a, a:hover { cursor:url('http://www.dolliehost.com/dolliecrave/cursors/cursors-arrow/arrow38.gif'), auto }</style>
+<style> body, a, a:hover {
+    text-decoration: none;
+}</style>
 
-	<!--<div class="intro">
-	<div id="tp">
-	<center><p><font size="7">Growing up Girl</font></p></center>
-	</div>
+<div class="blahblah" style="text-align: center;">
+    <img src="resources/flag.png" style="height:150px; width:700px;"/>
+    <div id="pls">
+        <a href="/pages/game.html" target="_self"><img src="resources/start.png" style="width:100px;height:50px;"/></a>
+    </div>
+    <span class="element"></span>
 
-
-	</div>-->
-    <div class="blahblah">
-	<center><img src="flag.png" style="height:150px; width:700px;"/></center>
-    <center><div id="pls"><a href="http://mmmaaayyy.github.io/secondpg.html" target="_self"><img src="start.png" style="width:100px;height:50px;"></div></center>
-<span class="element"></span>
-    
-<script>
-    $(function(){
-        $(".element").typed({
-             strings: ["Feminism is about gaining equal rights and opportunities for women, and allowing women to have control over their lives and bodies. As we live in a world centered around technology, we wanted to create a Choose Your Own Adventure game which would bring attention to intersectional feminism, and allow the user to experience extremely prevalent social injustices for themselves."],
-            typeSpeed: 0
+    <script>
+        $(function () {
+            $(".element").typed({
+                strings: ["Feminism is about gaining equal rights and opportunities for women, and allowing women to have control over their lives and bodies. As we live in a world centered around technology, we wanted to create a Choose Your Own Adventure game which would bring attention to intersectional feminism, and allow the user to experience extremely prevalent social injustices for themselves."],
+                typeSpeed: 0
+            });
         });
-    }); 
-</script>
+    </script>
 </div>
 
 </body>
