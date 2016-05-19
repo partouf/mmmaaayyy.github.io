@@ -23,7 +23,7 @@ function functionstart(id, skiptoggle) {
         $("div.storybox").show();
     }
 
-    setBackground("smallscreen", "broom.png")
+    setBackground("smallscreen", "broom.png");
     showElement("buttonmakeup");
     showElement("buttonoutfit");
     if (!skiptoggle) {
@@ -63,7 +63,7 @@ function funcoutfit(id, skiptoggle) //outfit
 
 function funcdress(id, skiptoggle) //finally you get to school
 {
-    setBackground("smallscreen", "hallway2.png")
+    setBackground("smallscreen", "hallway2.png");
     showElement("buttonfinally");
     showElement("pop1");
     showElement("please");
@@ -78,7 +78,7 @@ function funcdress(id, skiptoggle) //finally you get to school
 
 function funcnext(id, skiptoggle) //finally you get to school
 {
-    setBackground("smallscreen", "hallway2.png")
+    setBackground("smallscreen", "hallway2.png");
     showElement("buttonfinally1");
     showElement("pop3");
     showElement("websitelink");
@@ -92,7 +92,7 @@ function funcnext(id, skiptoggle) //finally you get to school
 
 function funcnexty(id, skiptoggle) //finally you get to school
 {
-    setBackground("smallscreen", "hallway2.png")
+    setBackground("smallscreen", "hallway2.png");
     showElement("buttonfinally2");
     showElement("pop1");
     showElement("please");
@@ -108,7 +108,7 @@ function funcnexty(id, skiptoggle) //finally you get to school
 
 function funcshirt(id, skiptoggle) //finally you get to school
 {
-    setBackground("smallscreen", "hallway2.png")
+    setBackground("smallscreen", "hallway2.png");
     showElement("buttonfinally");
     showElement("pop1");
     showElement("please");
@@ -158,7 +158,7 @@ function funcbuttonnn(id, skiptoggle) {
 
 function funcgym(id, skiptoggle) //you pick gym as your class
 {
-    setBackground("smallscreen", "gym.png")
+    setBackground("smallscreen", "gym.png");
     showElement("nextnext");
     showElement("pop5");
     showElement("likeagirl");
@@ -173,7 +173,7 @@ function funcgym(id, skiptoggle) //you pick gym as your class
 
 function funccs(id, skiptoggle) //you pick cs
 {
-    setBackground("smallscreen", "classroom.png")
+    setBackground("smallscreen", "classroom.png");
     showElement("nextnext1");
     showElement("pop2");
     showElement("weblink");
@@ -259,7 +259,7 @@ function funcb(id, skiptoggle) {
 }
 
 function funcc(id, skiptoggle) {
-    setBackground("smallscreen", "living.png")
+    setBackground("smallscreen", "living.png");
     showElement("e");
     if (!skiptoggle) {
         toggleBlockElement(id);
@@ -290,7 +290,7 @@ function funco(id, skiptoggle) {
 }
 
 function funcs(id, skiptoggle) {
-    setBackground("smallscreen", "concert.png")
+    setBackground("smallscreen", "concert.png");
     showElement("z");
     if (!skiptoggle) {
         toggleBlockElement(id);
@@ -301,7 +301,7 @@ function funcs(id, skiptoggle) {
 }
 
 function funcz(id, skiptoggle) {
-    setBackground("smallscreen", "city.png")
+    setBackground("smallscreen", "city.png");
     showElement("partyfin");
     if (!skiptoggle) {
         toggleBlockElement(id);
@@ -313,7 +313,7 @@ function funcz(id, skiptoggle) {
 
 
 function funcd(id, skiptoggle) {
-    setBackground("smallscreen", "living.png")
+    setBackground("smallscreen", "living.png");
     showElement("f");
     if (!skiptoggle) {
         toggleBlockElement(id);
@@ -344,7 +344,7 @@ function funcp(id, skiptoggle) {
 }
 
 function funcv(id, skiptoggle) {
-    setBackground("smallscreen", "concert.png")
+    setBackground("smallscreen", "concert.png");
     showElement("w");
     if (!skiptoggle) {
         toggleBlockElement(id);
@@ -355,7 +355,7 @@ function funcv(id, skiptoggle) {
 }
 
 function funcw(id, skiptoggle) {
-    setBackground("smallscreen", "city.png")
+    setBackground("smallscreen", "city.png");
     showElement("partyfin1");
     if (!skiptoggle) {
         toggleBlockElement(id);
@@ -368,7 +368,7 @@ function funcw(id, skiptoggle) {
 
 function funcyoga(id, skiptoggle) //you pick gym as your class
 {
-    setBackground("smallscreen", "yoga.png")
+    setBackground("smallscreen", "yoga.png");
     showElement("angry");
     showElement("nothing");
     showElement("pop6");
@@ -460,7 +460,7 @@ function funclul(id, skiptoggle) //you pick gym as your class
 
 function funcg(id, skiptoggle) //you pick gym as your class
 {
-    setBackground("smallscreen", "living.png")
+    setBackground("smallscreen", "living.png");
     showElement("i");
     if (!skiptoggle) {
         toggleBlockElement(id);
@@ -491,7 +491,7 @@ function funcq(id, skiptoggle) {
 }
 
 function funct(id, skiptoggle) {
-    setBackground("smallscreen", "concert.png")
+    setBackground("smallscreen", "concert.png");
     showElement("x");
     if (!skiptoggle) {
         toggleBlockElement(id);
@@ -502,7 +502,7 @@ function funct(id, skiptoggle) {
 }
 
 function funcx(id, skiptoggle) {
-    setBackground("smallscreen", "city.png")
+    setBackground("smallscreen", "city.png");
     showElement("partyfin2");
     if (!skiptoggle) {
         toggleBlockElement(id);
@@ -515,7 +515,7 @@ function funcx(id, skiptoggle) {
 
 function funch(id, skiptoggle) //you pick gym as your class
 {
-    setBackground("smallscreen", "living.png")
+    setBackground("smallscreen", "living.png");
     showElement("j");
     if (!skiptoggle) {
         toggleBlockElement(id);
@@ -547,7 +547,7 @@ function funcr(id, skiptoggle) {
     return false;
 }
 function funcu(id, skiptoggle) {
-    setBackground("smallscreen", "concert.png")
+    setBackground("smallscreen", "concert.png");
     showElement("y");
     if (!skiptoggle) {
         toggleBlockElement(id);
@@ -558,7 +558,7 @@ function funcu(id, skiptoggle) {
 }
 
 function funcy(id, skiptoggle) {
-    setBackground("smallscreen", "city.png")
+    setBackground("smallscreen", "city.png");
     showElement("partyfin3");
     if (!skiptoggle) {
         toggleBlockElement(id);
@@ -569,7 +569,7 @@ function funcy(id, skiptoggle) {
 }
 
 function funcsoccer(id, skiptoggle) {
-    setBackground("smallscreen", "soccer.png")
+    setBackground("smallscreen", "soccer.png");
     showElement("angry1");
     showElement("nothing1");
     if (!skiptoggle) {
@@ -744,7 +744,7 @@ function funcweapon(id, skiptoggle) //when next button is clicked.....
 
 function funcbla(id, skiptoggle) //when next button is clicked.....
 {
-    setBackground("smallscreen", "startpage.png")
+    setBackground("smallscreen", "startpage.png");
     if (!skiptoggle) {
         toggleBlockElement(id);
         toggleBlockElement("choosekeys");
@@ -768,7 +768,7 @@ function funcignore(id, skiptoggle) //when next button is clicked.....
 }
 function funcblahh(id, skiptoggle) //when next button is clicked.....
 {
-    setBackground("smallscreen", "startpage.png")
+    setBackground("smallscreen", "startpage.png");
     if (!skiptoggle) {
         toggleBlockElement(id);
         toggleBlockElement("choosecross");
@@ -807,7 +807,7 @@ function funcweapon1(id, skiptoggle) //when next button is clicked.....
 
 function funcabc(id, skiptoggle) //when next button is clicked.....
 {
-    setBackground("smallscreen", "startpage.png")
+    setBackground("smallscreen", "startpage.png");
     if (!skiptoggle) {
         toggleBlockElement(id);
         toggleBlockElement("choosekeys");
@@ -833,7 +833,7 @@ function funcignore1(id, skiptoggle) //when next button is clicked.....
 
 function funcdef(id, skiptoggle) //when next button is clicked.....
 {
-    setBackground("smallscreen", "startpage.png")
+    setBackground("smallscreen", "startpage.png");
     if (!skiptoggle) {
         toggleBlockElement(id);
         toggleBlockElement("choosecross");
@@ -873,7 +873,7 @@ function funcweapon2(id, skiptoggle) //when next button is clicked.....
 
 function funcghi(id, skiptoggle) //when next button is clicked.....
 {
-    setBackground("smallscreen", "startpage.png")
+    setBackground("smallscreen", "startpage.png");
     if (!skiptoggle) {
         toggleBlockElement(id);
         toggleBlockElement("choosekeys");
@@ -898,7 +898,7 @@ function funcignore2(id, skiptoggle) //when next button is clicked.....
 
 function funcjkl(id, skiptoggle) //when next button is clicked.....
 {
-    setBackground("smallscreen", "startpage.png")
+    setBackground("smallscreen", "startpage.png");
     if (!skiptoggle) {
         toggleBlockElement(id);
         toggleBlockElement("choosecross");
@@ -938,7 +938,7 @@ function funcweapon3(id, skiptoggle) //when next button is clicked.....
 
 function funcmno(id, skiptoggle) //when next button is clicked.....
 {
-    setBackground("smallscreen", "startpage.png")
+    setBackground("smallscreen", "startpage.png");
     if (!skiptoggle) {
         toggleBlockElement(id);
         toggleBlockElement("choosekeys");
@@ -963,7 +963,7 @@ function funcignore3(id, skiptoggle) //when next button is clicked.....
 
 function funcpqr(id, skiptoggle) //when next button is clicked.....
 {
-    setBackground("smallscreen", "startpage.png")
+    setBackground("smallscreen", "startpage.png");
     showElement("returntohome");
     if (!skiptoggle) {
         toggleBlockElement(id);
